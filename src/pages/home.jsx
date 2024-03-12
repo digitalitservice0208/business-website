@@ -42,14 +42,14 @@ const Home = () => {
                                       <rs-module id="rev_slider_1_1" data-version="6.6.20">
                                         <rs-slides style={{ overflow: 'hidden', position: 'absolute' }}>
                                           <rs-slide style={{ position: 'absolute' }} data-key="rs-1" data-title="Slide"
-                                                    data-thumb="wp-content/uploads/2021/06/bg-slider1-50x100.jpg"
+                                                    data-thumb="/wp-content/uploads/2021/06/bg-slider1-50x100.jpg"
                                                     data-anim="ms:10;" data-in="o:1;" data-out="a:false;">
                                             <img
                                               loading="lazy" decoding="async"
                                               src="/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt=""
                                               title="bg-slider1" width="1920" height="936"
                                               className="rev-slidebg tp-rs-img rs-lazyload"
-                                              data-lazyload="wp-content/uploads/2021/06/bg-slider1.jpg" data-no-retina
+                                              data-lazyload="/wp-content/uploads/2021/06/bg-slider1.jpg" data-no-retina
                                             />
                                             <rs-group
                                               id="slider-1-slide-1-layer-2"
@@ -186,7 +186,7 @@ const Home = () => {
                                                   src="/wp-content/plugins/revslider/public/assets/assets/dummy.png"
                                                   alt="img-slider1" className="tp-rs-img rs-lazyload" width="510"
                                                   height="549"
-                                                  data-lazyload="wp-content/uploads/2021/06/img-slider1.jpg"
+                                                  data-lazyload="/wp-content/uploads/2021/06/img-slider1.jpg"
                                                   data-no-retina /></rs-layer>
                                           </rs-slide>
                                           <rs-slide style={{ position: 'absolute' }} data-key="rs-2" data-title="Slide"
@@ -196,7 +196,7 @@ const Home = () => {
                                             src="/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt=""
                                             title="bg-slider1" width="1920" height="936"
                                             className="rev-slidebg tp-rs-img rs-lazyload"
-                                            data-lazyload="wp-content/uploads/2021/06/bg-slider1.jpg" data-no-retina />
+                                            data-lazyload="/wp-content/uploads/2021/06/bg-slider1.jpg" data-no-retina />
                                             <rs-group
                                               id="slider-1-slide-2-layer-2"
                                               data-type="group"
@@ -328,7 +328,7 @@ const Home = () => {
                                                   src="/wp-content/plugins/revslider/public/assets/assets/dummy.png"
                                                   alt="img-slider2" className="tp-rs-img rs-lazyload" width="510"
                                                   height="549"
-                                                  data-lazyload="wp-content/uploads/2021/06/img-slider2.jpg"
+                                                  data-lazyload="/wp-content/uploads/2021/06/img-slider2.jpg"
                                                   data-no-retina /></rs-layer>
                                           </rs-slide>
                                           <rs-slide style={{ postion: 'absolute' }} data-key="rs-3" data-title="Slide"
@@ -338,7 +338,7 @@ const Home = () => {
                                             src="/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt=""
                                             title="bg-slider1" width="1920" height="936"
                                             className="rev-slidebg tp-rs-img rs-lazyload"
-                                            data-lazyload="wp-content/uploads/2021/06/bg-slider1.jpg" data-no-retina />
+                                            data-lazyload="/wp-content/uploads/2021/06/bg-slider1.jpg" data-no-retina />
                                             <rs-group
                                               id="slider-1-slide-3-layer-2"
                                               data-type="group"
@@ -470,7 +470,7 @@ const Home = () => {
                                                   src="/wp-content/plugins/revslider/public/assets/assets/dummy.png"
                                                   alt="img-slider3" className="tp-rs-img rs-lazyload" width="510"
                                                   height="549"
-                                                  data-lazyload="wp-content/uploads/2021/06/img-slider3.jpg"
+                                                  data-lazyload="/wp-content/uploads/2021/06/img-slider3.jpg"
                                                   data-no-retina /></rs-layer>
                                           </rs-slide>
                                         </rs-slides>
