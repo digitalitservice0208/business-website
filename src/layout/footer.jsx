@@ -319,7 +319,7 @@ const Footer = () => {
                                         <li><span className="ct-contact-icon"> <i aria-hidden="true"
                                                                                   className="fas fa-phone-alt"></i> </span>
                                           <span
-                                            className="ct-contact-content"> +123 (4567) 890 </span></li>
+                                            className="ct-contact-content"> +62 895-6256-70009 </span></li>
                                         <li><span className="ct-contact-icon"> <i aria-hidden="true"
                                                                                   className="fas fa-envelope"></i> </span>
                                           <span
