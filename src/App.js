@@ -11,20 +11,20 @@ import ContactUs from './pages/contactUs';
 
 function App() {
   return (
-    <div id='page' className='site'>
-      <BrowserRouter>
+    <BrowserRouter>
+      <div id="page" className="site">
         <Header />
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='about-us' element={<AboutUs />} />
-          <Route path='services' element={<Services />} />
-          <Route path='portfolio' element={<Portfolio />} />
-          <Route path='our-team' element={<OurTeam />} />
-          <Route path='contact-us' element={<ContactUs />} />
+          <Route path="/" element={<Home />} />
+          <Route path="about-us" element={<AboutUs />} />
+          <Route path="services" element={<Services />} />
+          <Route path="portfolio" element={<Portfolio />} />
+          <Route path="our-team" element={<OurTeam />} />
+          <Route path="contact-us" element={<ContactUs />} />
         </Routes>
         <Footer />
-      </BrowserRouter>
-    </div>
+      </div>
+    </BrowserRouter>
   );
 }
 
