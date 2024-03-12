@@ -934,7 +934,7 @@ const Home = () => {
                                                         <li>Dynamic CMS-based development</li>
                                                         <li>Mobile app development</li>
                                                         <li>E-commerce</li>
-                                                        <li>Domain</li>
+                                                        <li>Custom Software Development</li>
                                                       </ul>
                                                     </div>
                                                     <div className="item-readmore"><a href="#"><i
