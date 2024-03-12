@@ -90,9 +90,7 @@ const Portfolio = () => {
                                   <div className="elementor-widget-container">
                                     <div id="ct_portfolio_grid-24d3a83"
                                          className="ct-grid ct-portfolio ct-portfolio-grid1 item--default-space"
-                                         data-layout="masonry" data-start-page="1" data-max-pages="2" data-total="10"
-                                         data-perpage="8"
-                                         data-next-link="https://demo.casethemes.net/grupi/portfolio-grid/page/2/">
+                                         data-layout="masonry">
                                       <div className="ct-grid-overlay"></div>
                                       <div className="grid-filter-wrap"><span className="filter-item active"
                                                                           data-filter="*">All</span> <span
@@ -228,11 +226,9 @@ const Portfolio = () => {
                                                 Analysis </a></h4>
                                                 <div className="item--category"><a href="#" rel="tag">Facilitation</a></div>
                                               </div>
-                                              <div className="item--readmore"><a href="#">+</a></div>
                                             </div>
                                           </div>
                                         </div>
-                                        <div className="grid-sizer col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12"></div>
                                       </div>
                                     </div>
                                   </div>

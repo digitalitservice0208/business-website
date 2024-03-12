@@ -136,7 +136,7 @@ const AboutUs = () => {
                                                                                          width="43" height="43"
                                                                                          src="../wp-content/uploads/2021/06/banner-logo.png"
                                                                                          className="attachment-full" alt=""/></div>
-                                                    <span>Best Digital agency 2022</span></div>
+                                                    <span>Best Digital agency</span></div>
                                                 </div>
                                               </div>
                                             </div>
