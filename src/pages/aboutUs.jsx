@@ -169,7 +169,7 @@ const AboutUs = () => {
                                             <div id="ct_text_editor-60524e8" className="ct-text-editor " data-wow-delay="ms">
                                               <div className="ct-inline-css" data-css="
  "></div>
-                                              <div className="ct-text-editor elementor-clearfix"> With over a decade of
+                                              <div className="ct-text-editor elementor-clearfix"> With long years of
                                                 experience, we’ve established ourselves as one of the pioneering agencies in
                                                 the region. Our small, flexible, agile and design-led structures and
                                                 processes allow us to highly responsive

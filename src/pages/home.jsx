@@ -716,7 +716,7 @@ const Home = () => {
                                                data-wow-delay="ms">
                                             <div className="ct-inline-css" data-css="
  "></div>
-                                            <div className="ct-text-editor elementor-clearfix"> With over a decade of
+                                            <div className="ct-text-editor elementor-clearfix"> With long years of
                                               experience, we’ve established ourselves as one of the pioneering agencies
                                               in
                                               the region. Our small, flexible, agile and design-led structures and
@@ -1666,7 +1666,7 @@ const Home = () => {
                                       <div className="ct-tabs-content">
                                         <div className="ct-tab-content " id="ct_tabs-39e4b7f-3535652"
                                              style={{ display: 'block' }}>
-                                          With over a decade of experience, we’ve established ourselves as one the of
+                                          With long years of experience, we’ve established ourselves as one the of
                                           pioneering agencies in the region.
                                           <ul>
                                             <li>We’re made of passionate leaders.</li>
