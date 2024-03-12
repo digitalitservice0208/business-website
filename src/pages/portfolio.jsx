@@ -4,7 +4,7 @@ const Portfolio = () => {
   return (
     <>
       <div id="ct-pagetitle" className="ct-pagetitle ">
-        <div className="ct-pagetitle-highlight">Grupi</div>
+        <div className="ct-pagetitle-highlight">Software Consulting</div>
         <div className="ct-pagetitle-image bg-image"></div>
         <div className="container">
           <div className="ct-page-title-holder"><h1 className="ct-page-title">Portfolio</h1></div>

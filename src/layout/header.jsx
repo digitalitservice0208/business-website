@@ -219,13 +219,13 @@ const Header = () => {
           <div id="ct-header" className="ct-header-main">
             <div className="container">
               <div className="row">
-                <div className="ct-header-branding"><Link className="logo-mobile" to="/" title="Grupi" rel="home"><img
-                  src="wp-content/themes/gpri/assets/images/logo.png" alt="Grupi"/></Link></div>
+                <div className="ct-header-branding"><Link className="logo-mobile" to="/" title="Software Consulting" rel="home"><img
+                  src="wp-content/themes/gpri/assets/images/logo.png" alt="Software Consulting"/></Link></div>
                 <div className="ct-header-navigation">
                   <nav className="ct-main-navigation">
                     <div className="ct-main-navigation-inner">
-                      <div className="ct-logo-mobile"><a className="logo-mobile" href="index.html" title="Grupi" rel="home"><img
-                        src="wp-content/themes/gpri/assets/images/logo.png" alt="Grupi"/></a></div>
+                      <div className="ct-logo-mobile"><a className="logo-mobile" href="index.html" title="Software Consulting" rel="home"><img
+                        src="wp-content/themes/gpri/assets/images/logo.png" alt="Software Consulting"/></a></div>
                       <ul id="ct-main-menu" className="ct-main-menu clearfix">
                         <li
                           className={`menu-item menu-item-type-post_type menu-item-object-page menu-item-home page_item page-item-23 megamenu megamenu-style-alt menu-item-435 ${pathname === '/' ? 'current-menu-item current_page_item' : ''}`}>

@@ -134,7 +134,7 @@ const Footer = () => {
                                       <div id="ct_text_editor-8c9eabb" className="ct-text-editor " data-wow-delay="ms">
                                         <div className="ct-inline-css" data-css="
  "></div>
-                                        <div className="ct-text-editor elementor-clearfix"> Grupi has been optimized to give
+                                        <div className="ct-text-editor elementor-clearfix"> Software Consulting has been optimized to give
                                           your visitors the best experience in terms of UX/UI.
                                         </div>
                                       </div>
@@ -188,7 +188,7 @@ const Footer = () => {
                                       <div id="ct_text_editor-610dd54" className="ct-text-editor " data-wow-delay="ms">
                                         <div className="ct-inline-css" data-css="
  "></div>
-                                        <div className="ct-text-editor elementor-clearfix"> Subscribe to <a href="#">Grupi
+                                        <div className="ct-text-editor elementor-clearfix"> Subscribe to <a href="#">Software Consulting
                                           Insights</a>,
                                           our monthly look.
                                         </div>
@@ -204,7 +204,7 @@ const Footer = () => {
                                         <div className="ct-inline-css" data-css="
  "></div>
                                         <form id="mc4wp-form-1" className="mc4wp-form mc4wp-form-132" method="post"
-                                              data-id="132" data-name="Grupi">
+                                              data-id="132" data-name="Software Consulting">
                                           <div className="mc4wp-form-fields">
                                             <div className="ct-field-group">
                                               <div className="field-input"><input type="email" name="EMAIL"

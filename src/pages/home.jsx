@@ -177,7 +177,7 @@ const Home = () => {
                                               data-frame_1="st:700;sp:1000;"
                                               data-frame_999="o:0;st:w;sR:8000;"
                                               style={{ zIndex: 8, fontFamily: 'Bebas Neue' }}
-                                            >Grupi
+                                            >Software Consulting
                                             </rs-layer>
                                             <rs-layer
                                               id="slider-1-slide-1-layer-7"
@@ -319,7 +319,7 @@ const Home = () => {
                                               data-frame_1="st:700;sp:1000;"
                                               data-frame_999="o:0;st:w;sR:8000;"
                                               style={{ zIndex: 8, fontFamily: 'Bebas Neue' }}
-                                            >Grupi
+                                            >Software Consulting
                                             </rs-layer>
                                             <rs-layer
                                               id="slider-1-slide-2-layer-7"
@@ -461,7 +461,7 @@ const Home = () => {
                                               data-frame_1="st:700;sp:1000;"
                                               data-frame_999="o:0;st:w;sR:8000;"
                                               style={{ zIndex: 8, fontFamily: 'Bebas Neue' }}
-                                            >Grupi
+                                            >Software Consulting
                                             </rs-layer>
                                             <rs-layer
                                               id="slider-1-slide-3-layer-7"
@@ -861,7 +861,7 @@ const Home = () => {
                                                data-wow-delay="ms">
                                             <div className="ct-inline-css" data-css="
  "></div>
-                                            <div className="ct-text-editor elementor-clearfix"> Grupi is a design studio
+                                            <div className="ct-text-editor elementor-clearfix"> Software Consulting is a design studio
                                               founded in London and expanded our services, and become a multinational
                                               firm.
                                             </div>

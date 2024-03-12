@@ -4,7 +4,7 @@ const ContactUs = () => {
   return (
     <>
       <div id="ct-pagetitle" className="ct-pagetitle ">
-        <div className="ct-pagetitle-highlight">Grupi</div>
+        <div className="ct-pagetitle-highlight">Software Consulting</div>
         <div className="ct-pagetitle-image bg-image"></div>
         <div className="container">
           <div className="ct-page-title-holder"><h1 className="ct-page-title">Contact Us</h1></div>

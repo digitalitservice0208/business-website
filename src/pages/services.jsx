@@ -4,7 +4,7 @@ const Services = () => {
   return (
     <>
       <div id="ct-pagetitle" className="ct-pagetitle ">
-        <div className="ct-pagetitle-highlight">Grupi</div>
+        <div className="ct-pagetitle-highlight">Software Consulting</div>
         <div className="ct-pagetitle-image bg-image"></div>
         <div className="container">
           <div className="ct-page-title-holder"><h1 className="ct-page-title">Our Services</h1></div>
@@ -79,7 +79,7 @@ const Services = () => {
                                             <div id="ct_text_editor-5de9786f" className="ct-text-editor " data-wow-delay="ms">
                                               <div className="ct-inline-css" data-css="
  "></div>
-                                              <div className="ct-text-editor elementor-clearfix"> Grupi is a design studio
+                                              <div className="ct-text-editor elementor-clearfix"> Software Consulting is a design studio
                                                 founded in London and expanded our services, and become a multinational
                                                 firm, offering solutions Worldwide.
                                               </div>

@@ -15,7 +15,7 @@ const AboutUs = () => {
   return (
     <>
       <div id="ct-pagetitle" className="ct-pagetitle ">
-        <div className="ct-pagetitle-highlight">Grupi</div>
+        <div className="ct-pagetitle-highlight">Software Consulting</div>
         <div className="ct-pagetitle-image bg-image"></div>
         <div className="container">
           <div className="ct-page-title-holder"><h1 className="ct-page-title">About Us</h1></div>
@@ -101,7 +101,7 @@ const AboutUs = () => {
                                             <div id="ct_text_editor-04c85f1" className="ct-text-editor " data-wow-delay="ms">
                                               <div className="ct-inline-css" data-css="
  "></div>
-                                              <div className="ct-text-editor elementor-clearfix"> Grupi has been optimized to
+                                              <div className="ct-text-editor elementor-clearfix"> Software Consulting has been optimized to
                                                 give your visitors the best experience in terms of UX/UI, with a unique
                                                 design to deliver all layouts.
                                               </div>
@@ -414,7 +414,7 @@ const AboutUs = () => {
                                             <div id="ct_text_editor-5156e210" className="ct-text-editor " data-wow-delay="ms">
                                               <div className="ct-inline-css" data-css="
  "></div>
-                                              <div className="ct-text-editor elementor-clearfix"> Grupi is a design studio
+                                              <div className="ct-text-editor elementor-clearfix"> Software Consulting is a design studio
                                                 founded in London and expanded our services, and become a multinational
                                                 firm.
                                               </div>
