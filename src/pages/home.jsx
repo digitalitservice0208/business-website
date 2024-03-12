@@ -46,7 +46,7 @@ const Home = () => {
                                                     data-anim="ms:10;" data-in="o:1;" data-out="a:false;">
                                             <img
                                               loading="lazy" decoding="async"
-                                              src="wp-content/plugins/revslider/public/assets/assets/dummy.png" alt=""
+                                              src="/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt=""
                                               title="bg-slider1" width="1920" height="936"
                                               className="rev-slidebg tp-rs-img rs-lazyload"
                                               data-lazyload="wp-content/uploads/2021/06/bg-slider1.jpg" data-no-retina
@@ -183,7 +183,7 @@ const Home = () => {
                                               data-frame_999="o:0;st:w;sR:7300;"
                                               style={{ zIndex: 10 }}
                                             ><img loading="lazy" decoding="async"
-                                                  src="wp-content/plugins/revslider/public/assets/assets/dummy.png"
+                                                  src="/wp-content/plugins/revslider/public/assets/assets/dummy.png"
                                                   alt="img-slider1" className="tp-rs-img rs-lazyload" width="510"
                                                   height="549"
                                                   data-lazyload="wp-content/uploads/2021/06/img-slider1.jpg"
@@ -193,7 +193,7 @@ const Home = () => {
                                                     data-thumb="//demo.casethemes.net/grupi/wp-content/uploads/2021/06/bg-slider1-50x100.jpg"
                                                     data-anim="ms:10;" data-in="o:1;" data-out="a:false;"><img
                                             loading="lazy" decoding="async"
-                                            src="wp-content/plugins/revslider/public/assets/assets/dummy.png" alt=""
+                                            src="/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt=""
                                             title="bg-slider1" width="1920" height="936"
                                             className="rev-slidebg tp-rs-img rs-lazyload"
                                             data-lazyload="wp-content/uploads/2021/06/bg-slider1.jpg" data-no-retina />
@@ -325,7 +325,7 @@ const Home = () => {
                                               data-frame_999="o:0;st:w;sR:7300;"
                                               style={{ zIndex: 10 }}
                                             ><img loading="lazy" decoding="async"
-                                                  src="wp-content/plugins/revslider/public/assets/assets/dummy.png"
+                                                  src="/wp-content/plugins/revslider/public/assets/assets/dummy.png"
                                                   alt="img-slider2" className="tp-rs-img rs-lazyload" width="510"
                                                   height="549"
                                                   data-lazyload="wp-content/uploads/2021/06/img-slider2.jpg"
@@ -335,7 +335,7 @@ const Home = () => {
                                                     data-thumb="//demo.casethemes.net/grupi/wp-content/uploads/2021/06/bg-slider1-50x100.jpg"
                                                     data-anim="ms:10;" data-in="o:1;" data-out="a:false;"><img
                                             loading="lazy" decoding="async"
-                                            src="wp-content/plugins/revslider/public/assets/assets/dummy.png" alt=""
+                                            src="/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt=""
                                             title="bg-slider1" width="1920" height="936"
                                             className="rev-slidebg tp-rs-img rs-lazyload"
                                             data-lazyload="wp-content/uploads/2021/06/bg-slider1.jpg" data-no-retina />
@@ -467,7 +467,7 @@ const Home = () => {
                                               data-frame_999="o:0;st:w;sR:7300;"
                                               style={{ zIndex: 10 }}
                                             ><img loading="lazy" decoding="async"
-                                                  src="wp-content/plugins/revslider/public/assets/assets/dummy.png"
+                                                  src="/wp-content/plugins/revslider/public/assets/assets/dummy.png"
                                                   alt="img-slider3" className="tp-rs-img rs-lazyload" width="510"
                                                   height="549"
                                                   data-lazyload="wp-content/uploads/2021/06/img-slider3.jpg"
@@ -631,14 +631,14 @@ const Home = () => {
                                             <div className="ct-banner-inner">
                                               <div className="ct-banner-image"><img loading="lazy" decoding="async"
                                                                                     width="454" height="509"
-                                                                                    src="wp-content/uploads/2021/06/banner1.jpg"
+                                                                                    src="/wp-content/uploads/2021/06/banner1.jpg"
                                                                                     className="attachment-full"
                                                                                     alt="" /></div>
                                               <div className="ct-banner-meta bg-image">
                                                 <div className="ct-banner-title">
                                                   <div className="ct-banner-logo"><img loading="lazy" decoding="async"
                                                                                        width="43" height="43"
-                                                                                       src="wp-content/uploads/2021/06/banner-logo.png"
+                                                                                       src="/wp-content/uploads/2021/06/banner-logo.png"
                                                                                        className="attachment-full"
                                                                                        alt="" /></div>
                                                   <span>Best Digital agency</span></div>
@@ -1019,7 +1019,7 @@ const Home = () => {
                                                                                                          decoding="async"
                                                                                                          width="304"
                                                                                                          height="336"
-                                                                                                         src="wp-content/uploads/2021/06/logo-big.png"
+                                                                                                         src="/wp-content/uploads/2021/06/logo-big.png"
                                                                                                          className="no-lazyload img-main attachment-full"
                                                                                                          alt="" />
                                             </Link>
@@ -1083,7 +1083,7 @@ const Home = () => {
                                             <div className="item--featured"><a href="#"><img loading="lazy"
                                                                                              decoding="async"
                                                                                              className=""
-                                                                                             src="wp-content/uploads/2021/06/g13-600x900.jpg"
+                                                                                             src="/wp-content/uploads/2021/06/g13-600x900.jpg"
                                                                                              width="600" height="900"
                                                                                              alt="g13"
                                                                                              title="g13" /></a></div>
@@ -1112,7 +1112,7 @@ const Home = () => {
                                             <div className="item--featured"><a href="#"><img loading="lazy"
                                                                                              decoding="async"
                                                                                              className=""
-                                                                                             src="wp-content/uploads/2021/06/g14-600x900.jpg"
+                                                                                             src="/wp-content/uploads/2021/06/g14-600x900.jpg"
                                                                                              width="600" height="900"
                                                                                              alt="g14"
                                                                                              title="g14" /></a></div>
@@ -1142,7 +1142,7 @@ const Home = () => {
                                             <div className="item--featured"><a href="#"><img loading="lazy"
                                                                                              decoding="async"
                                                                                              className=""
-                                                                                             src="wp-content/uploads/2021/06/g15-600x900.jpg"
+                                                                                             src="/wp-content/uploads/2021/06/g15-600x900.jpg"
                                                                                              width="600" height="900"
                                                                                              alt="g15"
                                                                                              title="g15" /></a></div>
@@ -1171,7 +1171,7 @@ const Home = () => {
                                             <div className="item--featured"><a href="#"><img loading="lazy"
                                                                                              decoding="async"
                                                                                              className=""
-                                                                                             src="wp-content/uploads/2021/06/g16-600x900.jpg"
+                                                                                             src="/wp-content/uploads/2021/06/g16-600x900.jpg"
                                                                                              width="600" height="900"
                                                                                              alt="g16"
                                                                                              title="g16" /></a></div>
@@ -1201,7 +1201,7 @@ const Home = () => {
                                             <div className="item--featured"><a href="#"><img loading="lazy"
                                                                                              decoding="async"
                                                                                              className=""
-                                                                                             src="wp-content/uploads/2021/06/g17-600x900.jpg"
+                                                                                             src="/wp-content/uploads/2021/06/g17-600x900.jpg"
                                                                                              width="600" height="900"
                                                                                              alt="g17"
                                                                                              title="g17" /></a></div>
@@ -1230,7 +1230,7 @@ const Home = () => {
                                             <div className="item--featured"><a href="#"><img loading="lazy"
                                                                                              decoding="async"
                                                                                              className=""
-                                                                                             src="wp-content/uploads/2021/06/g18-600x900.jpg"
+                                                                                             src="/wp-content/uploads/2021/06/g18-600x900.jpg"
                                                                                              width="600" height="900"
                                                                                              alt="g18"
                                                                                              title="g18" /></a></div>
@@ -1259,7 +1259,7 @@ const Home = () => {
                                             <div className="item--featured"><a href="#"><img loading="lazy"
                                                                                              decoding="async"
                                                                                              className=""
-                                                                                             src="wp-content/uploads/2021/06/g19-600x900.jpg"
+                                                                                             src="/wp-content/uploads/2021/06/g19-600x900.jpg"
                                                                                              width="600" height="900"
                                                                                              alt="g19"
                                                                                              title="g19" /></a></div>
@@ -1290,7 +1290,7 @@ const Home = () => {
                                             <div className="item--featured"><a href="#"><img loading="lazy"
                                                                                              decoding="async"
                                                                                              className=""
-                                                                                             src="wp-content/uploads/2021/06/g20-600x900.jpg"
+                                                                                             src="/wp-content/uploads/2021/06/g20-600x900.jpg"
                                                                                              width="600" height="900"
                                                                                              alt="g20"
                                                                                              title="g20" /></a></div>
@@ -1380,7 +1380,7 @@ const Home = () => {
                                     <div className="ct-video-box">
                                       <div className="ct-video-holder"><img loading="lazy" decoding="async" width="539"
                                                                             height="699"
-                                                                            src="wp-content/uploads/2021/06/h-video1.jpg"
+                                                                            src="/wp-content/uploads/2021/06/h-video1.jpg"
                                                                             className="attachment-full" alt="" /></div>
                                     </div>
                                   </div>
@@ -1405,7 +1405,7 @@ const Home = () => {
                                         data-css=".ct-particle-animate #ct_particle_animate-dff49ff0 { right: 16%; top: 19%; }">
                                       </div>
                                       <img loading="lazy" decoding="async" width="110" height="236"
-                                           src="wp-content/uploads/2021/06/h-contact-img2.png"
+                                           src="/wp-content/uploads/2021/06/h-contact-img2.png"
                                            className="attachment-full"
                                            alt=""
                                       />
@@ -1598,7 +1598,7 @@ const Home = () => {
                                     <div className="ct-image-single--inner"><img loading="lazy" decoding="async"
                                                                                  width="470"
                                                                                  height="682"
-                                                                                 src="wp-content/uploads/2021/06/h-man1.png"
+                                                                                 src="/wp-content/uploads/2021/06/h-man1.png"
                                                                                  className="no-lazyload img-main attachment-full"
                                                                                  alt="" /></div>
                                   </div>
@@ -1624,7 +1624,7 @@ const Home = () => {
  top: 18%;
  }"></div>
                                       <img loading="lazy" decoding="async" width="106" height="277"
-                                           src="wp-content/uploads/2021/06/h-contact-img.png"
+                                           src="/wp-content/uploads/2021/06/h-contact-img.png"
                                            className="attachment-full"
                                            alt="" /></div>
                                   </div>

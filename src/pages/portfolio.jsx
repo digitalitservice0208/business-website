@@ -104,7 +104,7 @@ const Portfolio = () => {
                                           <div className="grid-item-inner " data-wow-duration="1.2s">
                                             <div className="item--featured"><img loading="lazy" decoding="async"
                                                                              className="no-lazyload "
-                                                                             src="../wp-content/uploads/2021/06/g13-272x266.jpg"
+                                                                             src="/wp-content/uploads/2021/06/g13-272x266.jpg"
                                                                              width="272" height="266" alt="g13"
                                                                              title="g13"/></div>
                                             <div className="item--holder">
@@ -119,7 +119,7 @@ const Portfolio = () => {
                                           <div className="grid-item-inner " data-wow-duration="1.2s">
                                             <div className="item--featured"><img loading="lazy" decoding="async"
                                                                              className="no-lazyload "
-                                                                             src="../wp-content/uploads/2021/06/g14-272x266.jpg"
+                                                                             src="/wp-content/uploads/2021/06/g14-272x266.jpg"
                                                                              width="272" height="266" alt="g14"
                                                                              title="g14"/></div>
                                             <div className="item--holder">
@@ -134,7 +134,7 @@ const Portfolio = () => {
                                           <div className="grid-item-inner " data-wow-duration="1.2s">
                                             <div className="item--featured"><img loading="lazy" decoding="async"
                                                                              className="no-lazyload "
-                                                                             src="../wp-content/uploads/2021/06/g15-272x266.jpg"
+                                                                             src="/wp-content/uploads/2021/06/g15-272x266.jpg"
                                                                              width="272" height="266" alt="g15"
                                                                              title="g15"/></div>
                                             <div className="item--holder">
@@ -149,7 +149,7 @@ const Portfolio = () => {
                                           <div className="grid-item-inner " data-wow-duration="1.2s">
                                             <div className="item--featured"><img loading="lazy" decoding="async"
                                                                              className="no-lazyload "
-                                                                             src="../wp-content/uploads/2021/06/g16-272x266.jpg"
+                                                                             src="/wp-content/uploads/2021/06/g16-272x266.jpg"
                                                                              width="272" height="266" alt="g16"
                                                                              title="g16"/></div>
                                             <div className="item--holder">
@@ -164,7 +164,7 @@ const Portfolio = () => {
                                           <div className="grid-item-inner " data-wow-duration="1.2s">
                                             <div className="item--featured"><img loading="lazy" decoding="async"
                                                                              className="no-lazyload "
-                                                                             src="../wp-content/uploads/2021/06/g17-272x266.jpg"
+                                                                             src="/wp-content/uploads/2021/06/g17-272x266.jpg"
                                                                              width="272" height="266" alt="g17"
                                                                              title="g17"/></div>
                                             <div className="item--holder">
@@ -179,7 +179,7 @@ const Portfolio = () => {
                                           <div className="grid-item-inner " data-wow-duration="1.2s">
                                             <div className="item--featured"><img loading="lazy" decoding="async"
                                                                              className="no-lazyload "
-                                                                             src="../wp-content/uploads/2021/06/g18-272x266.jpg"
+                                                                             src="/wp-content/uploads/2021/06/g18-272x266.jpg"
                                                                              width="272" height="266" alt="g18"
                                                                              title="g18"/></div>
                                             <div className="item--holder">
@@ -195,7 +195,7 @@ const Portfolio = () => {
                                           <div className="grid-item-inner " data-wow-duration="1.2s">
                                             <div className="item--featured"><img loading="lazy" decoding="async"
                                                                              className="no-lazyload "
-                                                                             src="../wp-content/uploads/2021/06/g19-272x266.jpg"
+                                                                             src="/wp-content/uploads/2021/06/g19-272x266.jpg"
                                                                              width="272" height="266" alt="g19"
                                                                              title="g19"/></div>
                                             <div className="item--holder">
@@ -211,7 +211,7 @@ const Portfolio = () => {
                                           <div className="grid-item-inner " data-wow-duration="1.2s">
                                             <div className="item--featured"><img loading="lazy" decoding="async"
                                                                              className="no-lazyload "
-                                                                             src="../wp-content/uploads/2021/06/g20-272x266.jpg"
+                                                                             src="/wp-content/uploads/2021/06/g20-272x266.jpg"
                                                                              width="272" height="266" alt="g20"
                                                                              title="g20"/></div>
                                             <div className="item--holder">

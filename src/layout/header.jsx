@@ -24,7 +24,7 @@ const Header = () => {
                                data-id="599e8b8" data-element_type="widget" data-widget_type="ct_logo.default">
                             <div className="elementor-widget-container">
                               <div className="ct-logo "><Link to="/"> <img fetchpriority="high" width="348" height="165"
-                                                                                   src="wp-content/uploads/2021/05/logo.png"
+                                                                                   src="/wp-content/uploads/2021/05/logo.png"
                                                                                    className="attachment-full" alt=""/> </Link></div>
                             </div>
                           </div>
@@ -122,7 +122,7 @@ const Header = () => {
                              data-id="64d31293" data-element_type="widget" data-widget_type="ct_logo.default">
                           <div className="elementor-widget-container">
                             <div className="ct-logo "><Link to="/"> <img fetchpriority="high" width="348" height="165"
-                                                                                 src="wp-content/uploads/2021/05/logo.png"
+                                                                                 src="/wp-content/uploads/2021/05/logo.png"
                                                                                  className="attachment-full" alt=""/> </Link></div>
                           </div>
                         </div>
@@ -205,12 +205,12 @@ const Header = () => {
             <div className="container">
               <div className="row">
                 <div className="ct-header-branding"><Link className="logo-mobile" to="/" title="Software Consulting" rel="home"><img
-                  src="wp-content/themes/gpri/assets/images/logo.png" alt="Software Consulting"/></Link></div>
+                  src="/wp-content/themes/gpri/assets/images/logo.png" alt="Software Consulting"/></Link></div>
                 <div className="ct-header-navigation">
                   <nav className="ct-main-navigation">
                     <div className="ct-main-navigation-inner">
                       <div className="ct-logo-mobile"><a className="logo-mobile" href="index.html" title="Software Consulting" rel="home"><img
-                        src="wp-content/themes/gpri/assets/images/logo.png" alt="Software Consulting"/></a></div>
+                        src="/wp-content/themes/gpri/assets/images/logo.png" alt="Software Consulting"/></a></div>
                       <ul id="ct-main-menu" className="ct-main-menu clearfix">
                         <li
                           className={`menu-item menu-item-type-post_type menu-item-object-page menu-item-home page_item page-item-23 megamenu megamenu-style-alt menu-item-435 ${pathname === '/' ? 'current-menu-item current_page_item' : ''}`}>

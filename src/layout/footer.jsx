@@ -122,7 +122,7 @@ const Footer = () => {
                                     <div className="elementor-widget-container">
                                       <div className="ct-logo "><Link to="/"> <img fetchpriority="high" width="348"
                                                                                            height="165"
-                                                                                           src="wp-content/uploads/2021/05/logo.png"
+                                                                                           src="/wp-content/uploads/2021/05/logo.png"
                                                                                            className="attachment-full" alt=""/> </Link>
                                       </div>
                                     </div>

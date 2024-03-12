@@ -93,7 +93,7 @@ const OurTeam = () => {
                                               <a href="#">
                                                 <img loading="lazy" decoding="async"
                                                      className="no-lazyload "
-                                                     src="../wp-content/uploads/2021/06/1.jpeg"
+                                                     src="/wp-content/uploads/2021/06/1.jpeg"
                                                      width="330" height="330" alt="team1"
                                                      title="team1" /></a>
                                               {/*<div className="item--social">*/}
@@ -112,7 +112,7 @@ const OurTeam = () => {
                                               <a href="#">
                                                 <img loading="lazy" decoding="async"
                                                      className="no-lazyload "
-                                                     src="../wp-content/uploads/2021/06/2.jpeg"
+                                                     src="/wp-content/uploads/2021/06/2.jpeg"
                                                      width="330" height="330" alt="team2"
                                                      title="team2" />
                                               </a>
@@ -134,7 +134,7 @@ const OurTeam = () => {
                                               <a href="#">
                                                 <img loading="lazy" decoding="async"
                                                      className="no-lazyload "
-                                                     src="../wp-content/uploads/2021/06/3.png"
+                                                     src="/wp-content/uploads/2021/06/3.png"
                                                      width="330" height="330" alt="team3"
                                                      title="team3" /></a>
                                               {/*<div className="item--social">*/}
