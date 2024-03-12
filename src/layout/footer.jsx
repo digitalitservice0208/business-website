@@ -155,7 +155,7 @@ const Footer = () => {
                             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                             <div className="elementor-container elementor-column-gap-extended ">
                               <div
-                                className="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-81c7367 ct-column-none"
+                                className="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-81c7367 ct-column-none"
                                 data-id="81c7367" data-element_type="column">
                                 <div className="elementor-widget-wrap elementor-element-populated">
                                   <div
@@ -166,7 +166,8 @@ const Footer = () => {
                                            className="ct-heading h-align- item-st-default highlight-style1">
                                         <div className="ct-inline-css" data-css="
  "></div>
-                                        <h5 className="item--title case-animate-time st-default " data-wow-delay="ms"><span>Subscribe now</span>
+                                        <h5 className="item--title case-animate-time st-default " data-wow-delay="ms">
+                                          <span>Subscribe now</span>
                                         </h5></div>
                                     </div>
                                   </div>
@@ -174,13 +175,15 @@ const Footer = () => {
                                     className="elementor-element elementor-element-1178a18 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
                                     data-id="1178a18" data-element_type="widget" data-widget_type="divider.default">
                                     <div className="elementor-widget-container">
-                                      <div className="elementor-divider"><span className="elementor-divider-separator"> </span>
+                                      <div className="elementor-divider"><span
+                                        className="elementor-divider-separator"> </span>
                                       </div>
                                     </div>
                                   </div>
                                   <div
                                     className="elementor-element elementor-element-610dd54 elementor-widget elementor-widget-ct_text_editor"
-                                    data-id="610dd54" data-element_type="widget" data-widget_type="ct_text_editor.default">
+                                    data-id="610dd54" data-element_type="widget"
+                                    data-widget_type="ct_text_editor.default">
                                     <div className="elementor-widget-container">
                                       <div id="ct_text_editor-610dd54" className="ct-text-editor " data-wow-delay="ms">
                                         <div className="ct-inline-css" data-css="
@@ -205,74 +208,30 @@ const Footer = () => {
                                           <div className="mc4wp-form-fields">
                                             <div className="ct-field-group">
                                               <div className="field-input"><input type="email" name="EMAIL"
-                                                                                  placeholder="Your mail address..." required/>
+                                                                                  placeholder="Your mail address..."
+                                                                                  required />
                                               </div>
-                                              <div className="field-input"><input type="submit" value="Subscribe"/></div>
+                                              <div className="field-input"><input type="submit" value="Subscribe" />
+                                              </div>
                                             </div>
                                           </div>
-                                          <label style={{display: 'none'}}>Leave this field empty if you're human:
+                                          <label style={{ display: 'none' }}>Leave this field empty if you're human:
                                             <input type="text" name="_mc4wp_honeypot" value="" tabIndex="-1"
-                                                   autoComplete="off"/></label><input type="hidden" name="_mc4wp_timestamp"
-                                                                                      value="1709609641"/><input
-                                          type="hidden" name="_mc4wp_form_id" value="132"/><input type="hidden"
-                                                                                                  name="_mc4wp_form_element_id"
-                                                                                                  value="mc4wp-form-1"/>
+                                                   autoComplete="off" /></label><input type="hidden"
+                                                                                       name="_mc4wp_timestamp"
+                                                                                       value="1709609641" /><input
+                                          type="hidden" name="_mc4wp_form_id" value="132" /><input type="hidden"
+                                                                                                   name="_mc4wp_form_element_id"
+                                                                                                   value="mc4wp-form-1" />
                                           <div className="mc4wp-response"></div>
-                                        </form></div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div
-                                className="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-4652221 ct-column-none"
-                                data-id="4652221" data-element_type="column">
-                                <div className="elementor-widget-wrap elementor-element-populated">
-                                  <div
-                                    className="elementor-element elementor-element-68ab637 elementor-widget elementor-widget-ct_heading"
-                                    data-id="68ab637" data-element_type="widget" data-widget_type="ct_heading.default">
-                                    <div className="elementor-widget-container">
-                                      <div id="ct_heading-68ab637"
-                                           className="ct-heading h-align- item-st-default highlight-style1">
-                                        <div className="ct-inline-css" data-css="
- "></div>
-                                        <h5 className="item--title case-animate-time st-default " data-wow-delay="ms"><span>Contact info</span>
-                                        </h5></div>
-                                    </div>
-                                  </div>
-                                  <div
-                                    className="elementor-element elementor-element-3ed8731 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
-                                    data-id="3ed8731" data-element_type="widget" data-widget_type="divider.default">
-                                    <div className="elementor-widget-container">
-                                      <div className="elementor-divider"><span className="elementor-divider-separator"> </span>
+                                        </form>
                                       </div>
                                     </div>
                                   </div>
-                                  <div
-                                    className="elementor-element elementor-element-bc22e06 elementor-widget elementor-widget-ct_contact_info"
-                                    data-id="bc22e06" data-element_type="widget" data-widget_type="ct_contact_info.default">
-                                    <div className="elementor-widget-container">
-                                      <div className="ct-inline-css" data-css="
- "></div>
-                                      <ul id="ct_contact_info-bc22e06" className="ct-contact-info ct-contact-info1 "
-                                          data-wow-duration="1.2s">
-                                        <li><span className="ct-contact-icon"> <i aria-hidden="true"
-                                                                                  className="fas fa-phone-alt"></i> </span> <span
-                                          className="ct-contact-content"> +123 (4567) 890 </span></li>
-                                        <li><span className="ct-contact-icon"> <i aria-hidden="true"
-                                                                                  className="fas fa-envelope"></i> </span> <span
-                                          className="ct-contact-content"> info@envato.com </span></li>
-                                        <li><span className="ct-contact-icon"> <i aria-hidden="true"
-                                                                                  className="fas fa-map-marker-alt"></i> </span>
-                                          <span
-                                            className="ct-contact-content"> 380 St Kilda Road, Melbourne VIC 3004, Australia </span>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                  </div>
                                 </div>
                               </div>
                               <div
-                                className="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-3769edb ct-column-none"
+                                className="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-3769edb ct-column-none"
                                 data-id="3769edb" data-element_type="column">
                                 <div className="elementor-widget-wrap elementor-element-populated">
                                   <div
@@ -283,7 +242,8 @@ const Footer = () => {
                                            className="ct-heading h-align- item-st-default highlight-style1">
                                         <div className="ct-inline-css" data-css="
  "></div>
-                                        <h5 className="item--title case-animate-time st-default " data-wow-delay="ms"><span>Quick link</span>
+                                        <h5 className="item--title case-animate-time st-default " data-wow-delay="ms">
+                                          <span>Quick link</span>
                                         </h5></div>
                                     </div>
                                   </div>
@@ -291,7 +251,8 @@ const Footer = () => {
                                     className="elementor-element elementor-element-4eb124b elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
                                     data-id="4eb124b" data-element_type="widget" data-widget_type="divider.default">
                                     <div className="elementor-widget-container">
-                                      <div className="elementor-divider"><span className="elementor-divider-separator"> </span>
+                                      <div className="elementor-divider"><span
+                                        className="elementor-divider-separator"> </span>
                                       </div>
                                     </div>
                                   </div>
@@ -322,110 +283,53 @@ const Footer = () => {
                                 </div>
                               </div>
                               <div
-                                className="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-d5f06ff ct-column-none"
-                                data-id="d5f06ff" data-element_type="column">
+                                className="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-4652221 ct-column-none"
+                                data-id="4652221" data-element_type="column">
                                 <div className="elementor-widget-wrap elementor-element-populated">
                                   <div
-                                    className="elementor-element elementor-element-a9307ad elementor-widget elementor-widget-ct_heading"
-                                    data-id="a9307ad" data-element_type="widget" data-widget_type="ct_heading.default">
+                                    className="elementor-element elementor-element-68ab637 elementor-widget elementor-widget-ct_heading"
+                                    data-id="68ab637" data-element_type="widget" data-widget_type="ct_heading.default">
                                     <div className="elementor-widget-container">
-                                      <div id="ct_heading-a9307ad"
+                                      <div id="ct_heading-68ab637"
                                            className="ct-heading h-align- item-st-default highlight-style1">
-                                        <div className="ct-inline-css" data-css="
- "></div>
-                                        <h5 className="item--title case-animate-time st-default " data-wow-delay="ms"><span>Image gallery</span>
+                                        <div className="ct-inline-css" data-css=""></div>
+                                        <h5 className="item--title case-animate-time st-default " data-wow-delay="ms">
+                                          <span>Contact info</span>
                                         </h5></div>
                                     </div>
                                   </div>
                                   <div
-                                    className="elementor-element elementor-element-4c74ffe elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
-                                    data-id="4c74ffe" data-element_type="widget" data-widget_type="divider.default">
+                                    className="elementor-element elementor-element-3ed8731 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+                                    data-id="3ed8731" data-element_type="widget" data-widget_type="divider.default">
                                     <div className="elementor-widget-container">
-                                      <div className="elementor-divider"><span className="elementor-divider-separator"> </span>
+                                      <div className="elementor-divider"><span
+                                        className="elementor-divider-separator"> </span>
                                       </div>
                                     </div>
                                   </div>
                                   <div
-                                    className="elementor-element elementor-element-8d467e9 elementor-widget elementor-widget-image-gallery"
-                                    data-id="8d467e9" data-element_type="widget" data-widget_type="image-gallery.default">
+                                    className="elementor-element elementor-element-bc22e06 elementor-widget elementor-widget-ct_contact_info"
+                                    data-id="bc22e06" data-element_type="widget"
+                                    data-widget_type="ct_contact_info.default">
                                     <div className="elementor-widget-container">
-                                      <div className="elementor-image-gallery">
-                                        <div id='gallery-1'
-                                             className='gallery galleryid-27 gallery-columns-3 gallery-size-medium'>
-                                          <figure className='gallery-item'>
-                                            <div className='gallery-icon landscape'><a data-elementor-open-lightbox="yes"
-                                                                                       data-elementor-lightbox-slideshow="8d467e9"
-                                                                                       data-elementor-lightbox-title="g1"
-                                                                                       data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTA0LCJ1cmwiOiJodHRwczpcL1wvZGVtby5jYXNldGhlbWVzLm5ldFwvZ3J1cGlcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA1XC9nMS5qcGciLCJzbGlkZXNob3ciOiI4ZDQ2N2U5In0%3D"
-                                                                                       href='wp-content/uploads/2021/05/g1.jpg'><img
-                                              loading="lazy" width="300" height="300"
-                                              src="wp-content/uploads/2021/05/g1-300x300.jpg"
-                                              className="attachment-medium size-medium" alt="" decoding="async"
-                                              srcSet="https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g1-300x300.jpg 300w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g1-150x150.jpg 150w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g1-768x768.jpg 768w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g1-90x90.jpg 90w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g1-600x600.jpg 600w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g1-96x96.jpg 96w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g1-460x460.jpg 460w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g1.jpg 800w"
-                                              sizes="(max-width: 300px) 100vw, 300px"/></a></div>
-                                          </figure>
-                                          <figure className='gallery-item'>
-                                            <div className='gallery-icon landscape'><a data-elementor-open-lightbox="yes"
-                                                                                       data-elementor-lightbox-slideshow="8d467e9"
-                                                                                       data-elementor-lightbox-title="g2"
-                                                                                       data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTA3LCJ1cmwiOiJodHRwczpcL1wvZGVtby5jYXNldGhlbWVzLm5ldFwvZ3J1cGlcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA1XC9nMi5qcGciLCJzbGlkZXNob3ciOiI4ZDQ2N2U5In0%3D"
-                                                                                       href='wp-content/uploads/2021/05/g2.jpg'><img
-                                              loading="lazy" width="300" height="300"
-                                              src="wp-content/uploads/2021/05/g2-300x300.jpg"
-                                              className="attachment-medium size-medium" alt="" decoding="async"
-                                              srcSet="https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g2-300x300.jpg 300w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g2-150x150.jpg 150w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g2-768x768.jpg 768w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g2-90x90.jpg 90w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g2-600x600.jpg 600w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g2-96x96.jpg 96w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g2-460x460.jpg 460w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g2.jpg 800w"
-                                              sizes="(max-width: 300px) 100vw, 300px"/></a></div>
-                                          </figure>
-                                          <figure className='gallery-item'>
-                                            <div className='gallery-icon landscape'><a data-elementor-open-lightbox="yes"
-                                                                                   data-elementor-lightbox-slideshow="8d467e9"
-                                                                                   data-elementor-lightbox-title="g3"
-                                                                                   data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTA4LCJ1cmwiOiJodHRwczpcL1wvZGVtby5jYXNldGhlbWVzLm5ldFwvZ3J1cGlcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA1XC9nMy5qcGciLCJzbGlkZXNob3ciOiI4ZDQ2N2U5In0%3D"
-                                                                                   href='wp-content/uploads/2021/05/g3.jpg'><img
-                                              loading="lazy" width="300" height="300"
-                                              src="wp-content/uploads/2021/05/g3-300x300.jpg"
-                                              className="attachment-medium size-medium" alt="" decoding="async"
-                                              srcset="https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g3-300x300.jpg 300w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g3-150x150.jpg 150w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g3-768x768.jpg 768w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g3-90x90.jpg 90w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g3-600x600.jpg 600w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g3-96x96.jpg 96w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g3-460x460.jpg 460w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g3.jpg 800w"
-                                              sizes="(max-width: 300px) 100vw, 300px"/></a></div>
-                                          </figure>
-                                          <figure className='gallery-item'>
-                                            <div className='gallery-icon landscape'><a data-elementor-open-lightbox="yes"
-                                                                                   data-elementor-lightbox-slideshow="8d467e9"
-                                                                                   data-elementor-lightbox-title="g4"
-                                                                                   data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTA5LCJ1cmwiOiJodHRwczpcL1wvZGVtby5jYXNldGhlbWVzLm5ldFwvZ3J1cGlcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA1XC9nNC5qcGciLCJzbGlkZXNob3ciOiI4ZDQ2N2U5In0%3D"
-                                                                                   href='wp-content/uploads/2021/05/g4.jpg'><img
-                                              loading="lazy" width="300" height="300"
-                                              src="wp-content/uploads/2021/05/g4-300x300.jpg"
-                                              className="attachment-medium size-medium" alt="" decoding="async"
-                                              srcset="https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g4-300x300.jpg 300w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g4-150x150.jpg 150w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g4-768x768.jpg 768w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g4-90x90.jpg 90w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g4-600x600.jpg 600w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g4-96x96.jpg 96w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g4-460x460.jpg 460w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g4.jpg 800w"
-                                              sizes="(max-width: 300px) 100vw, 300px"/></a></div>
-                                          </figure>
-                                          <figure className='gallery-item'>
-                                            <div className='gallery-icon landscape'><a data-elementor-open-lightbox="yes"
-                                                                                   data-elementor-lightbox-slideshow="8d467e9"
-                                                                                   data-elementor-lightbox-title="g5"
-                                                                                   data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTEwLCJ1cmwiOiJodHRwczpcL1wvZGVtby5jYXNldGhlbWVzLm5ldFwvZ3J1cGlcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA1XC9nNS5qcGciLCJzbGlkZXNob3ciOiI4ZDQ2N2U5In0%3D"
-                                                                                   href='wp-content/uploads/2021/05/g5.jpg'><img
-                                              loading="lazy" width="300" height="300"
-                                              src="wp-content/uploads/2021/05/g5-300x300.jpg"
-                                              className="attachment-medium size-medium" alt="" decoding="async"
-                                              srcset="https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g5-300x300.jpg 300w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g5-150x150.jpg 150w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g5-768x768.jpg 768w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g5-90x90.jpg 90w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g5-600x600.jpg 600w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g5-96x96.jpg 96w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g5-460x460.jpg 460w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g5.jpg 800w"
-                                              sizes="(max-width: 300px) 100vw, 300px"/></a></div>
-                                          </figure>
-                                          <figure className='gallery-item'>
-                                            <div className='gallery-icon landscape'><a data-elementor-open-lightbox="yes"
-                                                                                   data-elementor-lightbox-slideshow="8d467e9"
-                                                                                   data-elementor-lightbox-title="g6"
-                                                                                   data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTExLCJ1cmwiOiJodHRwczpcL1wvZGVtby5jYXNldGhlbWVzLm5ldFwvZ3J1cGlcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA1XC9nNi5qcGciLCJzbGlkZXNob3ciOiI4ZDQ2N2U5In0%3D"
-                                                                                   href='wp-content/uploads/2021/05/g6.jpg'><img
-                                              loading="lazy" width="300" height="300"
-                                              src="wp-content/uploads/2021/05/g6-300x300.jpg"
-                                              className="attachment-medium size-medium" alt="" decoding="async"
-                                              srcset="https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g6-300x300.jpg 300w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g6-150x150.jpg 150w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g6-768x768.jpg 768w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g6-90x90.jpg 90w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g6-600x600.jpg 600w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g6-96x96.jpg 96w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g6-460x460.jpg 460w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g6.jpg 800w"
-                                              sizes="(max-width: 300px) 100vw, 300px"/></a></div>
-                                          </figure>
-                                        </div>
-                                      </div>
+                                      <div className="ct-inline-css" data-css="
+ "></div>
+                                      <ul id="ct_contact_info-bc22e06" className="ct-contact-info ct-contact-info1 "
+                                          data-wow-duration="1.2s">
+                                        <li><span className="ct-contact-icon"> <i aria-hidden="true"
+                                                                                  className="fas fa-phone-alt"></i> </span>
+                                          <span
+                                            className="ct-contact-content"> +123 (4567) 890 </span></li>
+                                        <li><span className="ct-contact-icon"> <i aria-hidden="true"
+                                                                                  className="fas fa-envelope"></i> </span>
+                                          <span
+                                            className="ct-contact-content"> info@envato.com </span></li>
+                                        <li><span className="ct-contact-icon"> <i aria-hidden="true"
+                                                                                  className="fas fa-map-marker-alt"></i> </span>
+                                          <span
+                                            className="ct-contact-content"> 380 St Kilda Road, Melbourne VIC 3004, Australia </span>
+                                        </li>
+                                      </ul>
                                     </div>
                                   </div>
                                 </div>
@@ -452,7 +356,8 @@ const Footer = () => {
                               <div id="ct_text_editor-42fa265" className="ct-text-editor " data-wow-delay="ms">
                                 <div className="ct-inline-css" data-css="
  "></div>
-                                <div className="ct-text-editor elementor-clearfix"> © <span className="ct-year">2024</span> <a
+                                <div className="ct-text-editor elementor-clearfix"> © <span
+                                  className="ct-year">2024</span> <a
                                   href="https://themeforest.net/user/case-themes/portfolio" target="_blank"
                                   rel="nofollow noopener">CaseThemes</a>. All rights reserved.
                                 </div>
@@ -468,7 +373,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        </footer>
+      </footer>
       <a href="#" className="scroll-top"><span><i className="caseicon-long-arrow-right-three"></i></span></a>
     </>
   );
