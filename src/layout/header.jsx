@@ -1,6 +1,9 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Header = () => {
+  const location = useLocation();
+  const pathname = location.pathname;
+
   return (
     <>
       <div id="ct-loadding" className="ct-loader style1">
