@@ -100,8 +100,7 @@ const ContactUs = () => {
                                                 <div className="item--icon"><i aria-hidden="true"
                                                                            className="flaticon flaticon-address"></i></div>
                                                 <div className="item--meta"><h4 className="item--title"> Office address</h4>
-                                                  <div className="item--description">Digital Agency Network<br/> 20 Eastbourne
-                                                    Terrace<br/> London W2 6LG
+                                                  <div className="item--description">Jl. Tarutung No.25, Kota Pematang Siantar, Indonesia
                                                   </div>
                                                 </div>
                                               </div>
@@ -119,7 +118,7 @@ const ContactUs = () => {
                                                                            className="flaticon flaticon-24-hours-support"></i>
                                                 </div>
                                                 <div className="item--meta"><h4 className="item--title"> Telephone number</h4>
-                                                  <div className="item--description">(408) 389-5470<br/> (408) 456-5470</div>
+                                                  <div className="item--description">+62 895-6256-70009</div>
                                                 </div>
                                               </div>
                                             </div>
@@ -135,7 +134,7 @@ const ContactUs = () => {
                                                 <div className="item--icon"><i aria-hidden="true"
                                                                            className="flaticon flaticon-email"></i></div>
                                                 <div className="item--meta"><h4 className="item--title"> Mail address</h4>
-                                                  <div className="item--description">help@envato.com<br/> help@support.com</div>
+                                                  <div className="item--description">admin@software-consulting.tech<br/> info@software-consulting.tech</div>
                                                 </div>
                                               </div>
                                             </div>

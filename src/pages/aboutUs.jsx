@@ -414,8 +414,8 @@ const AboutUs = () => {
                                             <div id="ct_text_editor-5156e210" className="ct-text-editor " data-wow-delay="ms">
                                               <div className="ct-inline-css" data-css="
  "></div>
-                                              <div className="ct-text-editor elementor-clearfix"> Software Consulting is a design studio
-                                                founded in London and expanded our services, and become a multinational
+                                              <div className="ct-text-editor elementor-clearfix"> Software Consulting is a software company
+                                                founded in Indonesia and expanded our services, and become a multinational
                                                 firm.
                                               </div>
                                             </div>

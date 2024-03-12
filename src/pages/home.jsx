@@ -861,8 +861,8 @@ const Home = () => {
                                                data-wow-delay="ms">
                                             <div className="ct-inline-css" data-css="
  "></div>
-                                            <div className="ct-text-editor elementor-clearfix"> Software Consulting is a design studio
-                                              founded in London and expanded our services, and become a multinational
+                                            <div className="ct-text-editor elementor-clearfix"> Software Consulting is a software company
+                                              founded in Indonesia and expanded our services, and become a multinational
                                               firm.
                                             </div>
                                           </div>
@@ -914,8 +914,6 @@ const Home = () => {
                                                         <li>UI Design</li>
                                                       </ul>
                                                     </div>
-                                                    <div className="item-readmore"><a href="#"><i
-                                                      className="flaticon-next"></i></a></div>
                                                     <div className="item--line"></div>
                                                   </div>
                                                 </div>
@@ -1070,175 +1068,6 @@ const Home = () => {
                                                                                                          className="no-lazyload img-main attachment-full"
                                                                                                          alt="" />
                                             </Link>
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </section>
-                            </div>
-                          </div>
-                        </div>
-                      </section>
-                      <section
-                        className="elementor-section elementor-top-section elementor-element elementor-element-28e2155a elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default ct-header-fixed-none ct-column-none ct-row-scroll-none ct-row-gradient--none"
-                        data-id="28e2155a" data-element_type="section"
-                        data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
-                        <div className="elementor-container elementor-column-gap-extended ">
-                          <div
-                            className="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-10309039 ct-column-none"
-                            data-id="10309039" data-element_type="column">
-                            <div className="elementor-widget-wrap elementor-element-populated">
-                              <section
-                                className="elementor-section elementor-inner-section elementor-element elementor-element-6b818a8a elementor-section-boxed elementor-section-height-default elementor-section-height-default ct-header-fixed-none ct-column-none ct-row-scroll-none ct-row-gradient--none"
-                                data-id="6b818a8a" data-element_type="section">
-                                <div className="elementor-container elementor-column-gap-extended ">
-                                  <div
-                                    className="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-25357c54 ct-column-none"
-                                    data-id="25357c54" data-element_type="column"
-                                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                    <div className="elementor-widget-wrap elementor-element-populated">
-                                      <div
-                                        className="elementor-element elementor-element-621b8fa elementor-widget elementor-widget-ct_heading"
-                                        data-id="621b8fa" data-element_type="widget"
-                                        data-widget_type="ct_heading.default">
-                                        <div className="elementor-widget-container">
-                                          <div id="ct_heading-621b8fa"
-                                               className="ct-heading h-align- item-st-hexagon highlight-style1">
-                                            <div className="ct-inline-css" data-css="
- "></div>
-                                            <div className="ct-heading-hexagon-line">
-                                              <div className="ct-heading-hexagon"></div>
-                                            </div>
-                                            <h3 className="item--title case-animate-time st-hexagon "
-                                                data-wow-delay="ms">
-                                            <span className="slide-in-container"><span
-                                              className="d-inline-block wow case-fade-in-up">Brands</span></span> <span
-                                              className="slide-in-container"><span
-                                              className="d-inline-block wow case-fade-in-up">we’ve</span></span>
-                                              <span className="slide-in-container"><span
-                                                className="d-inline-block wow case-fade-in-up">collaborated</span></span>
-                                              <span className="slide-in-container"><span
-                                                className="d-inline-block wow case-fade-in-up">with</span></span> <span
-                                              className="slide-in-container"><span
-                                              className="d-inline-block wow case-fade-in-up">team.</span></span>
-                                            </h3></div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div
-                                    className="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-d1c7d66 ct-column-none"
-                                    data-id="d1c7d66" data-element_type="column">
-                                    <div className="elementor-widget-wrap elementor-element-populated">
-                                      <div
-                                        className="elementor-element elementor-element-5c240705 elementor-widget elementor-widget-ct_client_grid"
-                                        data-id="5c240705" data-element_type="widget"
-                                        data-widget_type="ct_client_grid.default">
-                                        <div className="elementor-widget-container">
-                                          <div id="ct_client_grid-5c240705" className="ct-grid ct-client-grid1">
-                                            <div className="ct-grid-inner ct-grid-masonry row animate-time"
-                                                 data-gutter="7">
-                                              <div className="grid-item col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
-                                                <div className="ct-client--image img-hover-active"><a href="#"> <img
-                                                  loading="lazy" decoding="async" width="66" height="63"
-                                                  src="wp-content/uploads/2021/06/client1.png"
-                                                  className="no-lazyload ct-client--imgmain attachment-full" alt="" />
-                                                  <img
-                                                    loading="lazy" decoding="async" width="66" height="63"
-                                                    src="wp-content/uploads/2021/06/hover-client1.png"
-                                                    className="no-lazyload ct-client--imghover attachment-full"
-                                                    alt="" /> </a>
-                                                </div>
-                                              </div>
-                                              <div className="grid-item col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
-                                                <div className="ct-client--image img-hover-active"><a href="#"> <img
-                                                  loading="lazy" decoding="async" width="72" height="63"
-                                                  src="wp-content/uploads/2021/06/client2.png"
-                                                  className="no-lazyload ct-client--imgmain attachment-full" alt="" />
-                                                  <img
-                                                    loading="lazy" decoding="async" width="72" height="63"
-                                                    src="wp-content/uploads/2021/06/hover-client2.png"
-                                                    className="no-lazyload ct-client--imghover attachment-full"
-                                                    alt="" /> </a>
-                                                </div>
-                                              </div>
-                                              <div className="grid-item col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
-                                                <div className="ct-client--image img-hover-active"><a href="#"> <img
-                                                  loading="lazy" decoding="async" width="67" height="63"
-                                                  src="wp-content/uploads/2021/06/client3.png"
-                                                  className="no-lazyload ct-client--imgmain attachment-full" alt="" />
-                                                  <img
-                                                    loading="lazy" decoding="async" width="67" height="63"
-                                                    src="wp-content/uploads/2021/06/hover-client3.png"
-                                                    className="no-lazyload ct-client--imghover attachment-full"
-                                                    alt="" /> </a>
-                                                </div>
-                                              </div>
-                                              <div className="grid-item col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
-                                                <div className="ct-client--image img-hover-active"><a href="#"> <img
-                                                  loading="lazy" decoding="async" width="63" height="63"
-                                                  src="wp-content/uploads/2021/06/client4.png"
-                                                  className="no-lazyload ct-client--imgmain attachment-full" alt="" />
-                                                  <img
-                                                    loading="lazy" decoding="async" width="63" height="63"
-                                                    src="wp-content/uploads/2021/06/hover-client4.png"
-                                                    className="no-lazyload ct-client--imghover attachment-full"
-                                                    alt="" /> </a>
-                                                </div>
-                                              </div>
-                                              <div className="grid-item col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
-                                                <div className="ct-client--image img-hover-active"><a href="#"> <img
-                                                  loading="lazy" decoding="async" width="64" height="63"
-                                                  src="wp-content/uploads/2021/06/client5.png"
-                                                  className="no-lazyload ct-client--imgmain attachment-full" alt="" />
-                                                  <img
-                                                    loading="lazy" decoding="async" width="64" height="63"
-                                                    src="wp-content/uploads/2021/06/hover-client5.png"
-                                                    className="no-lazyload ct-client--imghover attachment-full"
-                                                    alt="" /> </a>
-                                                </div>
-                                              </div>
-                                              <div className="grid-item col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
-                                                <div className="ct-client--image img-hover-active"><a href="#"> <img
-                                                  loading="lazy" decoding="async" width="65" height="63"
-                                                  src="wp-content/uploads/2021/06/client6.png"
-                                                  className="no-lazyload ct-client--imgmain attachment-full" alt="" />
-                                                  <img
-                                                    loading="lazy" decoding="async" width="65" height="63"
-                                                    src="wp-content/uploads/2021/06/hover-client6.png"
-                                                    className="no-lazyload ct-client--imghover attachment-full"
-                                                    alt="" /> </a>
-                                                </div>
-                                              </div>
-                                              <div className="grid-item col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
-                                                <div className="ct-client--image img-hover-active"><a href="#"> <img
-                                                  loading="lazy" decoding="async" width="67" height="63"
-                                                  src="wp-content/uploads/2021/06/client7.png"
-                                                  className="no-lazyload ct-client--imgmain attachment-full" alt="" />
-                                                  <img
-                                                    loading="lazy" decoding="async" width="67" height="63"
-                                                    src="wp-content/uploads/2021/06/hover-client7.png"
-                                                    className="no-lazyload ct-client--imghover attachment-full"
-                                                    alt="" /> </a>
-                                                </div>
-                                              </div>
-                                              <div className="grid-item col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
-                                                <div className="ct-client--image img-hover-active"><a href="#"> <img
-                                                  loading="lazy" decoding="async" width="57" height="63"
-                                                  src="wp-content/uploads/2021/06/client8.png"
-                                                  className="no-lazyload ct-client--imgmain attachment-full" alt="" />
-                                                  <img
-                                                    loading="lazy" decoding="async" width="57" height="63"
-                                                    src="wp-content/uploads/2021/06/hover-client8.png"
-                                                    className="no-lazyload ct-client--imghover attachment-full"
-                                                    alt="" /> </a>
-                                                </div>
-                                              </div>
-                                              <div
-                                                className="grid-sizer col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6"></div>
                                             </div>
                                           </div>
                                         </div>
@@ -1689,7 +1518,7 @@ const Home = () => {
                                           Experience you can imagine.
                                           <ul>
                                             <li>We understand the importance of approaching.</li>
-                                            <li>Design studio founded in London and expanded our services.</li>
+                                            <li>Software Company founded in Indonesia and expanded our services.</li>
                                           </ul>
                                         </div>
                                       </div>
@@ -1746,9 +1575,7 @@ const Home = () => {
                                       <div className="item--icon"><i aria-hidden="true"
                                                                      className="flaticon flaticon-location"></i></div>
                                       <div className="item--meta"><h4 className="item--title"> Office Address:</h4>
-                                        <div className="item--description">Level 6, 541 St Kilda Road Melbourne, VIC
-                                          3004
-                                        </div>
+                                        <div className="item--description">Jl. Tarutung No.25, Kota Pematang Siantar, Indonesia</div>
                                       </div>
                                     </div>
                                   </div>
@@ -1767,7 +1594,7 @@ const Home = () => {
                                                                      className="flaticon flaticon-call"></i>
                                       </div>
                                       <div className="item--meta"><h4 className="item--title"> Phone number:</h4>
-                                        <div className="item--description">+1300 658 700<br /> +1567 658 723</div>
+                                        <div className="item--description">+62 895-6256-70009</div>
                                       </div>
                                     </div>
                                   </div>
@@ -1786,7 +1613,7 @@ const Home = () => {
                                                                      className="flaticon flaticon-chat"></i>
                                       </div>
                                       <div className="item--meta"><h4 className="item--title"> mail Address:</h4>
-                                        <div className="item--description">envato@gmail.com<br /> grupi@mail.com</div>
+                                        <div className="item--description">admin@software-consulting.tech<br /> info@software-consulting.tech</div>
                                       </div>
                                     </div>
                                   </div>

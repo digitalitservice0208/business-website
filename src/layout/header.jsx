@@ -106,7 +106,7 @@ const Header = () => {
                                 </div>
                                 <div className="ct-info-holder">
                                   <div className="ct-info-label">Call us:</div>
-                                  <div className="ct-info-title">62 895-6256-70009</div>
+                                  <div className="ct-info-title">+62 895-6256-70009</div>
                                   <a href="tel:62-895-6256-70009"></a></div>
                               </div>
                             </div>
@@ -202,7 +202,7 @@ const Header = () => {
                               </div>
                               <div className="ct-info-holder">
                                 <div className="ct-info-label">Call us:</div>
-                                <div className="ct-info-title">62 895-6256-70009</div>
+                                <div className="ct-info-title">+62 895-6256-70009</div>
                                 <a href="tel:62-895-6256-70009"></a></div>
                             </div>
                           </div>

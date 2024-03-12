@@ -327,7 +327,7 @@ const Footer = () => {
                                         <li><span className="ct-contact-icon"> <i aria-hidden="true"
                                                                                   className="fas fa-map-marker-alt"></i> </span>
                                           <span
-                                            className="ct-contact-content"> Jl. Tarutung No.25, Kota Pematang Siantar, 21124, Indonesia </span>
+                                            className="ct-contact-content"> Jl. Tarutung No.25, Kota Pematang Siantar, Indonesia </span>
                                         </li>
                                       </ul>
                                     </div>
