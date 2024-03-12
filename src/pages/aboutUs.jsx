@@ -1,17 +1,6 @@
-import {Link, useLocation} from "react-router-dom";
-import {useEffect} from "react";
+import { Link } from "react-router-dom";
 
 const AboutUs = () => {
-  const location = useLocation();
-
-  useEffect(() => {
-    const prevPath = localStorage.getItem("previousPath");
-    if (prevPath !== "/about-us") {
-      localStorage.setItem("previousPath", location.pathname);
-      window.location.reload();
-    }
-  }, []);
-
   return (
     <>
       <div id="ct-pagetitle" className="ct-pagetitle ">
@@ -56,7 +45,7 @@ const AboutUs = () => {
  top: 30%;
  }"></div>
                                         <img loading="lazy" decoding="async" width="15" height="10"
-                                             src="../wp-content/uploads/2021/06/particle1.png" className="attachment-full"
+                                             src="/wp-content/uploads/2021/06/particle1.png" className="attachment-full"
                                              alt=""/></div>
                                     </div>
                                   </div>
@@ -128,13 +117,13 @@ const AboutUs = () => {
                                               <div className="ct-banner-inner">
                                                 <div className="ct-banner-image"><img loading="lazy" decoding="async"
                                                                                       width="454" height="509"
-                                                                                      src="../wp-content/uploads/2021/06/banner1.jpg"
+                                                                                      src="/wp-content/uploads/2021/06/banner1.jpg"
                                                                                       className="attachment-full" alt=""/></div>
                                                 <div className="ct-banner-meta bg-image">
                                                   <div className="ct-banner-title">
                                                     <div className="ct-banner-logo"><img loading="lazy" decoding="async"
                                                                                          width="43" height="43"
-                                                                                         src="../wp-content/uploads/2021/06/banner-logo.png"
+                                                                                         src="/wp-content/uploads/2021/06/banner-logo.png"
                                                                                          className="attachment-full" alt=""/></div>
                                                     <span>Best Digital agency</span></div>
                                                 </div>

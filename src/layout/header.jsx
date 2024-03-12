@@ -1,20 +1,6 @@
-import {Link, useLocation} from "react-router-dom";
-import {useEffect} from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
-  const location = useLocation();
-  const pathname = location.pathname;
-
-  useEffect(() => {
-    if (location.pathname === "/" || location.pathname === "/about-us") {
-      setTimeout(() => {
-        localStorage.setItem('previousPath', location.pathname);
-      }, 100);
-    } else {
-      localStorage.setItem('previousPath', location.pathname);
-    }
-  }, [location]);
-
   return (
     <>
       <div id="ct-loadding" className="ct-loader style1">

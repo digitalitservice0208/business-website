@@ -1,17 +1,6 @@
-import { Link, useLocation } from 'react-router-dom';
-import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
-  const location = useLocation();
-
-  useEffect(() => {
-    const prevPath = localStorage.getItem('previousPath');
-    if (prevPath !== '/') {
-      localStorage.setItem('previousPath', location.pathname);
-      window.location.reload();
-    }
-  }, []);
-
   return (
     <div id="content" className="site-content">
       <div className="content-inner">
