@@ -6,10 +6,6 @@ const Header = () => {
 
   return (
     <>
-      <div id="ct-loadding" className="ct-loader style1">
-        <div className="loading-spin"></div>
-      </div>
-      <div className="ct-page-loading-bg active"></div>
       <header id="ct-header-elementor" className="is-sticky mobile-style-dark">
         <div className="ct-header-elementor-main">
           <div className="container">
