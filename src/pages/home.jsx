@@ -700,20 +700,10 @@ const Home = () => {
                                             <div className="ct-heading-text-below"> About</div>
                                             <h3 className="item--title case-animate-time st-default "
                                                 data-wow-delay="ms">
-                                            <span className="slide-in-container"><span
-                                              className="d-inline-block wow case-fade-in-up">We</span></span> <span
-                                              className="slide-in-container"><span
-                                              className="d-inline-block wow case-fade-in-up">combine</span></span>
-                                              <span className="slide-in-container"><span
-                                                className="d-inline-block wow case-fade-in-up">strategy</span></span>
+                                            <span className="slide-in-container">
                                               <span
-                                                className="slide-in-container"><span
-                                                className="d-inline-block wow case-fade-in-up">with</span></span>
-                                              <span className="slide-in-container"><span
-                                                className="d-inline-block wow case-fade-in-up">marketing,</span></span>
-                                              <span
-                                                className="slide-in-container"><span
-                                                className="d-inline-block wow case-fade-in-up">design</span></span>
+                                              className="d-inline-block wow case-fade-in-up">We combine strategy with marketing, design</span>
+                                            </span>
                                             </h3></div>
                                         </div>
                                       </div>
@@ -747,16 +737,6 @@ const Home = () => {
                                             <div className="ct-progress-item">
                                               <div className="ct-progress-meta"><span
                                                 className="ct-progress-title">UI/UX Design</span>
-                                                <div className="ct-progress-percentage">65%</div>
-                                              </div>
-                                              <div className="ct-progress-bar-wrap">
-                                                <div className="ct-progress-bar" role="progressbar"
-                                                     data-valuetransitiongoal="65"></div>
-                                              </div>
-                                            </div>
-                                            <div className="ct-progress-item">
-                                              <div className="ct-progress-meta"><span
-                                                className="ct-progress-title">Marketing</span>
                                                 <div className="ct-progress-percentage">90%</div>
                                               </div>
                                               <div className="ct-progress-bar-wrap">
@@ -765,12 +745,22 @@ const Home = () => {
                                               </div>
                                             </div>
                                             <div className="ct-progress-item">
-                                              <div className="ct-progress-meta"><span className="ct-progress-title">Web Devdlopment</span>
-                                                <div className="ct-progress-percentage">70%</div>
+                                              <div className="ct-progress-meta"><span
+                                                className="ct-progress-title">Mobile Development</span>
+                                                <div className="ct-progress-percentage">85%</div>
                                               </div>
                                               <div className="ct-progress-bar-wrap">
                                                 <div className="ct-progress-bar" role="progressbar"
-                                                     data-valuetransitiongoal="70"></div>
+                                                     data-valuetransitiongoal="85"></div>
+                                              </div>
+                                            </div>
+                                            <div className="ct-progress-item">
+                                              <div className="ct-progress-meta"><span className="ct-progress-title">Web Development</span>
+                                                <div className="ct-progress-percentage">95%</div>
+                                              </div>
+                                              <div className="ct-progress-bar-wrap">
+                                                <div className="ct-progress-bar" role="progressbar"
+                                                     data-valuetransitiongoal="95"></div>
                                               </div>
                                             </div>
                                           </div>
@@ -1626,15 +1616,16 @@ const Home = () => {
                                   <div className="ct-particle-animate el-move-parents img-below-content "
                                        data-wow-delay="ms">
                                     <div id="ct_particle_animate-dff49ff0" className="top-right animate-none">
-                                      <div className="ct-inline-css" data-css="
- .ct-particle-animate #ct_particle_animate-dff49ff0 {
- right: 16%;
- top: 19%;
- }"></div>
+                                      <div
+                                        className="ct-inline-css"
+                                        data-css=".ct-particle-animate #ct_particle_animate-dff49ff0 { right: 16%; top: 19%; }">
+                                      </div>
                                       <img loading="lazy" decoding="async" width="110" height="236"
                                            src="wp-content/uploads/2021/06/h-contact-img2.png"
                                            className="attachment-full"
-                                           alt="" /></div>
+                                           alt=""
+                                      />
+                                    </div>
                                   </div>
                                 </div>
                               </div>
@@ -1644,11 +1635,7 @@ const Home = () => {
                                 <div className="elementor-widget-container">
                                   <div id="ct_text_below-b0a514e" className="ct-text-below el-move-parents  top-right"
                                        data-wow-delay="ms">
-                                    <div className="ct-inline-css" data-css="
- #ct_text_below-b0a514e.ct-text-below {
- right: 6%;
- top: 10%;
- }"></div>
+                                    <div className="ct-inline-css" data-css=" #ct_text_below-b0a514e.ct-text-below { right: 6%; top: 10%; }"></div>
                                     Our goal
                                   </div>
                                 </div>
