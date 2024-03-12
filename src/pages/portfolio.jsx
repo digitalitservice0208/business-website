@@ -94,11 +94,11 @@ const Portfolio = () => {
                                       <div className="ct-grid-overlay"></div>
                                       <div className="grid-filter-wrap"><span className="filter-item active"
                                                                           data-filter="*">All</span> <span
-                                        className="filter-item" data-filter=".coaching"> Coaching </span> <span
-                                        className="filter-item" data-filter=".facilitation"> Facilitation </span> <span
+                                        className="filter-item" data-filter=".coaching"> Web Development </span> <span
+                                        className="filter-item" data-filter=".facilitation"> Web Design </span> <span
                                         className="filter-item"
-                                        data-filter=".stakeholder-relations"> Stakeholder relations </span> <span
-                                        className="filter-item" data-filter=".strategy"> Strategy </span></div>
+                                        data-filter=".stakeholder-relations"> Mobile App Development </span> <span
+                                        className="filter-item" data-filter=".strategy"> Project Management </span></div>
                                       <div className="ct-grid-inner ct-grid-masonry row animate-time" data-gutter="15">
                                         <div className="grid-item col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 strategy">
                                           <div className="grid-item-inner " data-wow-duration="1.2s">
@@ -110,9 +110,8 @@ const Portfolio = () => {
                                             <div className="item--holder">
                                               <div className="item--meta"><h4 className="item--title"><a href="#"> Startup
                                                 Business </a></h4>
-                                                <div className="item--category"><a href="#" rel="tag">Strategy</a></div>
+                                                <div className="item--category"><a href="#" rel="tag">Project Management</a></div>
                                               </div>
-                                              <div className="item--readmore"><a href="#">+</a></div>
                                             </div>
                                           </div>
                                         </div>
@@ -126,9 +125,8 @@ const Portfolio = () => {
                                             <div className="item--holder">
                                               <div className="item--meta"><h4 className="item--title"><a href="#"> Market
                                                 Research </a></h4>
-                                                <div className="item--category"><a href="#" rel="tag">Facilitation</a></div>
+                                                <div className="item--category"><a href="#" rel="tag">Web Design</a></div>
                                               </div>
-                                              <div className="item--readmore"><a href="#">+</a></div>
                                             </div>
                                           </div>
                                         </div>
@@ -142,9 +140,8 @@ const Portfolio = () => {
                                             <div className="item--holder">
                                               <div className="item--meta"><h4 className="item--title"><a href="#"> SEO
                                                 Optimization </a></h4>
-                                                <div className="item--category"><a href="#" rel="tag">Strategy</a></div>
+                                                <div className="item--category"><a href="#" rel="tag">Project Management</a></div>
                                               </div>
-                                              <div className="item--readmore"><a href="#">+</a></div>
                                             </div>
                                           </div>
                                         </div>
@@ -158,9 +155,8 @@ const Portfolio = () => {
                                             <div className="item--holder">
                                               <div className="item--meta"><h4 className="item--title"><a href="#"> Web Desiging </a>
                                               </h4>
-                                                <div className="item--category"><a href="#" rel="tag">Facilitation</a></div>
+                                                <div className="item--category"><a href="#" rel="tag">Web Design</a></div>
                                               </div>
-                                              <div className="item--readmore"><a href="#">+</a></div>
                                             </div>
                                           </div>
                                         </div>
@@ -174,9 +170,8 @@ const Portfolio = () => {
                                             <div className="item--holder">
                                               <div className="item--meta"><h4 className="item--title"><a href="#"> Business
                                                 Growth </a></h4>
-                                                <div className="item--category"><a href="#" rel="tag">Coaching</a></div>
+                                                <div className="item--category"><a href="#" rel="tag">Web Development</a></div>
                                               </div>
-                                              <div className="item--readmore"><a href="#">+</a></div>
                                             </div>
                                           </div>
                                         </div>
@@ -190,9 +185,8 @@ const Portfolio = () => {
                                             <div className="item--holder">
                                               <div className="item--meta"><h4 className="item--title"><a href="#"> Financial
                                                 Analysis </a></h4>
-                                                <div className="item--category"><a href="#" rel="tag">Coaching</a></div>
+                                                <div className="item--category"><a href="#" rel="tag">Web Development</a></div>
                                               </div>
-                                              <div className="item--readmore"><a href="#">+</a></div>
                                             </div>
                                           </div>
                                         </div>
@@ -207,10 +201,9 @@ const Portfolio = () => {
                                             <div className="item--holder">
                                               <div className="item--meta"><h4 className="item--title"><a href="#"> Market
                                                 Expansion </a></h4>
-                                                <div className="item--category"><a href="#" rel="tag">Stakeholder relations</a>
+                                                <div className="item--category"><a href="#" rel="tag">Mobile App Development</a>
                                                 </div>
                                               </div>
-                                              <div className="item--readmore"><a href="#">+</a></div>
                                             </div>
                                           </div>
                                         </div>
@@ -224,7 +217,7 @@ const Portfolio = () => {
                                             <div className="item--holder">
                                               <div className="item--meta"><h4 className="item--title"><a href="#"> Digital
                                                 Analysis </a></h4>
-                                                <div className="item--category"><a href="#" rel="tag">Facilitation</a></div>
+                                                <div className="item--category"><a href="#" rel="tag">Web Design</a></div>
                                               </div>
                                             </div>
                                           </div>

@@ -1133,7 +1133,7 @@ const Home = () => {
                                                                                              alt="g13"
                                                                                              title="g13" /></a></div>
                                             <div className="item--meta">
-                                              <div className="item--category"><a href="#" rel="tag">Strategy</a></div>
+                                              <div className="item--category"><a href="#" rel="tag">Project Management</a></div>
                                               <h4 className="item--title"><a href="#"> Startup Business </a></h4>
                                               <svg xmlns="http://www.w3.org/2000/svg" width="58" height="43"
                                                    viewBox="0 0 58 43">
@@ -1162,7 +1162,7 @@ const Home = () => {
                                                                                              alt="g14"
                                                                                              title="g14" /></a></div>
                                             <div className="item--meta">
-                                              <div className="item--category"><a href="#" rel="tag">Facilitation</a>
+                                              <div className="item--category"><a href="#" rel="tag">Web Design</a>
                                               </div>
                                               <h4 className="item--title"><a href="#"> Market Research </a></h4>
                                               <svg xmlns="http://www.w3.org/2000/svg" width="58" height="43"
@@ -1192,7 +1192,7 @@ const Home = () => {
                                                                                              alt="g15"
                                                                                              title="g15" /></a></div>
                                             <div className="item--meta">
-                                              <div className="item--category"><a href="#" rel="tag">Strategy</a></div>
+                                              <div className="item--category"><a href="#" rel="tag">Project Management</a></div>
                                               <h4 className="item--title"><a href="#"> SEO Optimization </a></h4>
                                               <svg xmlns="http://www.w3.org/2000/svg" width="58" height="43"
                                                    viewBox="0 0 58 43">
@@ -1221,7 +1221,7 @@ const Home = () => {
                                                                                              alt="g16"
                                                                                              title="g16" /></a></div>
                                             <div className="item--meta">
-                                              <div className="item--category"><a href="#" rel="tag">Facilitation</a>
+                                              <div className="item--category"><a href="#" rel="tag">Web Design</a>
                                               </div>
                                               <h4 className="item--title"><a href="#"> Web Desiging </a></h4>
                                               <svg xmlns="http://www.w3.org/2000/svg" width="58" height="43"
@@ -1251,7 +1251,7 @@ const Home = () => {
                                                                                              alt="g17"
                                                                                              title="g17" /></a></div>
                                             <div className="item--meta">
-                                              <div className="item--category"><a href="#" rel="tag">Coaching</a></div>
+                                              <div className="item--category"><a href="#" rel="tag">Web Development</a></div>
                                               <h4 className="item--title"><a href="#"> Business Growth </a></h4>
                                               <svg xmlns="http://www.w3.org/2000/svg" width="58" height="43"
                                                    viewBox="0 0 58 43">
@@ -1280,7 +1280,7 @@ const Home = () => {
                                                                                              alt="g18"
                                                                                              title="g18" /></a></div>
                                             <div className="item--meta">
-                                              <div className="item--category"><a href="#" rel="tag">Coaching</a></div>
+                                              <div className="item--category"><a href="#" rel="tag">Web Development</a></div>
                                               <h4 className="item--title"><a href="#"> Financial Analysis </a></h4>
                                               <svg xmlns="http://www.w3.org/2000/svg" width="58" height="43"
                                                    viewBox="0 0 58 43">
@@ -1340,7 +1340,7 @@ const Home = () => {
                                                                                              alt="g20"
                                                                                              title="g20" /></a></div>
                                             <div className="item--meta">
-                                              <div className="item--category"><a href="#" rel="tag">Facilitation</a>
+                                              <div className="item--category"><a href="#" rel="tag">Web Design</a>
                                               </div>
                                               <h4 className="item--title"><a href="#"> Digital Analysis </a></h4>
                                               <svg xmlns="http://www.w3.org/2000/svg" width="58" height="43"
