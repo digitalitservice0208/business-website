@@ -90,143 +90,65 @@ const OurTeam = () => {
                                   <div className="elementor-widget-container">
                                     <div className="ct-grid ct-team ct-team-grid1">
                                       <div className="ct-grid-inner ct-grid-masonry row animate-time" data-gutter="7">
-                                        <div className="grid-item col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                                        <div className="grid-item col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
                                           <div className="item--inner wow fadeInUp" data-wow-duration="1.2s">
-                                            <div className="item--image"><a href="#"><img loading="lazy" decoding="async"
-                                                                                      className="no-lazyload "
-                                                                                      src="../wp-content/uploads/2021/06/team1.jpg"
-                                                                                      width="270" height="330" alt="team1"
-                                                                                      title="team1"/></a>
-                                              <div className="item--social"><a href="#"><i className="fab fa-facebook-f"></i></a> <a
-                                                href="#"><i className="fab fa-twitter"></i></a> <a href="#"><i
-                                                className="fab fa-instagram"></i></a></div>
+                                            <div className="item--image">
+                                              <a href="#">
+                                                <img loading="lazy" decoding="async"
+                                                     className="no-lazyload "
+                                                     src="../wp-content/uploads/2021/06/1.jpeg"
+                                                     width="330" height="330" alt="team1"
+                                                     title="team1" /></a>
+                                              <div className="item--social">
+                                                <a href="#"><i className="fab fa-linkedin"></i></a>
+                                              </div>
                                             </div>
-                                            <div className="item--holder"><h4 className="item--title"><a href="#">Daniel
-                                              Douthwaite</a></h4>
-                                              <div className="item--position">CEO/Founder</div>
-                                              <a className="item--details" href="#"><i className="flaticon-next"></i></a></div>
+                                            <div className="item--holder">
+                                              <h4 className="item--title">Dedi Erianto Manullang</h4>
+                                              <div className="item--position">CEO</div>
+                                            </div>
                                           </div>
                                         </div>
-                                        <div className="grid-item col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                                        <div className="grid-item col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
                                           <div className="item--inner wow fadeInUp" data-wow-duration="1.2s">
-                                            <div className="item--image"><a href="#"><img loading="lazy" decoding="async"
-                                                                                      className="no-lazyload "
-                                                                                      src="../wp-content/uploads/2021/06/team2.jpg"
-                                                                                      width="270" height="330" alt="team2"
-                                                                                      title="team2"/></a>
-                                              <div className="item--social"><a href="#"><i className="fab fa-facebook-f"></i></a> <a
-                                                href="#"><i className="fab fa-twitter"></i></a> <a href="#"><i
-                                                className="fab fa-instagram"></i></a></div>
+                                            <div className="item--image">
+                                              <a href="#">
+                                                <img loading="lazy" decoding="async"
+                                                     className="no-lazyload "
+                                                     src="../wp-content/uploads/2021/06/team2.jpg"
+                                                     width="330" height="330" alt="team2"
+                                                     title="team2" />
+                                              </a>
+                                              <div className="item--social">
+                                                <a href="#"><i className="fab fa-linkedin"></i></a>
+                                              </div>
                                             </div>
-                                            <div className="item--holder"><h4 className="item--title"><a href="#">P.J. Cummins </a>
+                                            <div className="item--holder"><h4 className="item--title"><a href="#">P.J.
+                                              Cummins </a>
                                             </h4>
                                               <div className="item--position">Managing Director</div>
-                                              <a className="item--details" href="#"><i className="flaticon-next"></i></a></div>
+                                              </div>
                                           </div>
                                         </div>
-                                        <div className="grid-item col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                                        <div className="grid-item col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
                                           <div className="item--inner wow fadeInUp" data-wow-duration="1.2s">
-                                            <div className="item--image"><a href="#"><img loading="lazy" decoding="async"
-                                                                                      className="no-lazyload "
-                                                                                      src="../wp-content/uploads/2021/06/team3.jpg"
-                                                                                      width="270" height="330" alt="team3"
-                                                                                      title="team3"/></a>
-                                              <div className="item--social"><a href="#"><i className="fab fa-facebook-f"></i></a> <a
-                                                href="#"><i className="fab fa-twitter"></i></a> <a href="#"><i
-                                                className="fab fa-instagram"></i></a></div>
+                                            <div className="item--image">
+                                              <a href="#">
+                                                <img loading="lazy" decoding="async"
+                                                     className="no-lazyload "
+                                                     src="../wp-content/uploads/2021/06/3.png"
+                                                     width="330" height="330" alt="team3"
+                                                     title="team3" /></a>
+                                              <div className="item--social">
+                                                <a href="#"><i className="fab fa-linkedin"></i></a>
+                                              </div>
                                             </div>
-                                            <div className="item--holder"><h4 className="item--title"><a href="#">James Weighell</a>
-                                            </h4>
-                                              <div className="item--position">Product Designer</div>
-                                              <a className="item--details" href="#"><i className="flaticon-next"></i></a></div>
+                                            <div className="item--holder">
+                                              <h4 className="item--title">Sridahwany Sridahwany</h4>
+                                              <div className="item--position">CPO</div>
+                                              </div>
                                           </div>
                                         </div>
-                                        <div className="grid-item col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
-                                          <div className="item--inner wow fadeInUp" data-wow-duration="1.2s">
-                                            <div className="item--image"><a href="#"><img loading="lazy" decoding="async"
-                                                                                      className="no-lazyload "
-                                                                                      src="../wp-content/uploads/2021/06/team4.jpg"
-                                                                                      width="270" height="330" alt="team4"
-                                                                                      title="team4"/></a>
-                                              <div className="item--social"><a href="#"><i className="fab fa-facebook-f"></i></a> <a
-                                                href="#"><i className="fab fa-twitter"></i></a> <a href="#"><i
-                                                className="fab fa-instagram"></i></a></div>
-                                            </div>
-                                            <div className="item--holder"><h4 className="item--title"><a href="#">Ajinkya Rahane</a>
-                                            </h4>
-                                              <div className="item--position">Web Developer</div>
-                                              <a className="item--details" href="#"><i className="flaticon-next"></i></a></div>
-                                          </div>
-                                        </div>
-                                        <div className="grid-item col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
-                                          <div className="item--inner wow fadeInUp" data-wow-duration="1.2s">
-                                            <div className="item--image"><a href="#"><img loading="lazy" decoding="async"
-                                                                                      className="no-lazyload "
-                                                                                      src="../wp-content/uploads/2021/06/team5.jpg"
-                                                                                      width="270" height="330" alt="team5"
-                                                                                      title="team5"/></a>
-                                              <div className="item--social"><a href="#"><i className="fab fa-facebook-f"></i></a> <a
-                                                href="#"><i className="fab fa-twitter"></i></a> <a href="#"><i
-                                                className="fab fa-instagram"></i></a></div>
-                                            </div>
-                                            <div className="item--holder"><h4 className="item--title"><a href="#">Lauren
-                                              Winfield</a></h4>
-                                              <div className="item--position">UI/UX Designer</div>
-                                              <a className="item--details" href="#"><i className="flaticon-next"></i></a></div>
-                                          </div>
-                                        </div>
-                                        <div className="grid-item col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
-                                          <div className="item--inner wow fadeInUp" data-wow-duration="1.2s">
-                                            <div className="item--image"><a href="#"><img loading="lazy" decoding="async"
-                                                                                      className="no-lazyload "
-                                                                                      src="../wp-content/uploads/2021/06/team6.jpg"
-                                                                                      width="270" height="330" alt="team6"
-                                                                                      title="team6"/></a>
-                                              <div className="item--social"><a href="#"><i className="fab fa-facebook-f"></i></a> <a
-                                                href="#"><i className="fab fa-twitter"></i></a> <a href="#"><i
-                                                className="fab fa-instagram"></i></a></div>
-                                            </div>
-                                            <div className="item--holder"><h4 className="item--title"><a href="#">Mohammad Nawaz</a>
-                                            </h4>
-                                              <div className="item--position">Frontend Developer</div>
-                                              <a className="item--details" href="#"><i className="flaticon-next"></i></a></div>
-                                          </div>
-                                        </div>
-                                        <div className="grid-item col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
-                                          <div className="item--inner wow fadeInUp" data-wow-duration="1.2s">
-                                            <div className="item--image"><a href="#"><img loading="lazy" decoding="async"
-                                                                                      className="no-lazyload "
-                                                                                      src="../wp-content/uploads/2021/06/team7.jpg"
-                                                                                      width="270" height="330" alt="team7"
-                                                                                      title="team7"/></a>
-                                              <div className="item--social"><a href="#"><i className="fab fa-facebook-f"></i></a> <a
-                                                href="#"><i className="fab fa-twitter"></i></a> <a href="#"><i
-                                                className="fab fa-instagram"></i></a></div>
-                                            </div>
-                                            <div className="item--holder"><h4 className="item--title"><a href="#">James Faulkner</a>
-                                            </h4>
-                                              <div className="item--position">Digital Marketer</div>
-                                              <a className="item--details" href="#"><i className="flaticon-next"></i></a></div>
-                                          </div>
-                                        </div>
-                                        <div className="grid-item col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
-                                          <div className="item--inner wow fadeInUp" data-wow-duration="1.2s">
-                                            <div className="item--image"><a href="#"><img loading="lazy" decoding="async"
-                                                                                      className="no-lazyload "
-                                                                                      src="../wp-content/uploads/2021/06/team8.jpg"
-                                                                                      width="270" height="330" alt="team8"
-                                                                                      title="team8"/></a>
-                                              <div className="item--social"><a href="#"><i className="fab fa-facebook-f"></i></a> <a
-                                                href="#"><i className="fab fa-twitter"></i></a> <a href="#"><i
-                                                className="fab fa-instagram"></i></a></div>
-                                            </div>
-                                            <div className="item--holder"><h4 className="item--title"><a href="#">Tammy Beaumont</a>
-                                            </h4>
-                                              <div className="item--position">Graphics Designer</div>
-                                              <a className="item--details" href="#"><i className="flaticon-next"></i></a></div>
-                                          </div>
-                                        </div>
-                                        <div className="grid-sizer col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12"></div>
                                       </div>
                                     </div>
                                   </div>
