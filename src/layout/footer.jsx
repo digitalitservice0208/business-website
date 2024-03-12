@@ -358,8 +358,8 @@ const Footer = () => {
  "></div>
                                 <div className="ct-text-editor elementor-clearfix"> © <span
                                   className="ct-year">2024</span> <a
-                                  href="https://themeforest.net/user/case-themes/portfolio" target="_blank"
-                                  rel="nofollow noopener">CaseThemes</a>. All rights reserved.
+                                  href="/" target="_blank"
+                                  rel="nofollow noopener">Software Consulting</a>. All rights reserved.
                                 </div>
                               </div>
                             </div>

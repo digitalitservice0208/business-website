@@ -464,8 +464,6 @@ const AboutUs = () => {
                                                           <li>UI Design</li>
                                                         </ul>
                                                       </div>
-                                                      <div className="item-readmore"><a href="#"><i
-                                                        className="flaticon-next"></i></a></div>
                                                       <div className="item--line"></div>
                                                     </div>
                                                   </div>
@@ -485,8 +483,6 @@ const AboutUs = () => {
                                                           <li>Custom Software Development</li>
                                                         </ul>
                                                       </div>
-                                                      <div className="item-readmore"><a href="#"><i
-                                                        className="flaticon-next"></i></a></div>
                                                       <div className="item--line"></div>
                                                     </div>
                                                   </div>
@@ -507,8 +503,6 @@ const AboutUs = () => {
                                                           <li>3D animation</li>
                                                         </ul>
                                                       </div>
-                                                      <div className="item-readmore"><a href="#"><i
-                                                        className="flaticon-next"></i></a></div>
                                                       <div className="item--line"></div>
                                                     </div>
                                                   </div>
@@ -529,8 +523,6 @@ const AboutUs = () => {
                                                           <li>UI Design</li>
                                                         </ul>
                                                       </div>
-                                                      <div className="item-readmore"><a href="#"><i
-                                                        className="flaticon-next"></i></a></div>
                                                       <div className="item--line"></div>
                                                     </div>
                                                   </div>
@@ -553,8 +545,6 @@ const AboutUs = () => {
                                                           <li>UI Design</li>
                                                         </ul>
                                                       </div>
-                                                      <div className="item-readmore"><a href="#"><i
-                                                        className="flaticon-next"></i></a></div>
                                                       <div className="item--line"></div>
                                                     </div>
                                                   </div>
@@ -575,8 +565,6 @@ const AboutUs = () => {
                                                           <li>UI Design</li>
                                                         </ul>
                                                       </div>
-                                                      <div className="item-readmore"><a href="#"><i
-                                                        className="flaticon-next"></i></a></div>
                                                       <div className="item--line"></div>
                                                     </div>
                                                   </div>

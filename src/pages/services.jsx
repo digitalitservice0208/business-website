@@ -94,9 +94,7 @@ const Services = () => {
                                   className="elementor-element elementor-element-d99a8e8 elementor-widget elementor-widget-ct_service_grid"
                                   data-id="d99a8e8" data-element_type="widget" data-widget_type="ct_service_grid.default">
                                   <div className="elementor-widget-container">
-                                    <div id="ct_service_grid-d99a8e8" className="ct-grid ct-service-grid1" data-layout="masonry"
-                                         data-start-page="1" data-max-pages="2" data-total="7" data-perpage="6"
-                                         data-next-link="https://demo.casethemes.net/grupi/services/page/2/">
+                                    <div className="ct-grid ct-service-grid1" data-layout="masonry">
                                       <div className="ct-grid-inner ct-grid-masonry row animate-time" data-gutter="15">
                                         <div className="grid-item col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 ">
                                           <div className="grid-item-inner " data-wow-duration="1.2s">
@@ -114,7 +112,6 @@ const Services = () => {
                                                 <li>UI Design</li>
                                               </ul>
                                             </div>
-                                            <div className="item-readmore"><a href="#"><i className="flaticon-next"></i></a></div>
                                             <div className="item--line"></div>
                                           </div>
                                         </div>
@@ -134,7 +131,6 @@ const Services = () => {
                                                 <li>Custom Software Development</li>
                                               </ul>
                                             </div>
-                                            <div className="item-readmore"><a href="#"><i className="flaticon-next"></i></a></div>
                                             <div className="item--line"></div>
                                           </div>
                                         </div>
@@ -154,7 +150,6 @@ const Services = () => {
                                                 <li>3D animation</li>
                                               </ul>
                                             </div>
-                                            <div className="item-readmore"><a href="#"><i className="flaticon-next"></i></a></div>
                                             <div className="item--line"></div>
                                           </div>
                                         </div>
@@ -174,7 +169,6 @@ const Services = () => {
                                                 <li>UI Design</li>
                                               </ul>
                                             </div>
-                                            <div className="item-readmore"><a href="#"><i className="flaticon-next"></i></a></div>
                                             <div className="item--line"></div>
                                           </div>
                                         </div>
@@ -194,7 +188,6 @@ const Services = () => {
                                                 <li>UI Design</li>
                                               </ul>
                                             </div>
-                                            <div className="item-readmore"><a href="#"><i className="flaticon-next"></i></a></div>
                                             <div className="item--line"></div>
                                           </div>
                                         </div>
@@ -214,11 +207,9 @@ const Services = () => {
                                                 <li>UI Design</li>
                                               </ul>
                                             </div>
-                                            <div className="item-readmore"><a href="#"><i className="flaticon-next"></i></a></div>
                                             <div className="item--line"></div>
                                           </div>
                                         </div>
-                                        <div className="grid-sizer col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12"></div>
                                       </div>
                                     </div>
                                   </div>
