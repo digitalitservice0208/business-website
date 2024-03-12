@@ -102,7 +102,7 @@ const AboutUs = () => {
                                               <div className="ct-inline-css" data-css="
  "></div>
                                               <div className="ct-text-editor elementor-clearfix"> Software Consulting has been optimized to
-                                                give your visitors the best experience in terms of UX/UI, with a unique
+                                                give your visitors the best experience in terms of Software Development, with a unique
                                                 design to deliver all layouts.
                                               </div>
                                             </div>

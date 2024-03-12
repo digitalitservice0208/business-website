@@ -135,7 +135,7 @@ const Footer = () => {
                                         <div className="ct-inline-css" data-css="
  "></div>
                                         <div className="ct-text-editor elementor-clearfix"> Software Consulting has been optimized to give
-                                          your visitors the best experience in terms of UX/UI.
+                                          your visitors the best experience in terms of Software Development.
                                         </div>
                                       </div>
                                     </div>
@@ -323,7 +323,7 @@ const Footer = () => {
                                         <li><span className="ct-contact-icon"> <i aria-hidden="true"
                                                                                   className="fas fa-envelope"></i> </span>
                                           <span
-                                            className="ct-contact-content"> info@envato.com </span></li>
+                                            className="ct-contact-content"> admin@software-consulting.tech </span></li>
                                         <li><span className="ct-contact-icon"> <i aria-hidden="true"
                                                                                   className="fas fa-map-marker-alt"></i> </span>
                                           <span

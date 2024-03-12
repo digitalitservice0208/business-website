@@ -269,7 +269,7 @@ const ContactUs = () => {
                                   <div className="elementor-widget-container">
                                     <div className="elementor-custom-embed">
                                       <iframe loading="lazy"
-                                              src="https://maps.google.com/maps?q=London%20Eye%2C%20London%2C%20United%20Kingdom&amp;t=m&amp;z=14&amp;output=embed&amp;iwloc=near"
+                                              src="https://maps.google.com/maps?q=Jl.%20Tarutung%20No.25&amp;t=m&amp;z=14&amp;output=embed&amp;iwloc=near"
                                               title="London Eye, London, United Kingdom"
                                               aria-label="London Eye, London, United Kingdom"
                                       ></iframe>

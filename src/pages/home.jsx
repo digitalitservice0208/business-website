@@ -1723,7 +1723,7 @@ const Home = () => {
                                               className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
                                               aria-required="true"
                                               aria-invalid="false"
-                                              placeholder="+88 (___) __ ____"
+                                              placeholder="+ (___) __ ____"
                                               value=""
                                               type="text"
                                               name="your-phone" /></span><i
@@ -1734,7 +1734,7 @@ const Home = () => {
                                               className="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email"
                                               aria-required="true"
                                               aria-invalid="false"
-                                              placeholder="envato@gmail.com"
+                                              placeholder="admin@software-consulting.tech"
                                               value=""
                                               type="email"
                                               name="your-email" /></span><i
@@ -1765,169 +1765,6 @@ const Home = () => {
                                   </div>
                                 </div>
                               </div>
-                            </div>
-                          </div>
-                        </div>
-                      </section>
-                      <section
-                        className="elementor-section elementor-top-section elementor-element elementor-element-70484ac2 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default ct-header-fixed-none ct-column-none ct-row-scroll-none ct-row-gradient--none"
-                        data-id="70484ac2" data-element_type="section"
-                        data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
-                        <div className="elementor-container elementor-column-gap-extended ">
-                          <div
-                            className="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1802e110 ct-column-none"
-                            data-id="1802e110" data-element_type="column">
-                            <div className="elementor-widget-wrap elementor-element-populated">
-                              <div
-                                className="elementor-element elementor-element-b1f36bf elementor-widget elementor-widget-ct_particle_animate"
-                                data-id="b1f36bf" data-element_type="widget"
-                                data-widget_type="ct_particle_animate.default">
-                                <div className="elementor-widget-container">
-                                  <div className="ct-particle-animate el-move-parents img-below-content wow fadeInUp"
-                                       data-wow-delay="ms">
-                                    <div id="ct_particle_animate-b1f36bf0" className="bottom-right animate-none">
-                                      <div className="ct-inline-css" data-css="
- .ct-particle-animate #ct_particle_animate-b1f36bf0 {
- right: 5%;
- bottom: 0%;
- }"></div>
-                                      <img loading="lazy" decoding="async" width="203" height="85"
-                                           src="wp-content/uploads/2021/06/s-img-animate1.png"
-                                           className="attachment-full"
-                                           alt="" /></div>
-                                  </div>
-                                </div>
-                              </div>
-                              <section
-                                className="elementor-section elementor-inner-section elementor-element elementor-element-91b05e1 elementor-section-boxed elementor-section-height-default elementor-section-height-default ct-header-fixed-none ct-column-none ct-row-scroll-none ct-row-gradient--none"
-                                data-id="91b05e1" data-element_type="section"
-                                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                <div className="elementor-container elementor-column-gap-extended ">
-                                  <div
-                                    className="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-3884791d ct-col-line1 ct-column-none"
-                                    data-id="3884791d" data-element_type="column">
-                                    <div className="elementor-widget-wrap elementor-element-populated">
-                                      <div
-                                        className="elementor-element elementor-element-391aa933 ct-counter-layout1 elementor-widget elementor-widget-ct_counter"
-                                        data-id="391aa933" data-element_type="widget"
-                                        data-widget_type="ct_counter.default">
-                                        <div className="elementor-widget-container">
-                                          <div className="ct-counter ct-counter-layout1 hover-style1 "
-                                               data-wow-delay="ms">
-                                            <div className="ct-counter-inner">
-                                              <div className="ct-counter-icon"><i aria-hidden="true"
-                                                                                  className="flaticon flaticon-project-plan"></i>
-                                              </div>
-                                              <div className="ct-counter-meta">
-                                                <div className="ct-counter-number"><span
-                                                  className="ct-counter-number-value"
-                                                  data-duration="2000"
-                                                  data-to-value="2205"
-                                                  data-delimiter=",">1</span></div>
-                                                <div className="ct-counter-title">Completed Projects</div>
-                                              </div>
-                                              <div className="ct-counter-line"></div>
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div
-                                    className="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-31b93e42 ct-col-line1 ct-column-none"
-                                    data-id="31b93e42" data-element_type="column">
-                                    <div className="elementor-widget-wrap elementor-element-populated">
-                                      <div
-                                        className="elementor-element elementor-element-729e47e4 ct-counter-layout1 elementor-widget elementor-widget-ct_counter"
-                                        data-id="729e47e4" data-element_type="widget"
-                                        data-widget_type="ct_counter.default">
-                                        <div className="elementor-widget-container">
-                                          <div className="ct-counter ct-counter-layout1 hover-style1 "
-                                               data-wow-delay="ms">
-                                            <div className="ct-counter-inner">
-                                              <div className="ct-counter-icon"><i aria-hidden="true"
-                                                                                  className="flaticon flaticon-cooperation"></i>
-                                              </div>
-                                              <div className="ct-counter-meta">
-                                                <div className="ct-counter-number"><span
-                                                  className="ct-counter-number-value"
-                                                  data-duration="2000"
-                                                  data-to-value="54"
-                                                  data-delimiter=".">1</span> <span
-                                                  className="ct-counter-number-suffix">+</span></div>
-                                                <div className="ct-counter-title">Active Members</div>
-                                              </div>
-                                              <div className="ct-counter-line"></div>
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div
-                                    className="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-4c909b10 ct-col-line1 ct-column-none"
-                                    data-id="4c909b10" data-element_type="column">
-                                    <div className="elementor-widget-wrap elementor-element-populated">
-                                      <div
-                                        className="elementor-element elementor-element-31088948 ct-counter-layout1 elementor-widget elementor-widget-ct_counter"
-                                        data-id="31088948" data-element_type="widget"
-                                        data-widget_type="ct_counter.default">
-                                        <div className="elementor-widget-container">
-                                          <div className="ct-counter ct-counter-layout1 hover-style1 "
-                                               data-wow-delay="ms">
-                                            <div className="ct-counter-inner">
-                                              <div className="ct-counter-icon"><i aria-hidden="true"
-                                                                                  className="flaticon flaticon-award"></i>
-                                              </div>
-                                              <div className="ct-counter-meta">
-                                                <div className="ct-counter-number"><span
-                                                  className="ct-counter-number-value"
-                                                  data-duration="2000"
-                                                  data-to-value="14"
-                                                  data-delimiter=".">1</span> <span
-                                                  className="ct-counter-number-suffix">+</span></div>
-                                                <div className="ct-counter-title">Award Winning</div>
-                                              </div>
-                                              <div className="ct-counter-line"></div>
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div
-                                    className="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-21c55c0f ct-column-none"
-                                    data-id="21c55c0f" data-element_type="column">
-                                    <div className="elementor-widget-wrap elementor-element-populated">
-                                      <div
-                                        className="elementor-element elementor-element-3abfa732 ct-counter-layout1 elementor-widget elementor-widget-ct_counter"
-                                        data-id="3abfa732" data-element_type="widget"
-                                        data-widget_type="ct_counter.default">
-                                        <div className="elementor-widget-container">
-                                          <div className="ct-counter ct-counter-layout1 hover-style1 "
-                                               data-wow-delay="ms">
-                                            <div className="ct-counter-inner">
-                                              <div className="ct-counter-icon"><i aria-hidden="true"
-                                                                                  className="flaticon flaticon-award-1"></i>
-                                              </div>
-                                              <div className="ct-counter-meta">
-                                                <div className="ct-counter-number"><span
-                                                  className="ct-counter-number-value"
-                                                  data-duration="2000"
-                                                  data-to-value="100"
-                                                  data-delimiter=".">1</span> <span
-                                                  className="ct-counter-number-suffix">%</span></div>
-                                                <div className="ct-counter-title">Satisfaction Rate</div>
-                                              </div>
-                                              <div className="ct-counter-line"></div>
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </section>
                             </div>
                           </div>
                         </div>
