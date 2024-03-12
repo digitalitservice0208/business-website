@@ -77,7 +77,7 @@ const Home = () => {
                                               <Link
                                                 id="slider-1-slide-1-layer-6"
                                                 className="rs-layer"
-                                                to="/about-us" target="_self" rel="nofollow"
+                                                to="/our-team" target="_self" rel="nofollow"
                                                 data-type="text"
                                                 data-xy="xo:183px,183px,183px,143px;y:b;"
                                                 data-pos="a"
@@ -222,7 +222,7 @@ const Home = () => {
                                             ><Link
                                               id="slider-1-slide-2-layer-6"
                                               className="rs-layer"
-                                              to="/about-us" target="_self" rel="nofollow"
+                                              to="/our-team" target="_self" rel="nofollow"
                                               data-type="text"
                                               data-xy="xo:183px,183px,183px,143px;y:b;"
                                               data-pos="a"
@@ -364,7 +364,7 @@ const Home = () => {
                                             ><Link
                                               id="slider-1-slide-3-layer-6"
                                               className="rs-layer"
-                                              to="/about-us" target="_self" rel="nofollow"
+                                              to="/our-team" target="_self" rel="nofollow"
                                               data-type="text"
                                               data-xy="xo:183px,183px,183px,143px;y:b;"
                                               data-pos="a"

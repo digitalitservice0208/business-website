@@ -48,8 +48,7 @@ const OurTeam = () => {
                                           <div className="elementor-widget-container">
                                             <div id="ct_heading-6d393d25"
                                                  className="ct-heading h-align- item-st-hexagon highlight-style1">
-                                              <div className="ct-inline-css" data-css="
- "></div>
+                                              <div className="ct-inline-css" data-css=""></div>
                                               <div className="ct-heading-hexagon-line">
                                                 <div className="ct-heading-hexagon"></div>
                                               </div>
@@ -71,8 +70,7 @@ const OurTeam = () => {
                                           data-widget_type="ct_text_editor.default">
                                           <div className="elementor-widget-container">
                                             <div id="ct_text_editor-3b356ded" className="ct-text-editor " data-wow-delay="ms">
-                                              <div className="ct-inline-css" data-css="
- "></div>
+                                              <div className="ct-inline-css" data-css=""></div>
                                               <div className="ct-text-editor elementor-clearfix"> We love what we do and we do
                                                 it with passion. We value the experimentation of the message and smart
                                                 incentives.
@@ -85,11 +83,10 @@ const OurTeam = () => {
                                   </div>
                                 </section>
                                 <div
-                                  className="elementor-element elementor-element-a68822b elementor-widget elementor-widget-ct_team_grid"
-                                  data-id="a68822b" data-element_type="widget" data-widget_type="ct_team_grid.default">
+                                  className="elementor-element elementor-element-a68822b elementor-widget elementor-widget-ct_team_grid">
                                   <div className="elementor-widget-container">
                                     <div className="ct-grid ct-team ct-team-grid1">
-                                      <div className="ct-grid-inner ct-grid-masonry row animate-time" data-gutter="7">
+                                      <div className="ct-grid-inner ct-grid-masonry row animate-time">
                                         <div className="grid-item col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
                                           <div className="item--inner wow fadeInUp" data-wow-duration="1.2s">
                                             <div className="item--image">
@@ -99,9 +96,9 @@ const OurTeam = () => {
                                                      src="../wp-content/uploads/2021/06/1.jpeg"
                                                      width="330" height="330" alt="team1"
                                                      title="team1" /></a>
-                                              <div className="item--social">
-                                                <a href="#"><i className="fab fa-linkedin"></i></a>
-                                              </div>
+                                              {/*<div className="item--social">*/}
+                                              {/*  <a href="#"><i className="fab fa-linkedin"></i></a>*/}
+                                              {/*</div>*/}
                                             </div>
                                             <div className="item--holder">
                                               <h4 className="item--title">Dedi Erianto Manullang</h4>
@@ -115,19 +112,20 @@ const OurTeam = () => {
                                               <a href="#">
                                                 <img loading="lazy" decoding="async"
                                                      className="no-lazyload "
-                                                     src="../wp-content/uploads/2021/06/team2.jpg"
+                                                     src="../wp-content/uploads/2021/06/2.jpeg"
                                                      width="330" height="330" alt="team2"
                                                      title="team2" />
                                               </a>
-                                              <div className="item--social">
-                                                <a href="#"><i className="fab fa-linkedin"></i></a>
-                                              </div>
+                                              {/*<div className="item--social">*/}
+                                              {/*  <a href="#"><i className="fab fa-linkedin"></i></a>*/}
+                                              {/*</div>*/}
                                             </div>
-                                            <div className="item--holder"><h4 className="item--title"><a href="#">P.J.
-                                              Cummins </a>
-                                            </h4>
-                                              <div className="item--position">Managing Director</div>
-                                              </div>
+                                            <div className="item--holder">
+                                              <h4 className="item--title">
+                                                <a href="#">Stefan Vukotic </a>
+                                              </h4>
+                                              <div className="item--position">Head of Engineer</div>
+                                            </div>
                                           </div>
                                         </div>
                                         <div className="grid-item col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
@@ -139,9 +137,9 @@ const OurTeam = () => {
                                                      src="../wp-content/uploads/2021/06/3.png"
                                                      width="330" height="330" alt="team3"
                                                      title="team3" /></a>
-                                              <div className="item--social">
-                                                <a href="#"><i className="fab fa-linkedin"></i></a>
-                                              </div>
+                                              {/*<div className="item--social">*/}
+                                              {/*  <a href="#"><i className="fab fa-linkedin"></i></a>*/}
+                                              {/*</div>*/}
                                             </div>
                                             <div className="item--holder">
                                               <h4 className="item--title">Sridahwany Sridahwany</h4>
