@@ -376,51 +376,51 @@ const Footer = () => {
                                               srcSet="https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g2-300x300.jpg 300w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g2-150x150.jpg 150w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g2-768x768.jpg 768w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g2-90x90.jpg 90w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g2-600x600.jpg 600w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g2-96x96.jpg 96w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g2-460x460.jpg 460w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g2.jpg 800w"
                                               sizes="(max-width: 300px) 100vw, 300px"/></a></div>
                                           </figure>
-                                          <figure class='gallery-item'>
-                                            <div class='gallery-icon landscape'><a data-elementor-open-lightbox="yes"
+                                          <figure className='gallery-item'>
+                                            <div className='gallery-icon landscape'><a data-elementor-open-lightbox="yes"
                                                                                    data-elementor-lightbox-slideshow="8d467e9"
                                                                                    data-elementor-lightbox-title="g3"
                                                                                    data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTA4LCJ1cmwiOiJodHRwczpcL1wvZGVtby5jYXNldGhlbWVzLm5ldFwvZ3J1cGlcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA1XC9nMy5qcGciLCJzbGlkZXNob3ciOiI4ZDQ2N2U5In0%3D"
                                                                                    href='wp-content/uploads/2021/05/g3.jpg'><img
                                               loading="lazy" width="300" height="300"
                                               src="wp-content/uploads/2021/05/g3-300x300.jpg"
-                                              class="attachment-medium size-medium" alt="" decoding="async"
+                                              className="attachment-medium size-medium" alt="" decoding="async"
                                               srcset="https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g3-300x300.jpg 300w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g3-150x150.jpg 150w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g3-768x768.jpg 768w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g3-90x90.jpg 90w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g3-600x600.jpg 600w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g3-96x96.jpg 96w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g3-460x460.jpg 460w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g3.jpg 800w"
                                               sizes="(max-width: 300px) 100vw, 300px"/></a></div>
                                           </figure>
-                                          <figure class='gallery-item'>
-                                            <div class='gallery-icon landscape'><a data-elementor-open-lightbox="yes"
+                                          <figure className='gallery-item'>
+                                            <div className='gallery-icon landscape'><a data-elementor-open-lightbox="yes"
                                                                                    data-elementor-lightbox-slideshow="8d467e9"
                                                                                    data-elementor-lightbox-title="g4"
                                                                                    data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTA5LCJ1cmwiOiJodHRwczpcL1wvZGVtby5jYXNldGhlbWVzLm5ldFwvZ3J1cGlcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA1XC9nNC5qcGciLCJzbGlkZXNob3ciOiI4ZDQ2N2U5In0%3D"
                                                                                    href='wp-content/uploads/2021/05/g4.jpg'><img
                                               loading="lazy" width="300" height="300"
                                               src="wp-content/uploads/2021/05/g4-300x300.jpg"
-                                              class="attachment-medium size-medium" alt="" decoding="async"
+                                              className="attachment-medium size-medium" alt="" decoding="async"
                                               srcset="https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g4-300x300.jpg 300w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g4-150x150.jpg 150w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g4-768x768.jpg 768w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g4-90x90.jpg 90w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g4-600x600.jpg 600w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g4-96x96.jpg 96w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g4-460x460.jpg 460w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g4.jpg 800w"
                                               sizes="(max-width: 300px) 100vw, 300px"/></a></div>
                                           </figure>
-                                          <figure class='gallery-item'>
-                                            <div class='gallery-icon landscape'><a data-elementor-open-lightbox="yes"
+                                          <figure className='gallery-item'>
+                                            <div className='gallery-icon landscape'><a data-elementor-open-lightbox="yes"
                                                                                    data-elementor-lightbox-slideshow="8d467e9"
                                                                                    data-elementor-lightbox-title="g5"
                                                                                    data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTEwLCJ1cmwiOiJodHRwczpcL1wvZGVtby5jYXNldGhlbWVzLm5ldFwvZ3J1cGlcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA1XC9nNS5qcGciLCJzbGlkZXNob3ciOiI4ZDQ2N2U5In0%3D"
                                                                                    href='wp-content/uploads/2021/05/g5.jpg'><img
                                               loading="lazy" width="300" height="300"
                                               src="wp-content/uploads/2021/05/g5-300x300.jpg"
-                                              class="attachment-medium size-medium" alt="" decoding="async"
+                                              className="attachment-medium size-medium" alt="" decoding="async"
                                               srcset="https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g5-300x300.jpg 300w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g5-150x150.jpg 150w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g5-768x768.jpg 768w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g5-90x90.jpg 90w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g5-600x600.jpg 600w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g5-96x96.jpg 96w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g5-460x460.jpg 460w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g5.jpg 800w"
                                               sizes="(max-width: 300px) 100vw, 300px"/></a></div>
                                           </figure>
-                                          <figure class='gallery-item'>
-                                            <div class='gallery-icon landscape'><a data-elementor-open-lightbox="yes"
+                                          <figure className='gallery-item'>
+                                            <div className='gallery-icon landscape'><a data-elementor-open-lightbox="yes"
                                                                                    data-elementor-lightbox-slideshow="8d467e9"
                                                                                    data-elementor-lightbox-title="g6"
                                                                                    data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTExLCJ1cmwiOiJodHRwczpcL1wvZGVtby5jYXNldGhlbWVzLm5ldFwvZ3J1cGlcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA1XC9nNi5qcGciLCJzbGlkZXNob3ciOiI4ZDQ2N2U5In0%3D"
                                                                                    href='wp-content/uploads/2021/05/g6.jpg'><img
                                               loading="lazy" width="300" height="300"
                                               src="wp-content/uploads/2021/05/g6-300x300.jpg"
-                                              class="attachment-medium size-medium" alt="" decoding="async"
+                                              className="attachment-medium size-medium" alt="" decoding="async"
                                               srcset="https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g6-300x300.jpg 300w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g6-150x150.jpg 150w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g6-768x768.jpg 768w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g6-90x90.jpg 90w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g6-600x600.jpg 600w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g6-96x96.jpg 96w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g6-460x460.jpg 460w, https://demo.casethemes.net/grupi/wp-content/uploads/2021/05/g6.jpg 800w"
                                               sizes="(max-width: 300px) 100vw, 300px"/></a></div>
                                           </figure>
@@ -437,41 +437,24 @@ const Footer = () => {
                     </div>
                   </section>
                   <section
-                    class="elementor-section elementor-top-section elementor-element elementor-element-0c9f55a elementor-section-stretched elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default ct-header-fixed-none ct-column-none ct-row-scroll-none ct-row-gradient--none"
+                    className="elementor-section elementor-top-section elementor-element elementor-element-0c9f55a elementor-section-stretched elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default ct-header-fixed-none ct-column-none ct-row-scroll-none ct-row-gradient--none"
                     data-id="0c9f55a" data-element_type="section"
                     data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
-                    <div class="elementor-container elementor-column-gap-extended ">
+                    <div className="elementor-container elementor-column-gap-extended ">
                       <div
-                        class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-b88b503 ct-column-none"
+                        className="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-b88b503 ct-column-none"
                         data-id="b88b503" data-element_type="column">
-                        <div class="elementor-widget-wrap elementor-element-populated">
+                        <div className="elementor-widget-wrap elementor-element-populated">
                           <div
-                            class="elementor-element elementor-element-42fa265 elementor-widget elementor-widget-ct_text_editor"
+                            className="elementor-element elementor-element-42fa265 elementor-widget elementor-widget-ct_text_editor"
                             data-id="42fa265" data-element_type="widget" data-widget_type="ct_text_editor.default">
-                            <div class="elementor-widget-container">
-                              <div id="ct_text_editor-42fa265" class="ct-text-editor " data-wow-delay="ms">
-                                <div class="ct-inline-css" data-css="
+                            <div className="elementor-widget-container">
+                              <div id="ct_text_editor-42fa265" className="ct-text-editor " data-wow-delay="ms">
+                                <div className="ct-inline-css" data-css="
  "></div>
-                                <div class="ct-text-editor elementor-clearfix"> © <span class="ct-year">2021</span> <a
+                                <div className="ct-text-editor elementor-clearfix"> © <span className="ct-year">2024</span> <a
                                   href="https://themeforest.net/user/case-themes/portfolio" target="_blank"
                                   rel="nofollow noopener">CaseThemes</a>. All rights reserved.
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-2d49f02 ct-column-none"
-                        data-id="2d49f02" data-element_type="column">
-                        <div class="elementor-widget-wrap elementor-element-populated">
-                          <div class="elementor-element elementor-element-346fd5b elementor-widget elementor-widget-ct_link"
-                               data-id="346fd5b" data-element_type="widget" data-widget_type="ct_link.default">
-                            <div class="elementor-widget-container">
-                              <div class="ct-link1 style1 ">
-                                <div class="ct-link-items">
-                                  <li><a href="#"> Privacy Policy </a></li>
-                                  <li><a href="#"> Cookie Policy </a></li>
                                 </div>
                               </div>
                             </div>
@@ -485,8 +468,8 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <span class="ct-footer-year">2024</span></footer>
-      <a href="#" class="scroll-top"><span><i class="caseicon-long-arrow-right-three"></i></span></a>
+        </footer>
+      <a href="#" className="scroll-top"><span><i className="caseicon-long-arrow-right-three"></i></span></a>
     </>
   );
 };
