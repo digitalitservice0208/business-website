@@ -527,9 +527,6 @@ const Home = () => {
                                             <h3 className="item--title"><a href="#"> Innovating products and solutions
                                               within
                                               your time and budget. </a></h3>
-                                            <div className="item--readmore"><a href="#"> <span
-                                              className="text-gradient">+</span>
-                                              <span>+</span> </a></div>
                                           </div>
                                         </div>
                                         <div className="slick-slide">
@@ -539,9 +536,6 @@ const Home = () => {
                                             <h3 className="item--title"><a href="#"> World-class u/x with pixel-perfect
                                               user
                                               interface designs. </a></h3>
-                                            <div className="item--readmore"><a href="#"> <span
-                                              className="text-gradient">+</span>
-                                              <span>+</span> </a></div>
                                           </div>
                                         </div>
                                         <div className="slick-slide">
@@ -551,9 +545,6 @@ const Home = () => {
                                             <h3 className="item--title"><a href="#"> Engaging and high-end video
                                               photography
                                               services to help business. </a></h3>
-                                            <div className="item--readmore"><a href="#"> <span
-                                              className="text-gradient">+</span>
-                                              <span>+</span> </a></div>
                                           </div>
                                         </div>
                                         <div className="slick-slide">
@@ -562,9 +553,6 @@ const Home = () => {
                                             <div className="item--subtitle">Digital marketing</div>
                                             <h3 className="item--title"><a href="#"> Strategic, performance-driven, and
                                               comprehensive digital marketing. </a></h3>
-                                            <div className="item--readmore"><a href="#"> <span
-                                              className="text-gradient">+</span>
-                                              <span>+</span> </a></div>
                                           </div>
                                         </div>
                                         <div className="slick-slide">
@@ -574,9 +562,6 @@ const Home = () => {
                                             <h3 className="item--title"><a href="#"> Innovating products and solutions
                                               within
                                               your time and budget. </a></h3>
-                                            <div className="item--readmore"><a href="#"> <span
-                                              className="text-gradient">+</span>
-                                              <span>+</span> </a></div>
                                           </div>
                                         </div>
                                         <div className="slick-slide">
@@ -586,9 +571,6 @@ const Home = () => {
                                             <h3 className="item--title"><a href="#"> World-class u/x with pixel-perfect
                                               user
                                               interface designs. </a></h3>
-                                            <div className="item--readmore"><a href="#"> <span
-                                              className="text-gradient">+</span>
-                                              <span>+</span> </a></div>
                                           </div>
                                         </div>
                                         <div className="slick-slide">
@@ -598,9 +580,6 @@ const Home = () => {
                                             <h3 className="item--title"><a href="#"> Engaging and high-end video
                                               photography
                                               services to help business. </a></h3>
-                                            <div className="item--readmore"><a href="#"> <span
-                                              className="text-gradient">+</span>
-                                              <span>+</span> </a></div>
                                           </div>
                                         </div>
                                         <div className="slick-slide">
@@ -609,9 +588,6 @@ const Home = () => {
                                             <div className="item--subtitle">Digital marketing</div>
                                             <h3 className="item--title"><a href="#"> Strategic, performance-driven, and
                                               comprehensive digital marketing. </a></h3>
-                                            <div className="item--readmore"><a href="#"> <span
-                                              className="text-gradient">+</span>
-                                              <span>+</span> </a></div>
                                           </div>
                                         </div>
                                       </div>
@@ -935,8 +911,6 @@ const Home = () => {
                                                         <li>Custom Software Development</li>
                                                       </ul>
                                                     </div>
-                                                    <div className="item-readmore"><a href="#"><i
-                                                      className="flaticon-next"></i></a></div>
                                                     <div className="item--line"></div>
                                                   </div>
                                                 </div>
@@ -960,8 +934,6 @@ const Home = () => {
                                                         <li>3D animation</li>
                                                       </ul>
                                                     </div>
-                                                    <div className="item-readmore"><a href="#"><i
-                                                      className="flaticon-next"></i></a></div>
                                                     <div className="item--line"></div>
                                                   </div>
                                                 </div>
@@ -985,8 +957,6 @@ const Home = () => {
                                                         <li>UI Design</li>
                                                       </ul>
                                                     </div>
-                                                    <div className="item-readmore"><a href="#"><i
-                                                      className="flaticon-next"></i></a></div>
                                                     <div className="item--line"></div>
                                                   </div>
                                                 </div>
@@ -1012,8 +982,6 @@ const Home = () => {
                                                         <li>UI Design</li>
                                                       </ul>
                                                     </div>
-                                                    <div className="item-readmore"><a href="#"><i
-                                                      className="flaticon-next"></i></a></div>
                                                     <div className="item--line"></div>
                                                   </div>
                                                 </div>
@@ -1037,8 +1005,6 @@ const Home = () => {
                                                         <li>UI Design</li>
                                                       </ul>
                                                     </div>
-                                                    <div className="item-readmore"><a href="#"><i
-                                                      className="flaticon-next"></i></a></div>
                                                     <div className="item--line"></div>
                                                   </div>
                                                 </div>
