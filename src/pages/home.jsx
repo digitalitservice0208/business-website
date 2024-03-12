@@ -1,13 +1,13 @@
-import {Link, useLocation, useNavigate} from "react-router-dom";
-import {useEffect, useState} from "react";
+import { Link, useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
 
 const Home = () => {
   const location = useLocation();
 
   useEffect(() => {
-    const prevPath = localStorage.getItem("previousPath");
-    if (prevPath !== "/") {
-      localStorage.setItem("previousPath", location.pathname);
+    const prevPath = localStorage.getItem('previousPath');
+    if (prevPath !== '/') {
+      localStorage.setItem('previousPath', location.pathname);
       window.location.reload();
     }
   }, []);
@@ -33,22 +33,35 @@ const Home = () => {
                             <div className="elementor-widget-wrap elementor-element-populated">
                               <div
                                 className="elementor-element elementor-element-55f47fe elementor-widget elementor-widget-slider_revolution"
-                                data-id="55f47fe" data-element_type="widget" data-widget_type="slider_revolution.default">
+                                data-id="55f47fe" data-element_type="widget"
+                                data-widget_type="slider_revolution.default"
+                              >
                                 <div className="elementor-widget-container">
                                   <div className="wp-block-themepunch-revslider">
                                     <p className="rs-p-wp-fix"></p>
-                                    <rs-module-wrap id="rev_slider_1_1_wrapper" data-source="gallery"
-                                                    style={{visibility:'hidden',background:'transparent',padding:0,margin:'0px auto',marginTop:0,marginBottom:0,}}>
+                                    <rs-module-wrap
+                                      id="rev_slider_1_1_wrapper"
+                                      data-source="gallery"
+                                      style={{
+                                        visibility: 'hidden',
+                                        background: 'transparent',
+                                        padding: 0,
+                                        margin: '0px auto',
+                                        marginTop: 0,
+                                        marginBottom: 0,
+                                      }}>
                                       <rs-module id="rev_slider_1_1" data-version="6.6.20">
-                                        <rs-slides style={{ overflow: 'hidden', position: 'absolute'}}>
-                                          <rs-slide style={{ position: 'absolute'}} data-key="rs-1" data-title="Slide"
+                                        <rs-slides style={{ overflow: 'hidden', position: 'absolute' }}>
+                                          <rs-slide style={{ position: 'absolute' }} data-key="rs-1" data-title="Slide"
                                                     data-thumb="wp-content/uploads/2021/06/bg-slider1-50x100.jpg"
-                                                    data-anim="ms:10;" data-in="o:1;" data-out="a:false;"><img
-                                            loading="lazy" decoding="async"
-                                            src="wp-content/plugins/revslider/public/assets/assets/dummy.png" alt=""
-                                            title="bg-slider1" width="1920" height="936"
-                                            className="rev-slidebg tp-rs-img rs-lazyload"
-                                            data-lazyload="wp-content/uploads/2021/06/bg-slider1.jpg" data-no-retina />
+                                                    data-anim="ms:10;" data-in="o:1;" data-out="a:false;">
+                                            <img
+                                              loading="lazy" decoding="async"
+                                              src="wp-content/plugins/revslider/public/assets/assets/dummy.png" alt=""
+                                              title="bg-slider1" width="1920" height="936"
+                                              className="rev-slidebg tp-rs-img rs-lazyload"
+                                              data-lazyload="wp-content/uploads/2021/06/bg-slider1.jpg" data-no-retina
+                                            />
                                             <rs-group
                                               id="slider-1-slide-1-layer-2"
                                               data-type="group"
@@ -59,41 +72,45 @@ const Home = () => {
                                               data-rsp_bd="off"
                                               data-frame_0="o:1;"
                                               data-frame_999="o:0;st:w;sR:8700;sA:9000;"
-                                              style={{zIndex:15}}
-                                            ><Link
-                                              id="slider-1-slide-1-layer-6"
-                                              className="rs-layer"
-                                              to="/about-us" target="_self" rel="nofollow"
-                                              data-type="text"
-                                              data-xy="xo:183px,183px,183px,143px;y:b;"
-                                              data-pos="a"
-                                              data-text="w:normal;s:16;l:51;"
-                                              data-rsp_o="off"
-                                              data-rsp_bd="off"
-                                              data-frame_0="y:100%;"
-                                              data-frame_0_mask="u:t;"
-                                              data-frame_1="e:back.inOut;st:1500;sp:1200;sR:1500;"
-                                              data-frame_1_mask="u:t;"
-                                              data-frame_999="o:0;st:w;sR:6300;"
-                                              style={{zIndex:14, fontFamily: 'Bebas Neue'}}
-                                            ><span className="btn btn-slider1">Our team<i
-                                              className="flaticon-right-arrows space-left"></i></span> </Link><Link
-                                              id="slider-1-slide-1-layer-5"
-                                              className="rs-layer"
-                                              to="/about-us" target="_self" rel="nofollow"
-                                              data-type="text"
-                                              data-xy="y:b;"
-                                              data-pos="a"
-                                              data-text="w:normal;s:16;l:51;"
-                                              data-rsp_o="off"
-                                              data-rsp_bd="off"
-                                              data-frame_0="y:100%;"
-                                              data-frame_0_mask="u:t;"
-                                              data-frame_1="e:back.inOut;st:1300;sp:1200;sR:1300;"
-                                              data-frame_1_mask="u:t;"
-                                              data-frame_999="o:0;st:w;sR:6500;"
-                                              style={{zIndex:13, fontFamily: 'Bebas Neue'}}
-                                            ><span className="btn btn-outline-gradient">About us<i
+                                              style={{ zIndex: 15 }}
+                                            >
+                                              <Link
+                                                id="slider-1-slide-1-layer-6"
+                                                className="rs-layer"
+                                                to="/about-us" target="_self" rel="nofollow"
+                                                data-type="text"
+                                                data-xy="xo:183px,183px,183px,143px;y:b;"
+                                                data-pos="a"
+                                                data-text="w:normal;s:16;l:51;"
+                                                data-rsp_o="off"
+                                                data-rsp_bd="off"
+                                                data-frame_0="y:100%;"
+                                                data-frame_0_mask="u:t;"
+                                                data-frame_1="e:back.inOut;st:1500;sp:1200;sR:1500;"
+                                                data-frame_1_mask="u:t;"
+                                                data-frame_999="o:0;st:w;sR:6300;"
+                                                style={{ zIndex: 14, fontFamily: 'Bebas Neue' }}
+                                              >
+                                                <span className="btn btn-slider1">Our team<i className="flaticon-right-arrows space-left"></i></span>
+                                              </Link>
+                                              <Link
+                                                id="slider-1-slide-1-layer-5"
+                                                className="rs-layer"
+                                                to="/our-team" target="_self" rel="nofollow"
+                                                data-type="text"
+                                                data-xy="y:b;"
+                                                data-pos="a"
+                                                data-text="w:normal;s:16;l:51;"
+                                                data-rsp_o="off"
+                                                data-rsp_bd="off"
+                                                data-frame_0="y:100%;"
+                                                data-frame_0_mask="u:t;"
+                                                data-frame_1="e:back.inOut;st:1300;sp:1200;sR:1300;"
+                                                data-frame_1_mask="u:t;"
+                                                data-frame_999="o:0;st:w;sR:6500;"
+                                                style={{ zIndex: 13, fontFamily: 'Bebas Neue' }}
+                                              >
+                                                <span className="btn btn-outline-gradient">About us<i
                                               className="flaticon-next space-left"></i></span> </Link>
                                               <rs-layer
                                                 id="slider-1-slide-1-layer-4"
@@ -110,8 +127,9 @@ const Home = () => {
                                                 data-frame_1="e:back.inOut;st:1000;sp:1200;sR:1000;"
                                                 data-frame_1_mask="u:t;"
                                                 data-frame_999="o:0;st:w;sR:6800;"
-                                                style={{zIndex:12, fontFamily: 'Bebas Neue'}}
-                                              >We’re a full-service creative digital marketing agency, collaborating with
+                                                style={{ zIndex: 12, fontFamily: 'Bebas Neue' }}
+                                              >We’re a full-service creative digital marketing agency, collaborating
+                                                with
                                                 brands all over the world.
                                               </rs-layer>
                                               <rs-layer
@@ -127,9 +145,10 @@ const Home = () => {
                                                 data-frame_1="e:back.inOut;st:700;sp:1200;sR:700;"
                                                 data-frame_1_mask="u:t;"
                                                 data-frame_999="o:0;st:w;sR:7100;"
-                                                style={{zIndex:11, fontFamily: 'Bebas Neue'}}
-                                              >We are the top<br/> agency in town
-                                              </rs-layer></rs-group>
+                                                style={{ zIndex: 11, fontFamily: 'Bebas Neue' }}
+                                              >We are the top<br /> agency in town
+                                              </rs-layer>
+                                            </rs-group>
                                             <rs-layer
                                               id="slider-1-slide-1-layer-0"
                                               className="ct-text-outline2"
@@ -143,7 +162,7 @@ const Home = () => {
                                               data-frame_0="y:50,41,31,19;"
                                               data-frame_1="st:1700;sp:1000;sR:1700;"
                                               data-frame_999="o:0;st:w;sR:6300;"
-                                              style={{zIndex:9, fontFamily: 'Bebas Neue'}}
+                                              style={{ zIndex: 9, fontFamily: 'Bebas Neue' }}
                                             >Digital agency
                                             </rs-layer>
                                             <rs-layer
@@ -157,7 +176,7 @@ const Home = () => {
                                               data-frame_0="x:-50,-41,-31,-19;"
                                               data-frame_1="st:700;sp:1000;"
                                               data-frame_999="o:0;st:w;sR:8000;"
-                                              style={{zIndex:8, fontFamily: 'Bebas Neue'}}
+                                              style={{ zIndex: 8, fontFamily: 'Bebas Neue' }}
                                             >Grupi
                                             </rs-layer>
                                             <rs-layer
@@ -173,13 +192,15 @@ const Home = () => {
                                               data-frame_0="x:50;"
                                               data-frame_1="e:back.inOut;st:700;sp:1000;sR:700;"
                                               data-frame_999="o:0;st:w;sR:7300;"
-                                              style={{zIndex:10}}
+                                              style={{ zIndex: 10 }}
                                             ><img loading="lazy" decoding="async"
                                                   src="wp-content/plugins/revslider/public/assets/assets/dummy.png"
-                                                  alt="img-slider1" className="tp-rs-img rs-lazyload" width="510" height="549"
+                                                  alt="img-slider1" className="tp-rs-img rs-lazyload" width="510"
+                                                  height="549"
                                                   data-lazyload="wp-content/uploads/2021/06/img-slider1.jpg"
-                                                  data-no-retina /></rs-layer></rs-slide>
-                                          <rs-slide style={{position: 'absolute'}} data-key="rs-2" data-title="Slide"
+                                                  data-no-retina /></rs-layer>
+                                          </rs-slide>
+                                          <rs-slide style={{ position: 'absolute' }} data-key="rs-2" data-title="Slide"
                                                     data-thumb="//demo.casethemes.net/grupi/wp-content/uploads/2021/06/bg-slider1-50x100.jpg"
                                                     data-anim="ms:10;" data-in="o:1;" data-out="a:false;"><img
                                             loading="lazy" decoding="async"
@@ -197,7 +218,7 @@ const Home = () => {
                                               data-rsp_bd="off"
                                               data-frame_0="o:1;"
                                               data-frame_999="o:0;st:w;sR:8700;sA:9000;"
-                                              style={{zIndex:15}}
+                                              style={{ zIndex: 15 }}
                                             ><Link
                                               id="slider-1-slide-2-layer-6"
                                               className="rs-layer"
@@ -213,7 +234,7 @@ const Home = () => {
                                               data-frame_1="e:back.inOut;st:1500;sp:1200;sR:1500;"
                                               data-frame_1_mask="u:t;"
                                               data-frame_999="o:0;st:w;sR:6300;"
-                                              style={{zIndex:14, fontFamily: 'Bebas Neue'}}
+                                              style={{ zIndex: 14, fontFamily: 'Bebas Neue' }}
                                             ><span className="btn btn-slider1">Our team<i
                                               className="flaticon-right-arrows space-left"></i></span> </Link><Link
                                               id="slider-1-slide-2-layer-5"
@@ -230,7 +251,7 @@ const Home = () => {
                                               data-frame_1="e:back.inOut;st:1300;sp:1200;sR:1300;"
                                               data-frame_1_mask="u:t;"
                                               data-frame_999="o:0;st:w;sR:6500;"
-                                              style={{zIndex:13, fontFamily: 'Bebas Neue'}}
+                                              style={{ zIndex: 13, fontFamily: 'Bebas Neue' }}
                                             ><span className="btn btn-outline-gradient">About us<i
                                               className="flaticon-next space-left"></i></span> </Link>
                                               <rs-layer
@@ -248,8 +269,9 @@ const Home = () => {
                                                 data-frame_1="e:back.inOut;st:1000;sp:1200;sR:1000;"
                                                 data-frame_1_mask="u:t;"
                                                 data-frame_999="o:0;st:w;sR:6800;"
-                                                style={{zIndex:12, fontFamily: 'Bebas Neue'}}
-                                              >We’re a full-service creative digital marketing agency, collaborating with
+                                                style={{ zIndex: 12, fontFamily: 'Bebas Neue' }}
+                                              >We’re a full-service creative digital marketing agency, collaborating
+                                                with
                                                 brands all over the world.
                                               </rs-layer>
                                               <rs-layer
@@ -265,9 +287,10 @@ const Home = () => {
                                                 data-frame_1="e:back.inOut;st:700;sp:1200;sR:700;"
                                                 data-frame_1_mask="u:t;"
                                                 data-frame_999="o:0;st:w;sR:7100;"
-                                                style={{zIndex:11, fontFamily: 'Bebas Neue'}}
-                                              >Improve Your<br/> Business today!
-                                              </rs-layer></rs-group>
+                                                style={{ zIndex: 11, fontFamily: 'Bebas Neue' }}
+                                              >Improve Your<br /> Business today!
+                                              </rs-layer>
+                                            </rs-group>
                                             <rs-layer
                                               id="slider-1-slide-2-layer-0"
                                               className="ct-text-outline2"
@@ -281,7 +304,7 @@ const Home = () => {
                                               data-frame_0="y:50,41,31,19;"
                                               data-frame_1="st:1700;sp:1000;sR:1700;"
                                               data-frame_999="o:0;st:w;sR:6300;"
-                                              style={{zIndex:9, fontFamily: 'Bebas Neue'}}
+                                              style={{ zIndex: 9, fontFamily: 'Bebas Neue' }}
                                             >Digital agency
                                             </rs-layer>
                                             <rs-layer
@@ -295,7 +318,7 @@ const Home = () => {
                                               data-frame_0="x:-50,-41,-31,-19;"
                                               data-frame_1="st:700;sp:1000;"
                                               data-frame_999="o:0;st:w;sR:8000;"
-                                              style={{zIndex:8, fontFamily: 'Bebas Neue'}}
+                                              style={{ zIndex: 8, fontFamily: 'Bebas Neue' }}
                                             >Grupi
                                             </rs-layer>
                                             <rs-layer
@@ -311,12 +334,14 @@ const Home = () => {
                                               data-frame_0="x:50;"
                                               data-frame_1="e:back.inOut;st:700;sp:1000;sR:700;"
                                               data-frame_999="o:0;st:w;sR:7300;"
-                                              style={{zIndex:10}}
+                                              style={{ zIndex: 10 }}
                                             ><img loading="lazy" decoding="async"
                                                   src="wp-content/plugins/revslider/public/assets/assets/dummy.png"
-                                                  alt="img-slider2" className="tp-rs-img rs-lazyload" width="510" height="549"
+                                                  alt="img-slider2" className="tp-rs-img rs-lazyload" width="510"
+                                                  height="549"
                                                   data-lazyload="wp-content/uploads/2021/06/img-slider2.jpg"
-                                                  data-no-retina /></rs-layer></rs-slide>
+                                                  data-no-retina /></rs-layer>
+                                          </rs-slide>
                                           <rs-slide style={{ postion: 'absolute' }} data-key="rs-3" data-title="Slide"
                                                     data-thumb="//demo.casethemes.net/grupi/wp-content/uploads/2021/06/bg-slider1-50x100.jpg"
                                                     data-anim="ms:10;" data-in="o:1;" data-out="a:false;"><img
@@ -335,7 +360,7 @@ const Home = () => {
                                               data-rsp_bd="off"
                                               data-frame_0="o:1;"
                                               data-frame_999="o:0;st:w;sR:8700;sA:9000;"
-                                              style={{zIndex:15}}
+                                              style={{ zIndex: 15 }}
                                             ><Link
                                               id="slider-1-slide-3-layer-6"
                                               className="rs-layer"
@@ -351,7 +376,7 @@ const Home = () => {
                                               data-frame_1="e:back.inOut;st:1500;sp:1200;sR:1500;"
                                               data-frame_1_mask="u:t;"
                                               data-frame_999="o:0;st:w;sR:6300;"
-                                              sstyle={{zIndex:14, fontFamily: 'Bebas Neue'}}
+                                              sstyle={{ zIndex: 14, fontFamily: 'Bebas Neue' }}
                                             ><span className="btn btn-slider1">Our team<i
                                               className="flaticon-right-arrows space-left"></i></span> </Link><Link
                                               id="slider-1-slide-3-layer-5"
@@ -368,7 +393,7 @@ const Home = () => {
                                               data-frame_1="e:back.inOut;st:1300;sp:1200;sR:1300;"
                                               data-frame_1_mask="u:t;"
                                               data-frame_999="o:0;st:w;sR:6500;"
-                                              style={{zIndex:13, fontFamily: 'Bebas Neue'}}
+                                              style={{ zIndex: 13, fontFamily: 'Bebas Neue' }}
                                             ><span className="btn btn-outline-gradient">About us<i
                                               className="flaticon-next space-left"></i></span> </Link>
                                               <rs-layer
@@ -386,8 +411,9 @@ const Home = () => {
                                                 data-frame_1="e:back.inOut;st:1000;sp:1200;sR:1000;"
                                                 data-frame_1_mask="u:t;"
                                                 data-frame_999="o:0;st:w;sR:6800;"
-                                                style={{zIndex:12, fontFamily: 'Bebas Neue'}}
-                                              >We’re a full-service creative digital marketing agency, collaborating with
+                                                style={{ zIndex: 12, fontFamily: 'Bebas Neue' }}
+                                              >We’re a full-service creative digital marketing agency, collaborating
+                                                with
                                                 brands all over the world.
                                               </rs-layer>
                                               <rs-layer
@@ -403,9 +429,10 @@ const Home = () => {
                                                 data-frame_1="e:back.inOut;st:700;sp:1200;sR:700;"
                                                 data-frame_1_mask="u:t;"
                                                 data-frame_999="o:0;st:w;sR:7100;"
-                                                style={{zIndex:11, fontFamily: 'Bebas Neue'}}
-                                              >We are very<br/> energetic.
-                                              </rs-layer></rs-group>
+                                                style={{ zIndex: 11, fontFamily: 'Bebas Neue' }}
+                                              >We are very<br /> energetic.
+                                              </rs-layer>
+                                            </rs-group>
                                             <rs-layer
                                               id="slider-1-slide-3-layer-0"
                                               className="ct-text-outline2"
@@ -419,7 +446,7 @@ const Home = () => {
                                               data-frame_0="y:50,41,31,19;"
                                               data-frame_1="st:1700;sp:1000;sR:1700;"
                                               data-frame_999="o:0;st:w;sR:6300;"
-                                              style={{zIndex:9, fontFamily: 'Bebas Neue'}}
+                                              style={{ zIndex: 9, fontFamily: 'Bebas Neue' }}
                                             >Digital agency
                                             </rs-layer>
                                             <rs-layer
@@ -433,7 +460,7 @@ const Home = () => {
                                               data-frame_0="x:-50,-41,-31,-19;"
                                               data-frame_1="st:700;sp:1000;"
                                               data-frame_999="o:0;st:w;sR:8000;"
-                                              style={{zIndex:8, fontFamily: 'Bebas Neue'}}
+                                              style={{ zIndex: 8, fontFamily: 'Bebas Neue' }}
                                             >Grupi
                                             </rs-layer>
                                             <rs-layer
@@ -449,15 +476,18 @@ const Home = () => {
                                               data-frame_0="x:50;"
                                               data-frame_1="e:back.inOut;st:700;sp:1000;sR:700;"
                                               data-frame_999="o:0;st:w;sR:7300;"
-                                              style={{zIndex:10}}
+                                              style={{ zIndex: 10 }}
                                             ><img loading="lazy" decoding="async"
                                                   src="wp-content/plugins/revslider/public/assets/assets/dummy.png"
-                                                  alt="img-slider3" className="tp-rs-img rs-lazyload" width="510" height="549"
+                                                  alt="img-slider3" className="tp-rs-img rs-lazyload" width="510"
+                                                  height="549"
                                                   data-lazyload="wp-content/uploads/2021/06/img-slider3.jpg"
-                                                  data-no-retina /></rs-layer></rs-slide>
+                                                  data-no-retina /></rs-layer>
+                                          </rs-slide>
                                         </rs-slides>
                                       </rs-module>
-                                    </rs-module-wrap></div>
+                                    </rs-module-wrap>
+                                  </div>
                                 </div>
                               </div>
                               <div
@@ -485,7 +515,8 @@ const Home = () => {
                                 <div className="elementor-widget-container">
                                   <div className="ct-service ct-service-external1 ct-slick-slider">
                                     <div className="ct-carousel-inner">
-                                      <div className="ct-slick-carousel" data-arrows="" data-dots="true" data-pauseOnHover=""
+                                      <div className="ct-slick-carousel" data-arrows="" data-dots="true"
+                                           data-pauseOnHover=""
                                            data-autoplay="" data-autoplaySpeed="5000" data-infinite="" data-speed="500"
                                            data-colxs="1" data-colsm="2" data-colmd="2" data-collg="4" data-colxl="4"
                                            data-dir="false" data-slidesToScroll="2">
@@ -493,9 +524,11 @@ const Home = () => {
                                           <div className="item--inner ">
                                             <div className="item--line"></div>
                                             <div className="item--subtitle">Web and mobile development</div>
-                                            <h3 className="item--title"><a href="#"> Innovating products and solutions within
+                                            <h3 className="item--title"><a href="#"> Innovating products and solutions
+                                              within
                                               your time and budget. </a></h3>
-                                            <div className="item--readmore"><a href="#"> <span className="text-gradient">+</span>
+                                            <div className="item--readmore"><a href="#"> <span
+                                              className="text-gradient">+</span>
                                               <span>+</span> </a></div>
                                           </div>
                                         </div>
@@ -503,9 +536,11 @@ const Home = () => {
                                           <div className="item--inner ">
                                             <div className="item--line"></div>
                                             <div className="item--subtitle">User experience design</div>
-                                            <h3 className="item--title"><a href="#"> World-class u/x with pixel-perfect user
+                                            <h3 className="item--title"><a href="#"> World-class u/x with pixel-perfect
+                                              user
                                               interface designs. </a></h3>
-                                            <div className="item--readmore"><a href="#"> <span className="text-gradient">+</span>
+                                            <div className="item--readmore"><a href="#"> <span
+                                              className="text-gradient">+</span>
                                               <span>+</span> </a></div>
                                           </div>
                                         </div>
@@ -513,9 +548,11 @@ const Home = () => {
                                           <div className="item--inner ">
                                             <div className="item--line"></div>
                                             <div className="item--subtitle">Video production &amp; photography</div>
-                                            <h3 className="item--title"><a href="#"> Engaging and high-end video photography
+                                            <h3 className="item--title"><a href="#"> Engaging and high-end video
+                                              photography
                                               services to help business. </a></h3>
-                                            <div className="item--readmore"><a href="#"> <span className="text-gradient">+</span>
+                                            <div className="item--readmore"><a href="#"> <span
+                                              className="text-gradient">+</span>
                                               <span>+</span> </a></div>
                                           </div>
                                         </div>
@@ -525,7 +562,8 @@ const Home = () => {
                                             <div className="item--subtitle">Digital marketing</div>
                                             <h3 className="item--title"><a href="#"> Strategic, performance-driven, and
                                               comprehensive digital marketing. </a></h3>
-                                            <div className="item--readmore"><a href="#"> <span className="text-gradient">+</span>
+                                            <div className="item--readmore"><a href="#"> <span
+                                              className="text-gradient">+</span>
                                               <span>+</span> </a></div>
                                           </div>
                                         </div>
@@ -533,9 +571,11 @@ const Home = () => {
                                           <div className="item--inner ">
                                             <div className="item--line"></div>
                                             <div className="item--subtitle">Web and mobile development</div>
-                                            <h3 className="item--title"><a href="#"> Innovating products and solutions within
+                                            <h3 className="item--title"><a href="#"> Innovating products and solutions
+                                              within
                                               your time and budget. </a></h3>
-                                            <div className="item--readmore"><a href="#"> <span className="text-gradient">+</span>
+                                            <div className="item--readmore"><a href="#"> <span
+                                              className="text-gradient">+</span>
                                               <span>+</span> </a></div>
                                           </div>
                                         </div>
@@ -543,9 +583,11 @@ const Home = () => {
                                           <div className="item--inner ">
                                             <div className="item--line"></div>
                                             <div className="item--subtitle">User experience design</div>
-                                            <h3 className="item--title"><a href="#"> World-class u/x with pixel-perfect user
+                                            <h3 className="item--title"><a href="#"> World-class u/x with pixel-perfect
+                                              user
                                               interface designs. </a></h3>
-                                            <div className="item--readmore"><a href="#"> <span className="text-gradient">+</span>
+                                            <div className="item--readmore"><a href="#"> <span
+                                              className="text-gradient">+</span>
                                               <span>+</span> </a></div>
                                           </div>
                                         </div>
@@ -553,9 +595,11 @@ const Home = () => {
                                           <div className="item--inner ">
                                             <div className="item--line"></div>
                                             <div className="item--subtitle">Video production &amp; photography</div>
-                                            <h3 className="item--title"><a href="#"> Engaging and high-end video photography
+                                            <h3 className="item--title"><a href="#"> Engaging and high-end video
+                                              photography
                                               services to help business. </a></h3>
-                                            <div className="item--readmore"><a href="#"> <span className="text-gradient">+</span>
+                                            <div className="item--readmore"><a href="#"> <span
+                                              className="text-gradient">+</span>
                                               <span>+</span> </a></div>
                                           </div>
                                         </div>
@@ -565,7 +609,8 @@ const Home = () => {
                                             <div className="item--subtitle">Digital marketing</div>
                                             <h3 className="item--title"><a href="#"> Strategic, performance-driven, and
                                               comprehensive digital marketing. </a></h3>
-                                            <div className="item--readmore"><a href="#"> <span className="text-gradient">+</span>
+                                            <div className="item--readmore"><a href="#"> <span
+                                              className="text-gradient">+</span>
                                               <span>+</span> </a></div>
                                           </div>
                                         </div>
@@ -589,7 +634,8 @@ const Home = () => {
                             <div className="elementor-widget-wrap elementor-element-populated">
                               <div
                                 className="elementor-element elementor-element-1818e7b elementor-widget elementor-widget-ct_square_animate"
-                                data-id="1818e7b" data-element_type="widget" data-widget_type="ct_square_animate.default">
+                                data-id="1818e7b" data-element_type="widget"
+                                data-widget_type="ct_square_animate.default">
                                 <div className="elementor-widget-container">
                                   <div id="ct_square_animate-1818e7b" className="ct-square-animate el-move-parents">
                                     <div className="ct-square-container">
@@ -621,13 +667,15 @@ const Home = () => {
                                               <div className="ct-banner-image"><img loading="lazy" decoding="async"
                                                                                     width="454" height="509"
                                                                                     src="wp-content/uploads/2021/06/banner1.jpg"
-                                                                                    className="attachment-full" alt=""/></div>
+                                                                                    className="attachment-full"
+                                                                                    alt="" /></div>
                                               <div className="ct-banner-meta bg-image">
                                                 <div className="ct-banner-title">
                                                   <div className="ct-banner-logo"><img loading="lazy" decoding="async"
                                                                                        width="43" height="43"
                                                                                        src="wp-content/uploads/2021/06/banner-logo.png"
-                                                                                       className="attachment-full" alt=""/></div>
+                                                                                       className="attachment-full"
+                                                                                       alt="" /></div>
                                                   <span>Best Digital agency 2022</span></div>
                                               </div>
                                             </div>
@@ -650,16 +698,12 @@ const Home = () => {
                                             <div className="ct-inline-css" data-css="
  "></div>
                                             <div className="ct-heading-text-below"> About</div>
-                                            <h3 className="item--title case-animate-time st-default " data-wow-delay="ms">
-                                            <span className="slide-in-container"><span
-                                              className="d-inline-block wow case-fade-in-up">We</span></span> <span
-                                              className="slide-in-container"><span className="d-inline-block wow case-fade-in-up">combine</span></span>
-                                              <span className="slide-in-container"><span
-                                                className="d-inline-block wow case-fade-in-up">strategy</span></span> <span
-                                              className="slide-in-container"><span className="d-inline-block wow case-fade-in-up">with</span></span>
-                                              <span className="slide-in-container"><span
-                                                className="d-inline-block wow case-fade-in-up">marketing,</span></span> <span
-                                              className="slide-in-container"><span className="d-inline-block wow case-fade-in-up">design</span></span>
+                                            <h3 className="item--title case-animate-time st-default "
+                                                data-wow-delay="ms">
+                                            <span className="slide-in-container">
+                                              <span
+                                              className="d-inline-block wow case-fade-in-up">We combine strategy with marketing, design</span>
+                                            </span>
                                             </h3></div>
                                         </div>
                                       </div>
@@ -668,11 +712,13 @@ const Home = () => {
                                         data-id="78e3f130" data-element_type="widget"
                                         data-widget_type="ct_text_editor.default">
                                         <div className="elementor-widget-container">
-                                          <div id="ct_text_editor-78e3f130" className="ct-text-editor " data-wow-delay="ms">
+                                          <div id="ct_text_editor-78e3f130" className="ct-text-editor "
+                                               data-wow-delay="ms">
                                             <div className="ct-inline-css" data-css="
  "></div>
                                             <div className="ct-text-editor elementor-clearfix"> With over a decade of
-                                              experience, we’ve established ourselves as one of the pioneering agencies in
+                                              experience, we’ve established ourselves as one of the pioneering agencies
+                                              in
                                               the region. Our small, flexible, agile and design-led structures and
                                               processes allow us to highly responsive
                                               and innovative.
@@ -685,21 +731,12 @@ const Home = () => {
                                         data-id="1f9024da" data-element_type="widget"
                                         data-widget_type="ct_progressbar.default">
                                         <div className="elementor-widget-container">
-                                          <div id="ct_progressbar-1f9024da" className="ct-progressbar ct-progressbar1 style1">
+                                          <div id="ct_progressbar-1f9024da"
+                                               className="ct-progressbar ct-progressbar1 style1">
                                             <div className="ct-inline-css" data-css=""></div>
                                             <div className="ct-progress-item">
                                               <div className="ct-progress-meta"><span
                                                 className="ct-progress-title">UI/UX Design</span>
-                                                <div className="ct-progress-percentage">65%</div>
-                                              </div>
-                                              <div className="ct-progress-bar-wrap">
-                                                <div className="ct-progress-bar" role="progressbar"
-                                                     data-valuetransitiongoal="65"></div>
-                                              </div>
-                                            </div>
-                                            <div className="ct-progress-item">
-                                              <div className="ct-progress-meta"><span
-                                                className="ct-progress-title">Marketing</span>
                                                 <div className="ct-progress-percentage">90%</div>
                                               </div>
                                               <div className="ct-progress-bar-wrap">
@@ -708,12 +745,22 @@ const Home = () => {
                                               </div>
                                             </div>
                                             <div className="ct-progress-item">
-                                              <div className="ct-progress-meta"><span className="ct-progress-title">Web Devdlopment</span>
-                                                <div className="ct-progress-percentage">70%</div>
+                                              <div className="ct-progress-meta"><span
+                                                className="ct-progress-title">Mobile Development</span>
+                                                <div className="ct-progress-percentage">85%</div>
                                               </div>
                                               <div className="ct-progress-bar-wrap">
                                                 <div className="ct-progress-bar" role="progressbar"
-                                                     data-valuetransitiongoal="70"></div>
+                                                     data-valuetransitiongoal="85"></div>
+                                              </div>
+                                            </div>
+                                            <div className="ct-progress-item">
+                                              <div className="ct-progress-meta"><span className="ct-progress-title">Web Development</span>
+                                                <div className="ct-progress-percentage">95%</div>
+                                              </div>
+                                              <div className="ct-progress-bar-wrap">
+                                                <div className="ct-progress-bar" role="progressbar"
+                                                     data-valuetransitiongoal="95"></div>
                                               </div>
                                             </div>
                                           </div>
@@ -732,9 +779,10 @@ const Home = () => {
                                             <div className="ct-inline-css" data-css="
  "></div>
                                             <span className="ct-icon-active"></span> <Link to="/contact-us"
-                                                                                        className="btn btn-default  icon-ps- "
-                                                                                        data-wow-delay="ms"> <span
-                                            className="ct-button-icon ct-align-icon-"> </span> <span className="ct-button-text">Contact us</span>
+                                                                                           className="btn btn-default  icon-ps- "
+                                                                                           data-wow-delay="ms"> <span
+                                            className="ct-button-icon ct-align-icon-"> </span> <span
+                                            className="ct-button-text">Contact us</span>
                                           </Link></div>
                                         </div>
                                       </div>
@@ -777,18 +825,23 @@ const Home = () => {
                                               <div className="ct-heading-hexagon"></div>
                                             </div>
                                             <div className="ct-heading-text-below"> Services</div>
-                                            <h3 className="item--title case-animate-time st-hexagon " data-wow-delay="ms">
+                                            <h3 className="item--title case-animate-time st-hexagon "
+                                                data-wow-delay="ms">
                                             <span className="slide-in-container"><span
                                               className="d-inline-block wow case-fade-in-up">We</span></span> <span
-                                              className="slide-in-container"><span className="d-inline-block wow case-fade-in-up">are</span></span>
+                                              className="slide-in-container"><span
+                                              className="d-inline-block wow case-fade-in-up">are</span></span>
                                               <span className="slide-in-container"><span
                                                 className="d-inline-block wow case-fade-in-up">a</span></span> <span
-                                              className="slide-in-container"><span className="d-inline-block wow case-fade-in-up">digitally-led,</span></span>
+                                              className="slide-in-container"><span
+                                              className="d-inline-block wow case-fade-in-up">digitally-led,</span></span>
                                               <span className="slide-in-container"><span
                                                 className="d-inline-block wow case-fade-in-up">full-service</span></span>
                                               <span className="slide-in-container"><span
-                                                className="d-inline-block wow case-fade-in-up">creative</span></span> <span
-                                              className="slide-in-container"><span className="d-inline-block wow case-fade-in-up">agency.</span></span>
+                                                className="d-inline-block wow case-fade-in-up">creative</span></span>
+                                              <span
+                                                className="slide-in-container"><span
+                                                className="d-inline-block wow case-fade-in-up">agency.</span></span>
                                               <span className="slide-in-container"><span
                                                 className="d-inline-block wow case-fade-in-up"></span></span></h3></div>
                                         </div>
@@ -804,7 +857,8 @@ const Home = () => {
                                         data-id="9413b90" data-element_type="widget"
                                         data-widget_type="ct_text_editor.default">
                                         <div className="elementor-widget-container">
-                                          <div id="ct_text_editor-9413b90" className="ct-text-editor " data-wow-delay="ms">
+                                          <div id="ct_text_editor-9413b90" className="ct-text-editor "
+                                               data-wow-delay="ms">
                                             <div className="ct-inline-css" data-css="
  "></div>
                                             <div className="ct-text-editor elementor-clearfix"> Grupi is a design studio
@@ -841,13 +895,16 @@ const Home = () => {
                                                    data-colxl="2" data-dir="false" data-slidesToScroll="2">
                                                 <div className="carousel-item slick-slide">
                                                   <div className="grid-item-inner " data-wow-duration="1.2s">
-                                                    <div className="item--icon-abs"><i className="flaticon-flow-diagram"></i>
+                                                    <div className="item--icon-abs"><i
+                                                      className="flaticon-flow-diagram"></i>
                                                     </div>
                                                     <div className="item--featured bg-image"
-                                                         style={{ backgroundImage: 'url(wp-content/uploads/2021/06/g25-370x350.jpg)'}}></div>
+                                                         style={{ backgroundImage: 'url(wp-content/uploads/2021/06/g25-370x350.jpg)' }}></div>
                                                     <div className="item--holder">
-                                                      <div className="item--icon"><i className="flaticon-flow-diagram"></i></div>
-                                                      <h3 className="item--title"><a href="#"> User Experience Design </a>
+                                                      <div className="item--icon"><i
+                                                        className="flaticon-flow-diagram"></i></div>
+                                                      <h3 className="item--title"><a href="#"> User Experience
+                                                        Design </a>
                                                       </h3>
                                                       <ul className="item--feature">
                                                         <li>UX strategy</li>
@@ -864,11 +921,13 @@ const Home = () => {
                                                 </div>
                                                 <div className="carousel-item slick-slide">
                                                   <div className="grid-item-inner " data-wow-duration="1.2s">
-                                                    <div className="item--icon-abs"><i className="flaticon-branding"></i></div>
+                                                    <div className="item--icon-abs"><i
+                                                      className="flaticon-branding"></i></div>
                                                     <div className="item--featured bg-image"
-                                                         style={{ backgroundImage: 'url(wp-content/uploads/2021/06/g30-370x350.jpg)'}}></div>
+                                                         style={{ backgroundImage: 'url(wp-content/uploads/2021/06/g30-370x350.jpg)' }}></div>
                                                     <div className="item--holder">
-                                                      <div className="item--icon"><i className="flaticon-branding"></i></div>
+                                                      <div className="item--icon"><i className="flaticon-branding"></i>
+                                                      </div>
                                                       <h3 className="item--title"><a href="#"> Web Development </a></h3>
                                                       <ul className="item--feature">
                                                         <li>WordPress web development</li>
@@ -885,13 +944,16 @@ const Home = () => {
                                                 </div>
                                                 <div className="carousel-item slick-slide">
                                                   <div className="grid-item-inner " data-wow-duration="1.2s">
-                                                    <div className="item--icon-abs"><i className="flaticon-project-plan"></i>
+                                                    <div className="item--icon-abs"><i
+                                                      className="flaticon-project-plan"></i>
                                                     </div>
                                                     <div className="item--featured bg-image"
-                                                         style={{ backgroundImage: 'url(wp-content/uploads/2021/06/g29-370x350.jpg)'}}></div>
+                                                         style={{ backgroundImage: 'url(wp-content/uploads/2021/06/g29-370x350.jpg)' }}></div>
                                                     <div className="item--holder">
-                                                      <div className="item--icon"><i className="flaticon-project-plan"></i></div>
-                                                      <h3 className="item--title"><a href="#"> Video Production </a></h3>
+                                                      <div className="item--icon"><i
+                                                        className="flaticon-project-plan"></i></div>
+                                                      <h3 className="item--title"><a href="#"> Video Production </a>
+                                                      </h3>
                                                       <ul className="item--feature">
                                                         <li>Concept</li>
                                                         <li>Scripting</li>
@@ -907,12 +969,15 @@ const Home = () => {
                                                 </div>
                                                 <div className="carousel-item slick-slide">
                                                   <div className="grid-item-inner " data-wow-duration="1.2s">
-                                                    <div className="item--icon-abs"><i className="flaticon-web-browser"></i></div>
+                                                    <div className="item--icon-abs"><i
+                                                      className="flaticon-web-browser"></i></div>
                                                     <div className="item--featured bg-image"
-                                                         style={{ backgroundImage: 'url(wp-content/uploads/2021/06/g27-370x350.jpg)'}}></div>
+                                                         style={{ backgroundImage: 'url(wp-content/uploads/2021/06/g27-370x350.jpg)' }}></div>
                                                     <div className="item--holder">
-                                                      <div className="item--icon"><i className="flaticon-web-browser"></i></div>
-                                                      <h3 className="item--title"><a href="#"> Cloud Computing Services </a>
+                                                      <div className="item--icon"><i
+                                                        className="flaticon-web-browser"></i></div>
+                                                      <h3 className="item--title"><a href="#"> Cloud Computing
+                                                        Services </a>
                                                       </h3>
                                                       <ul className="item--feature">
                                                         <li>UX strategy</li>
@@ -929,14 +994,17 @@ const Home = () => {
                                                 </div>
                                                 <div className="carousel-item slick-slide">
                                                   <div className="grid-item-inner " data-wow-duration="1.2s">
-                                                    <div className="item--icon-abs"><i className="flaticon-content-design"></i>
+                                                    <div className="item--icon-abs"><i
+                                                      className="flaticon-content-design"></i>
                                                     </div>
                                                     <div className="item--featured bg-image"
-                                                         style={{ backgroundImage: 'url(wp-content/uploads/2021/06/g26-370x350.jpg)'}}></div>
+                                                         style={{ backgroundImage: 'url(wp-content/uploads/2021/06/g26-370x350.jpg)' }}></div>
                                                     <div className="item--holder">
-                                                      <div className="item--icon"><i className="flaticon-content-design"></i>
+                                                      <div className="item--icon"><i
+                                                        className="flaticon-content-design"></i>
                                                       </div>
-                                                      <h3 className="item--title"><a href="#"> Mobile App Development </a>
+                                                      <h3 className="item--title"><a href="#"> Mobile App
+                                                        Development </a>
                                                       </h3>
                                                       <ul className="item--feature">
                                                         <li>UX strategy</li>
@@ -953,12 +1021,15 @@ const Home = () => {
                                                 </div>
                                                 <div className="carousel-item slick-slide">
                                                   <div className="grid-item-inner " data-wow-duration="1.2s">
-                                                    <div className="item--icon-abs"><i className="flaticon-web-design"></i></div>
+                                                    <div className="item--icon-abs"><i
+                                                      className="flaticon-web-design"></i></div>
                                                     <div className="item--featured bg-image"
-                                                         style={{ backgroundImage: 'url(wp-content/uploads/2021/06/g30-370x350.jpg)'}}></div>
+                                                         style={{ backgroundImage: 'url(wp-content/uploads/2021/06/g30-370x350.jpg)' }}></div>
                                                     <div className="item--holder">
-                                                      <div className="item--icon"><i className="flaticon-web-design"></i></div>
-                                                      <h3 className="item--title"><a href="#"> Cyber Security Services </a>
+                                                      <div className="item--icon"><i
+                                                        className="flaticon-web-design"></i></div>
+                                                      <h3 className="item--title"><a href="#"> Cyber Security
+                                                        Services </a>
                                                       </h3>
                                                       <ul className="item--feature">
                                                         <li>UX strategy</li>
@@ -986,17 +1057,19 @@ const Home = () => {
                                     <div className="elementor-widget-wrap elementor-element-populated">
                                       <div
                                         className="elementor-element elementor-element-246bef7b elementor-widget elementor-widget-ct_image"
-                                        data-id="246bef7b" data-element_type="widget" data-widget_type="ct_image.default">
+                                        data-id="246bef7b" data-element_type="widget"
+                                        data-widget_type="ct_image.default">
                                         <div className="elementor-widget-container">
                                           <div className="ct-image-single    wow zoomIn" data-width="" data-height=""
                                                data-wow-delay="ms">
                                             <div className="ct-image-single--inner"><Link href="/"> <img loading="lazy"
-                                                                                                               decoding="async"
-                                                                                                               width="304"
-                                                                                                               height="336"
-                                                                                                               src="wp-content/uploads/2021/06/logo-big.png"
-                                                                                                               className="no-lazyload img-main attachment-full"
-                                                                                                               alt=""/> </Link>
+                                                                                                         decoding="async"
+                                                                                                         width="304"
+                                                                                                         height="336"
+                                                                                                         src="wp-content/uploads/2021/06/logo-big.png"
+                                                                                                         className="no-lazyload img-main attachment-full"
+                                                                                                         alt="" />
+                                            </Link>
                                             </div>
                                           </div>
                                         </div>
@@ -1039,15 +1112,18 @@ const Home = () => {
                                             <div className="ct-heading-hexagon-line">
                                               <div className="ct-heading-hexagon"></div>
                                             </div>
-                                            <h3 className="item--title case-animate-time st-hexagon " data-wow-delay="ms">
+                                            <h3 className="item--title case-animate-time st-hexagon "
+                                                data-wow-delay="ms">
                                             <span className="slide-in-container"><span
                                               className="d-inline-block wow case-fade-in-up">Brands</span></span> <span
-                                              className="slide-in-container"><span className="d-inline-block wow case-fade-in-up">we’ve</span></span>
+                                              className="slide-in-container"><span
+                                              className="d-inline-block wow case-fade-in-up">we’ve</span></span>
                                               <span className="slide-in-container"><span
                                                 className="d-inline-block wow case-fade-in-up">collaborated</span></span>
                                               <span className="slide-in-container"><span
                                                 className="d-inline-block wow case-fade-in-up">with</span></span> <span
-                                              className="slide-in-container"><span className="d-inline-block wow case-fade-in-up">team.</span></span>
+                                              className="slide-in-container"><span
+                                              className="d-inline-block wow case-fade-in-up">team.</span></span>
                                             </h3></div>
                                         </div>
                                       </div>
@@ -1063,88 +1139,106 @@ const Home = () => {
                                         data-widget_type="ct_client_grid.default">
                                         <div className="elementor-widget-container">
                                           <div id="ct_client_grid-5c240705" className="ct-grid ct-client-grid1">
-                                            <div className="ct-grid-inner ct-grid-masonry row animate-time" data-gutter="7">
+                                            <div className="ct-grid-inner ct-grid-masonry row animate-time"
+                                                 data-gutter="7">
                                               <div className="grid-item col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
                                                 <div className="ct-client--image img-hover-active"><a href="#"> <img
                                                   loading="lazy" decoding="async" width="66" height="63"
                                                   src="wp-content/uploads/2021/06/client1.png"
-                                                  className="no-lazyload ct-client--imgmain attachment-full" alt=""/> <img
-                                                  loading="lazy" decoding="async" width="66" height="63"
-                                                  src="wp-content/uploads/2021/06/hover-client1.png"
-                                                  className="no-lazyload ct-client--imghover attachment-full" alt=""/> </a>
+                                                  className="no-lazyload ct-client--imgmain attachment-full" alt="" />
+                                                  <img
+                                                    loading="lazy" decoding="async" width="66" height="63"
+                                                    src="wp-content/uploads/2021/06/hover-client1.png"
+                                                    className="no-lazyload ct-client--imghover attachment-full"
+                                                    alt="" /> </a>
                                                 </div>
                                               </div>
                                               <div className="grid-item col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
                                                 <div className="ct-client--image img-hover-active"><a href="#"> <img
                                                   loading="lazy" decoding="async" width="72" height="63"
                                                   src="wp-content/uploads/2021/06/client2.png"
-                                                  className="no-lazyload ct-client--imgmain attachment-full" alt=""/> <img
-                                                  loading="lazy" decoding="async" width="72" height="63"
-                                                  src="wp-content/uploads/2021/06/hover-client2.png"
-                                                  className="no-lazyload ct-client--imghover attachment-full" alt=""/> </a>
+                                                  className="no-lazyload ct-client--imgmain attachment-full" alt="" />
+                                                  <img
+                                                    loading="lazy" decoding="async" width="72" height="63"
+                                                    src="wp-content/uploads/2021/06/hover-client2.png"
+                                                    className="no-lazyload ct-client--imghover attachment-full"
+                                                    alt="" /> </a>
                                                 </div>
                                               </div>
                                               <div className="grid-item col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
                                                 <div className="ct-client--image img-hover-active"><a href="#"> <img
                                                   loading="lazy" decoding="async" width="67" height="63"
                                                   src="wp-content/uploads/2021/06/client3.png"
-                                                  className="no-lazyload ct-client--imgmain attachment-full" alt=""/> <img
-                                                  loading="lazy" decoding="async" width="67" height="63"
-                                                  src="wp-content/uploads/2021/06/hover-client3.png"
-                                                  className="no-lazyload ct-client--imghover attachment-full" alt=""/> </a>
+                                                  className="no-lazyload ct-client--imgmain attachment-full" alt="" />
+                                                  <img
+                                                    loading="lazy" decoding="async" width="67" height="63"
+                                                    src="wp-content/uploads/2021/06/hover-client3.png"
+                                                    className="no-lazyload ct-client--imghover attachment-full"
+                                                    alt="" /> </a>
                                                 </div>
                                               </div>
                                               <div className="grid-item col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
                                                 <div className="ct-client--image img-hover-active"><a href="#"> <img
                                                   loading="lazy" decoding="async" width="63" height="63"
                                                   src="wp-content/uploads/2021/06/client4.png"
-                                                  className="no-lazyload ct-client--imgmain attachment-full" alt=""/> <img
-                                                  loading="lazy" decoding="async" width="63" height="63"
-                                                  src="wp-content/uploads/2021/06/hover-client4.png"
-                                                  className="no-lazyload ct-client--imghover attachment-full" alt=""/> </a>
+                                                  className="no-lazyload ct-client--imgmain attachment-full" alt="" />
+                                                  <img
+                                                    loading="lazy" decoding="async" width="63" height="63"
+                                                    src="wp-content/uploads/2021/06/hover-client4.png"
+                                                    className="no-lazyload ct-client--imghover attachment-full"
+                                                    alt="" /> </a>
                                                 </div>
                                               </div>
                                               <div className="grid-item col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
                                                 <div className="ct-client--image img-hover-active"><a href="#"> <img
                                                   loading="lazy" decoding="async" width="64" height="63"
                                                   src="wp-content/uploads/2021/06/client5.png"
-                                                  className="no-lazyload ct-client--imgmain attachment-full" alt=""/> <img
-                                                  loading="lazy" decoding="async" width="64" height="63"
-                                                  src="wp-content/uploads/2021/06/hover-client5.png"
-                                                  className="no-lazyload ct-client--imghover attachment-full" alt=""/> </a>
+                                                  className="no-lazyload ct-client--imgmain attachment-full" alt="" />
+                                                  <img
+                                                    loading="lazy" decoding="async" width="64" height="63"
+                                                    src="wp-content/uploads/2021/06/hover-client5.png"
+                                                    className="no-lazyload ct-client--imghover attachment-full"
+                                                    alt="" /> </a>
                                                 </div>
                                               </div>
                                               <div className="grid-item col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
                                                 <div className="ct-client--image img-hover-active"><a href="#"> <img
                                                   loading="lazy" decoding="async" width="65" height="63"
                                                   src="wp-content/uploads/2021/06/client6.png"
-                                                  className="no-lazyload ct-client--imgmain attachment-full" alt=""/> <img
-                                                  loading="lazy" decoding="async" width="65" height="63"
-                                                  src="wp-content/uploads/2021/06/hover-client6.png"
-                                                  className="no-lazyload ct-client--imghover attachment-full" alt=""/> </a>
+                                                  className="no-lazyload ct-client--imgmain attachment-full" alt="" />
+                                                  <img
+                                                    loading="lazy" decoding="async" width="65" height="63"
+                                                    src="wp-content/uploads/2021/06/hover-client6.png"
+                                                    className="no-lazyload ct-client--imghover attachment-full"
+                                                    alt="" /> </a>
                                                 </div>
                                               </div>
                                               <div className="grid-item col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
                                                 <div className="ct-client--image img-hover-active"><a href="#"> <img
                                                   loading="lazy" decoding="async" width="67" height="63"
                                                   src="wp-content/uploads/2021/06/client7.png"
-                                                  className="no-lazyload ct-client--imgmain attachment-full" alt=""/> <img
-                                                  loading="lazy" decoding="async" width="67" height="63"
-                                                  src="wp-content/uploads/2021/06/hover-client7.png"
-                                                  className="no-lazyload ct-client--imghover attachment-full" alt=""/> </a>
+                                                  className="no-lazyload ct-client--imgmain attachment-full" alt="" />
+                                                  <img
+                                                    loading="lazy" decoding="async" width="67" height="63"
+                                                    src="wp-content/uploads/2021/06/hover-client7.png"
+                                                    className="no-lazyload ct-client--imghover attachment-full"
+                                                    alt="" /> </a>
                                                 </div>
                                               </div>
                                               <div className="grid-item col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
                                                 <div className="ct-client--image img-hover-active"><a href="#"> <img
                                                   loading="lazy" decoding="async" width="57" height="63"
                                                   src="wp-content/uploads/2021/06/client8.png"
-                                                  className="no-lazyload ct-client--imgmain attachment-full" alt=""/> <img
-                                                  loading="lazy" decoding="async" width="57" height="63"
-                                                  src="wp-content/uploads/2021/06/hover-client8.png"
-                                                  className="no-lazyload ct-client--imghover attachment-full" alt=""/> </a>
+                                                  className="no-lazyload ct-client--imgmain attachment-full" alt="" />
+                                                  <img
+                                                    loading="lazy" decoding="async" width="57" height="63"
+                                                    src="wp-content/uploads/2021/06/hover-client8.png"
+                                                    className="no-lazyload ct-client--imghover attachment-full"
+                                                    alt="" /> </a>
                                                 </div>
                                               </div>
-                                              <div className="grid-sizer col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6"></div>
+                                              <div
+                                                className="grid-sizer col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6"></div>
                                             </div>
                                           </div>
                                         </div>
@@ -1170,7 +1264,8 @@ const Home = () => {
                                 className="elementor-element elementor-element-22470be3 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
                                 data-id="22470be3" data-element_type="widget" data-widget_type="divider.default">
                                 <div className="elementor-widget-container">
-                                  <div className="elementor-divider"><span className="elementor-divider-separator"> </span></div>
+                                  <div className="elementor-divider"><span
+                                    className="elementor-divider-separator"> </span></div>
                                 </div>
                               </div>
                             </div>
@@ -1191,7 +1286,8 @@ const Home = () => {
                                 data-id="70e84ad" data-element_type="widget"
                                 data-widget_type="ct_portfolio_carousel.default">
                                 <div className="elementor-widget-container">
-                                  <div id="ct_portfolio_carousel-70e84ad" className="ct-portfolio-carousel2 ct-slick-slider">
+                                  <div id="ct_portfolio_carousel-70e84ad"
+                                       className="ct-portfolio-carousel2 ct-slick-slider">
                                     <div className="ct-carousel-inner">
                                       <div className="ct-slick-carousel ct-slick-arrow-middle ct-slick-arrow-center"
                                            data-arrows="true" data-dots="false" data-pauseOnHover="false"
@@ -1200,11 +1296,13 @@ const Home = () => {
                                            data-colxl="4" data-dir="false" data-slidesToScroll="1">
                                         <div className="carousel-item slick-slide">
                                           <div className="grid-item-inner ">
-                                            <div className="item--featured"><a href="#"><img loading="lazy" decoding="async"
+                                            <div className="item--featured"><a href="#"><img loading="lazy"
+                                                                                             decoding="async"
                                                                                              className=""
                                                                                              src="wp-content/uploads/2021/06/g13-600x900.jpg"
                                                                                              width="600" height="900"
-                                                                                             alt="g13" title="g13"/></a></div>
+                                                                                             alt="g13"
+                                                                                             title="g13" /></a></div>
                                             <div className="item--meta">
                                               <div className="item--category"><a href="#" rel="tag">Strategy</a></div>
                                               <h4 className="item--title"><a href="#"> Startup Business </a></h4>
@@ -1213,48 +1311,57 @@ const Home = () => {
                                                 <defs>
                                                   <linearGradient id="ct-portfolio-gradient-icon" x1="0%" y1="0%"
                                                                   x2="100%" y2="0%">
-                                                    <stop offset="0%" style={{ stopColor: '#ffde00', stopOpacity: 1 }}/>
-                                                    <stop offset="100%" style={{ stopColor: '#f4a21a', stopOpacity: 1 }}/>
+                                                    <stop offset="0%"
+                                                          style={{ stopColor: '#ffde00', stopOpacity: 1 }} />
+                                                    <stop offset="100%"
+                                                          style={{ stopColor: '#f4a21a', stopOpacity: 1 }} />
                                                   </linearGradient>
                                                 </defs>
                                                 <path fill="url(#ct-portfolio-gradient-icon)"
-                                                      d="M-76,83c0.865-14.868,5.424-27.347,15-34,9.2-6.394,19.169-4.737,33-4,12.43,0.662,25.13.451,32-1C25.321,39.5,43.176,24.079,58,1l5,102Z"/>
+                                                      d="M-76,83c0.865-14.868,5.424-27.347,15-34,9.2-6.394,19.169-4.737,33-4,12.43,0.662,25.13.451,32-1C25.321,39.5,43.176,24.079,58,1l5,102Z" />
                                               </svg>
                                             </div>
                                           </div>
                                         </div>
                                         <div className="carousel-item slick-slide">
                                           <div className="grid-item-inner ">
-                                            <div className="item--featured"><a href="#"><img loading="lazy" decoding="async"
+                                            <div className="item--featured"><a href="#"><img loading="lazy"
+                                                                                             decoding="async"
                                                                                              className=""
                                                                                              src="wp-content/uploads/2021/06/g14-600x900.jpg"
                                                                                              width="600" height="900"
-                                                                                             alt="g14" title="g14"/></a></div>
+                                                                                             alt="g14"
+                                                                                             title="g14" /></a></div>
                                             <div className="item--meta">
-                                              <div className="item--category"><a href="#" rel="tag">Facilitation</a></div>
+                                              <div className="item--category"><a href="#" rel="tag">Facilitation</a>
+                                              </div>
                                               <h4 className="item--title"><a href="#"> Market Research </a></h4>
                                               <svg xmlns="http://www.w3.org/2000/svg" width="58" height="43"
                                                    viewBox="0 0 58 43">
                                                 <defs>
                                                   <linearGradient id="ct-portfolio-gradient-icon" x1="0%" y1="0%"
                                                                   x2="100%" y2="0%">
-                                                    <stop offset="0%" style={{ stopColor: '#ffde00', stopOpacity: 1 }}/>
-                                                    <stop offset="100%" style={{ stopColor: '#f4a21a', stopOpacity: 1 }}/>
+                                                    <stop offset="0%"
+                                                          style={{ stopColor: '#ffde00', stopOpacity: 1 }} />
+                                                    <stop offset="100%"
+                                                          style={{ stopColor: '#f4a21a', stopOpacity: 1 }} />
                                                   </linearGradient>
                                                 </defs>
                                                 <path fill="url(#ct-portfolio-gradient-icon)"
-                                                      d="M-76,83c0.865-14.868,5.424-27.347,15-34,9.2-6.394,19.169-4.737,33-4,12.43,0.662,25.13.451,32-1C25.321,39.5,43.176,24.079,58,1l5,102Z"/>
+                                                      d="M-76,83c0.865-14.868,5.424-27.347,15-34,9.2-6.394,19.169-4.737,33-4,12.43,0.662,25.13.451,32-1C25.321,39.5,43.176,24.079,58,1l5,102Z" />
                                               </svg>
                                             </div>
                                           </div>
                                         </div>
                                         <div className="carousel-item slick-slide">
                                           <div className="grid-item-inner ">
-                                            <div className="item--featured"><a href="#"><img loading="lazy" decoding="async"
+                                            <div className="item--featured"><a href="#"><img loading="lazy"
+                                                                                             decoding="async"
                                                                                              className=""
                                                                                              src="wp-content/uploads/2021/06/g15-600x900.jpg"
                                                                                              width="600" height="900"
-                                                                                             alt="g15" title="g15"/></a></div>
+                                                                                             alt="g15"
+                                                                                             title="g15" /></a></div>
                                             <div className="item--meta">
                                               <div className="item--category"><a href="#" rel="tag">Strategy</a></div>
                                               <h4 className="item--title"><a href="#"> SEO Optimization </a></h4>
@@ -1263,48 +1370,57 @@ const Home = () => {
                                                 <defs>
                                                   <linearGradient id="ct-portfolio-gradient-icon" x1="0%" y1="0%"
                                                                   x2="100%" y2="0%">
-                                                    <stop offset="0%" style={{ stopColor: '#ffde00', stopOpacity: 1 }}/>
-                                                    <stop offset="100%" style={{ stopColor: '#f4a21a', stopOpacity: 1 }}/>
+                                                    <stop offset="0%"
+                                                          style={{ stopColor: '#ffde00', stopOpacity: 1 }} />
+                                                    <stop offset="100%"
+                                                          style={{ stopColor: '#f4a21a', stopOpacity: 1 }} />
                                                   </linearGradient>
                                                 </defs>
                                                 <path fill="url(#ct-portfolio-gradient-icon)"
-                                                      d="M-76,83c0.865-14.868,5.424-27.347,15-34,9.2-6.394,19.169-4.737,33-4,12.43,0.662,25.13.451,32-1C25.321,39.5,43.176,24.079,58,1l5,102Z"/>
+                                                      d="M-76,83c0.865-14.868,5.424-27.347,15-34,9.2-6.394,19.169-4.737,33-4,12.43,0.662,25.13.451,32-1C25.321,39.5,43.176,24.079,58,1l5,102Z" />
                                               </svg>
                                             </div>
                                           </div>
                                         </div>
                                         <div className="carousel-item slick-slide">
                                           <div className="grid-item-inner ">
-                                            <div className="item--featured"><a href="#"><img loading="lazy" decoding="async"
+                                            <div className="item--featured"><a href="#"><img loading="lazy"
+                                                                                             decoding="async"
                                                                                              className=""
                                                                                              src="wp-content/uploads/2021/06/g16-600x900.jpg"
                                                                                              width="600" height="900"
-                                                                                             alt="g16" title="g16"/></a></div>
+                                                                                             alt="g16"
+                                                                                             title="g16" /></a></div>
                                             <div className="item--meta">
-                                              <div className="item--category"><a href="#" rel="tag">Facilitation</a></div>
+                                              <div className="item--category"><a href="#" rel="tag">Facilitation</a>
+                                              </div>
                                               <h4 className="item--title"><a href="#"> Web Desiging </a></h4>
                                               <svg xmlns="http://www.w3.org/2000/svg" width="58" height="43"
                                                    viewBox="0 0 58 43">
                                                 <defs>
                                                   <linearGradient id="ct-portfolio-gradient-icon" x1="0%" y1="0%"
                                                                   x2="100%" y2="0%">
-                                                    <stop offset="0%" style={{ stopColor: '#ffde00', stopOpacity: 1 }}/>
-                                                    <stop offset="100%" style={{ stopColor: '#f4a21a', stopOpacity: 1 }}/>
+                                                    <stop offset="0%"
+                                                          style={{ stopColor: '#ffde00', stopOpacity: 1 }} />
+                                                    <stop offset="100%"
+                                                          style={{ stopColor: '#f4a21a', stopOpacity: 1 }} />
                                                   </linearGradient>
                                                 </defs>
                                                 <path fill="url(#ct-portfolio-gradient-icon)"
-                                                      d="M-76,83c0.865-14.868,5.424-27.347,15-34,9.2-6.394,19.169-4.737,33-4,12.43,0.662,25.13.451,32-1C25.321,39.5,43.176,24.079,58,1l5,102Z"/>
+                                                      d="M-76,83c0.865-14.868,5.424-27.347,15-34,9.2-6.394,19.169-4.737,33-4,12.43,0.662,25.13.451,32-1C25.321,39.5,43.176,24.079,58,1l5,102Z" />
                                               </svg>
                                             </div>
                                           </div>
                                         </div>
                                         <div className="carousel-item slick-slide">
                                           <div className="grid-item-inner ">
-                                            <div className="item--featured"><a href="#"><img loading="lazy" decoding="async"
+                                            <div className="item--featured"><a href="#"><img loading="lazy"
+                                                                                             decoding="async"
                                                                                              className=""
                                                                                              src="wp-content/uploads/2021/06/g17-600x900.jpg"
                                                                                              width="600" height="900"
-                                                                                             alt="g17" title="g17"/></a></div>
+                                                                                             alt="g17"
+                                                                                             title="g17" /></a></div>
                                             <div className="item--meta">
                                               <div className="item--category"><a href="#" rel="tag">Coaching</a></div>
                                               <h4 className="item--title"><a href="#"> Business Growth </a></h4>
@@ -1313,23 +1429,27 @@ const Home = () => {
                                                 <defs>
                                                   <linearGradient id="ct-portfolio-gradient-icon" x1="0%" y1="0%"
                                                                   x2="100%" y2="0%">
-                                                    <stop offset="0%" style={{ stopColor: '#ffde00', stopOpacity: 1 }}/>
-                                                    <stop offset="100%" style={{ stopColor: '#f4a21a', stopOpacity: 1 }}/>
+                                                    <stop offset="0%"
+                                                          style={{ stopColor: '#ffde00', stopOpacity: 1 }} />
+                                                    <stop offset="100%"
+                                                          style={{ stopColor: '#f4a21a', stopOpacity: 1 }} />
                                                   </linearGradient>
                                                 </defs>
                                                 <path fill="url(#ct-portfolio-gradient-icon)"
-                                                      d="M-76,83c0.865-14.868,5.424-27.347,15-34,9.2-6.394,19.169-4.737,33-4,12.43,0.662,25.13.451,32-1C25.321,39.5,43.176,24.079,58,1l5,102Z"/>
+                                                      d="M-76,83c0.865-14.868,5.424-27.347,15-34,9.2-6.394,19.169-4.737,33-4,12.43,0.662,25.13.451,32-1C25.321,39.5,43.176,24.079,58,1l5,102Z" />
                                               </svg>
                                             </div>
                                           </div>
                                         </div>
                                         <div className="carousel-item slick-slide">
                                           <div className="grid-item-inner ">
-                                            <div className="item--featured"><a href="#"><img loading="lazy" decoding="async"
+                                            <div className="item--featured"><a href="#"><img loading="lazy"
+                                                                                             decoding="async"
                                                                                              className=""
                                                                                              src="wp-content/uploads/2021/06/g18-600x900.jpg"
                                                                                              width="600" height="900"
-                                                                                             alt="g18" title="g18"/></a></div>
+                                                                                             alt="g18"
+                                                                                             title="g18" /></a></div>
                                             <div className="item--meta">
                                               <div className="item--category"><a href="#" rel="tag">Coaching</a></div>
                                               <h4 className="item--title"><a href="#"> Financial Analysis </a></h4>
@@ -1338,25 +1458,30 @@ const Home = () => {
                                                 <defs>
                                                   <linearGradient id="ct-portfolio-gradient-icon" x1="0%" y1="0%"
                                                                   x2="100%" y2="0%">
-                                                    <stop offset="0%" style={{ stopColor: '#ffde00', stopOpacity: 1 }}/>
-                                                    <stop offset="100%" style={{ stopColor: '#f4a21a', stopOpacity: 1 }}/>
+                                                    <stop offset="0%"
+                                                          style={{ stopColor: '#ffde00', stopOpacity: 1 }} />
+                                                    <stop offset="100%"
+                                                          style={{ stopColor: '#f4a21a', stopOpacity: 1 }} />
                                                   </linearGradient>
                                                 </defs>
                                                 <path fill="url(#ct-portfolio-gradient-icon)"
-                                                      d="M-76,83c0.865-14.868,5.424-27.347,15-34,9.2-6.394,19.169-4.737,33-4,12.43,0.662,25.13.451,32-1C25.321,39.5,43.176,24.079,58,1l5,102Z"/>
+                                                      d="M-76,83c0.865-14.868,5.424-27.347,15-34,9.2-6.394,19.169-4.737,33-4,12.43,0.662,25.13.451,32-1C25.321,39.5,43.176,24.079,58,1l5,102Z" />
                                               </svg>
                                             </div>
                                           </div>
                                         </div>
                                         <div className="carousel-item slick-slide">
                                           <div className="grid-item-inner ">
-                                            <div className="item--featured"><a href="#"><img loading="lazy" decoding="async"
+                                            <div className="item--featured"><a href="#"><img loading="lazy"
+                                                                                             decoding="async"
                                                                                              className=""
                                                                                              src="wp-content/uploads/2021/06/g19-600x900.jpg"
                                                                                              width="600" height="900"
-                                                                                             alt="g19" title="g19"/></a></div>
+                                                                                             alt="g19"
+                                                                                             title="g19" /></a></div>
                                             <div className="item--meta">
-                                              <div className="item--category"><a href="#" rel="tag">Stakeholder relations</a>
+                                              <div className="item--category"><a href="#" rel="tag">Stakeholder
+                                                relations</a>
                                               </div>
                                               <h4 className="item--title"><a href="#"> Market Expansion </a></h4>
                                               <svg xmlns="http://www.w3.org/2000/svg" width="58" height="43"
@@ -1364,37 +1489,44 @@ const Home = () => {
                                                 <defs>
                                                   <linearGradient id="ct-portfolio-gradient-icon" x1="0%" y1="0%"
                                                                   x2="100%" y2="0%">
-                                                    <stop offset="0%" style={{ stopColor: '#ffde00', stopOpacity: 1 }}/>
-                                                    <stop offset="100%" style={{ stopColor: '#f4a21a', stopOpacity: 1 }}/>
+                                                    <stop offset="0%"
+                                                          style={{ stopColor: '#ffde00', stopOpacity: 1 }} />
+                                                    <stop offset="100%"
+                                                          style={{ stopColor: '#f4a21a', stopOpacity: 1 }} />
                                                   </linearGradient>
                                                 </defs>
                                                 <path fill="url(#ct-portfolio-gradient-icon)"
-                                                      d="M-76,83c0.865-14.868,5.424-27.347,15-34,9.2-6.394,19.169-4.737,33-4,12.43,0.662,25.13.451,32-1C25.321,39.5,43.176,24.079,58,1l5,102Z"/>
+                                                      d="M-76,83c0.865-14.868,5.424-27.347,15-34,9.2-6.394,19.169-4.737,33-4,12.43,0.662,25.13.451,32-1C25.321,39.5,43.176,24.079,58,1l5,102Z" />
                                               </svg>
                                             </div>
                                           </div>
                                         </div>
                                         <div className="carousel-item slick-slide">
                                           <div className="grid-item-inner ">
-                                            <div className="item--featured"><a href="#"><img loading="lazy" decoding="async"
+                                            <div className="item--featured"><a href="#"><img loading="lazy"
+                                                                                             decoding="async"
                                                                                              className=""
                                                                                              src="wp-content/uploads/2021/06/g20-600x900.jpg"
                                                                                              width="600" height="900"
-                                                                                             alt="g20" title="g20"/></a></div>
+                                                                                             alt="g20"
+                                                                                             title="g20" /></a></div>
                                             <div className="item--meta">
-                                              <div className="item--category"><a href="#" rel="tag">Facilitation</a></div>
+                                              <div className="item--category"><a href="#" rel="tag">Facilitation</a>
+                                              </div>
                                               <h4 className="item--title"><a href="#"> Digital Analysis </a></h4>
                                               <svg xmlns="http://www.w3.org/2000/svg" width="58" height="43"
                                                    viewBox="0 0 58 43">
                                                 <defs>
                                                   <linearGradient id="ct-portfolio-gradient-icon" x1="0%" y1="0%"
                                                                   x2="100%" y2="0%">
-                                                    <stop offset="0%" style={{ stopColor: '#ffde00', stopOpacity: 1 }}/>
-                                                    <stop offset="100%" style={{ stopColor: '#f4a21a', stopOpacity: 1 }}/>
+                                                    <stop offset="0%"
+                                                          style={{ stopColor: '#ffde00', stopOpacity: 1 }} />
+                                                    <stop offset="100%"
+                                                          style={{ stopColor: '#f4a21a', stopOpacity: 1 }} />
                                                   </linearGradient>
                                                 </defs>
                                                 <path fill="url(#ct-portfolio-gradient-icon)"
-                                                      d="M-76,83c0.865-14.868,5.424-27.347,15-34,9.2-6.394,19.169-4.737,33-4,12.43,0.662,25.13.451,32-1C25.321,39.5,43.176,24.079,58,1l5,102Z"/>
+                                                      d="M-76,83c0.865-14.868,5.424-27.347,15-34,9.2-6.394,19.169-4.737,33-4,12.43,0.662,25.13.451,32-1C25.321,39.5,43.176,24.079,58,1l5,102Z" />
                                               </svg>
                                             </div>
                                           </div>
@@ -1408,7 +1540,8 @@ const Home = () => {
                                 className="elementor-element elementor-element-7b836a4 elementor-widget elementor-widget-ct_text_below"
                                 data-id="7b836a4" data-element_type="widget" data-widget_type="ct_text_below.default">
                                 <div className="elementor-widget-container">
-                                  <div id="ct_text_below-7b836a4" className="ct-text-below el-move-parents  bottom-center"
+                                  <div id="ct_text_below-7b836a4"
+                                       className="ct-text-below el-move-parents  bottom-center"
                                        data-wow-delay="ms">
                                     <div className="ct-inline-css" data-css="
  #ct_text_below-7b836a4.ct-text-below {
@@ -1440,7 +1573,8 @@ const Home = () => {
                             <div className="elementor-widget-wrap elementor-element-populated">
                               <div
                                 className="elementor-element elementor-element-24da04f elementor-widget elementor-widget-ct_square_animate"
-                                data-id="24da04f" data-element_type="widget" data-widget_type="ct_square_animate.default">
+                                data-id="24da04f" data-element_type="widget"
+                                data-widget_type="ct_square_animate.default">
                                 <div className="elementor-widget-container">
                                   <div id="ct_square_animate-24da04f" className="ct-square-animate el-move-parents">
                                     <div className="ct-square-container">
@@ -1463,7 +1597,7 @@ const Home = () => {
                                       <div className="ct-video-holder"><img loading="lazy" decoding="async" width="539"
                                                                             height="699"
                                                                             src="wp-content/uploads/2021/06/h-video1.jpg"
-                                                                            className="attachment-full" alt=""/></div>
+                                                                            className="attachment-full" alt="" /></div>
                                     </div>
                                   </div>
                                 </div>
@@ -1479,16 +1613,19 @@ const Home = () => {
                                 data-id="dff49ff" data-element_type="widget"
                                 data-widget_type="ct_particle_animate.default">
                                 <div className="elementor-widget-container">
-                                  <div className="ct-particle-animate el-move-parents img-below-content " data-wow-delay="ms">
+                                  <div className="ct-particle-animate el-move-parents img-below-content "
+                                       data-wow-delay="ms">
                                     <div id="ct_particle_animate-dff49ff0" className="top-right animate-none">
-                                      <div className="ct-inline-css" data-css="
- .ct-particle-animate #ct_particle_animate-dff49ff0 {
- right: 16%;
- top: 19%;
- }"></div>
+                                      <div
+                                        className="ct-inline-css"
+                                        data-css=".ct-particle-animate #ct_particle_animate-dff49ff0 { right: 16%; top: 19%; }">
+                                      </div>
                                       <img loading="lazy" decoding="async" width="110" height="236"
-                                           src="wp-content/uploads/2021/06/h-contact-img2.png" className="attachment-full"
-                                           alt=""/></div>
+                                           src="wp-content/uploads/2021/06/h-contact-img2.png"
+                                           className="attachment-full"
+                                           alt=""
+                                      />
+                                    </div>
                                   </div>
                                 </div>
                               </div>
@@ -1498,11 +1635,7 @@ const Home = () => {
                                 <div className="elementor-widget-container">
                                   <div id="ct_text_below-b0a514e" className="ct-text-below el-move-parents  top-right"
                                        data-wow-delay="ms">
-                                    <div className="ct-inline-css" data-css="
- #ct_text_below-b0a514e.ct-text-below {
- right: 6%;
- top: 10%;
- }"></div>
+                                    <div className="ct-inline-css" data-css=" #ct_text_below-b0a514e.ct-text-below { right: 6%; top: 10%; }"></div>
                                     Our goal
                                   </div>
                                 </div>
@@ -1513,7 +1646,7 @@ const Home = () => {
                                 <div className="elementor-widget-container">
                                   <div
                                     className="ct-tabs ct-tabs1 wow fadeInRight content-type-text_editor bg-image ct-tab-boxed"
-                                    style={{ backgroundImage: 'url(wp-content/uploads/2021/06/bg-client.png)'}}
+                                    style={{ backgroundImage: 'url(wp-content/uploads/2021/06/bg-client.png)' }}
                                     data-wow-delay="ms">
                                     <div className="ct-tabs--title">
                                       <div className="ct-heading item-st-hexagon">
@@ -1531,7 +1664,8 @@ const Home = () => {
                                           className="ct-tab-title "
                                           data-target="#ct_tabs-39e4b7f-394899e"> Our mission </span></div>
                                       <div className="ct-tabs-content">
-                                        <div className="ct-tab-content " id="ct_tabs-39e4b7f-3535652" style={{ display: 'block' }}>
+                                        <div className="ct-tab-content " id="ct_tabs-39e4b7f-3535652"
+                                             style={{ display: 'block' }}>
                                           With over a decade of experience, we’ve established ourselves as one the of
                                           pioneering agencies in the region.
                                           <ul>
@@ -1539,15 +1673,18 @@ const Home = () => {
                                             <li>Strategists, managers, developers, animators and designers.</li>
                                           </ul>
                                         </div>
-                                        <div className="ct-tab-content " id="ct_tabs-39e4b7f-5a20669">Forging relationships
-                                          between multi to national corporations, governments and global NGOs begins with
+                                        <div className="ct-tab-content " id="ct_tabs-39e4b7f-5a20669">Forging
+                                          relationships
+                                          between multi to national corporations, governments and global NGOs begins
+                                          with
                                           connections between people.
                                           <ul>
                                             <li>We offer a variety of service.</li>
                                             <li>We've been lucky to collaborate with a long list of customers.</li>
                                           </ul>
                                         </div>
-                                        <div className="ct-tab-content " id="ct_tabs-39e4b7f-394899e">What separates theme
+                                        <div className="ct-tab-content " id="ct_tabs-39e4b7f-394899e">What separates
+                                          theme
                                           from all other web design agencies is the ability to offer the most Friendly
                                           Experience you can imagine.
                                           <ul>
@@ -1596,22 +1733,28 @@ const Home = () => {
                                               <div className="ct-heading-hexagon"></div>
                                             </div>
                                             <div className="ct-heading-text-below"> Review</div>
-                                            <h3 className="item--title case-animate-time st-hexagon " data-wow-delay="ms">
+                                            <h3 className="item--title case-animate-time st-hexagon "
+                                                data-wow-delay="ms">
                                             <span className="slide-in-container"><span
                                               className="d-inline-block wow case-fade-in-up">We</span></span> <span
-                                              className="slide-in-container"><span className="d-inline-block wow case-fade-in-up">have</span></span>
+                                              className="slide-in-container"><span
+                                              className="d-inline-block wow case-fade-in-up">have</span></span>
                                               <span className="slide-in-container"><span
                                                 className="d-inline-block wow case-fade-in-up">been</span></span> <span
-                                              className="slide-in-container"><span className="d-inline-block wow case-fade-in-up">one</span></span>
+                                              className="slide-in-container"><span
+                                              className="d-inline-block wow case-fade-in-up">one</span></span>
                                               <span className="slide-in-container"><span
                                                 className="d-inline-block wow case-fade-in-up">of</span></span> <span
-                                              className="slide-in-container"><span className="d-inline-block wow case-fade-in-up">the</span></span>
+                                              className="slide-in-container"><span
+                                              className="d-inline-block wow case-fade-in-up">the</span></span>
                                               <span className="slide-in-container"><span
                                                 className="d-inline-block wow case-fade-in-up">best</span></span> <span
-                                              className="slide-in-container"><span className="d-inline-block wow case-fade-in-up">partners</span></span>
+                                              className="slide-in-container"><span
+                                              className="d-inline-block wow case-fade-in-up">partners</span></span>
                                               <span className="slide-in-container"><span
                                                 className="d-inline-block wow case-fade-in-up">of</span></span> <span
-                                              className="slide-in-container"><span className="d-inline-block wow case-fade-in-up"><cite>ILLC</cite>.</span></span>
+                                              className="slide-in-container"><span
+                                              className="d-inline-block wow case-fade-in-up"><cite>ILLC</cite>.</span></span>
                                             </h3></div>
                                         </div>
                                       </div>
@@ -1626,11 +1769,14 @@ const Home = () => {
                                         data-id="76aaaad1" data-element_type="widget"
                                         data-widget_type="ct_text_editor.default">
                                         <div className="elementor-widget-container">
-                                          <div id="ct_text_editor-76aaaad1" className="ct-text-editor " data-wow-delay="ms">
+                                          <div id="ct_text_editor-76aaaad1" className="ct-text-editor "
+                                               data-wow-delay="ms">
                                             <div className="ct-inline-css" data-css="
  "></div>
-                                            <div className="ct-text-editor elementor-clearfix"> We value the experimentation,
-                                              the reformation of the message, and the smart incentives. We offer a variety
+                                            <div className="ct-text-editor elementor-clearfix"> We value the
+                                              experimentation,
+                                              the reformation of the message, and the smart incentives. We offer a
+                                              variety
                                               of services.
                                             </div>
                                           </div>
@@ -1644,7 +1790,8 @@ const Home = () => {
                                     <div className="elementor-widget-wrap elementor-element-populated">
                                       <div
                                         className="elementor-element elementor-element-66be527 elementor-align-right elementor-align-center elementor-align-left elementor-widget elementor-widget-ct_button"
-                                        data-id="66be527" data-element_type="widget" data-widget_type="ct_button.default">
+                                        data-id="66be527" data-element_type="widget"
+                                        data-widget_type="ct_button.default">
                                         <div className="elementor-widget-container">
                                           <div id="ct_button-66be527" className="ct-button-wrapper ct-button-layout1">
                                             <div className="ct-inline-css" data-css="
@@ -1666,19 +1813,23 @@ const Home = () => {
                                     <div className="ct-carousel-inner">
                                       <div className="ct-slick-carousel slick-shadow" data-arrows="" data-dots=""
                                            data-pauseOnHover="" data-autoplay="true" data-autoplaySpeed="10000"
-                                           data-infinite="" data-speed="500" data-colxs="1" data-colsm="2" data-colmd="2"
+                                           data-infinite="" data-speed="500" data-colxs="1" data-colsm="2"
+                                           data-colmd="2"
                                            data-collg="3" data-colxl="3" data-dir="false" data-slidesToScroll="1">
                                         <div className="slick-slide">
                                           <div className="item--inner " data-wow-duration="1.2s">
-                                            <div className="item--image"><img loading="lazy" decoding="async" className=""
+                                            <div className="item--image"><img loading="lazy" decoding="async"
+                                                                              className=""
                                                                               src="wp-content/uploads/2021/06/author1-72x72.jpg"
                                                                               width="72" height="72" alt="author1"
-                                                                              title="author1"/></div>
-                                            <div className="item--description">Over the years we have relied heavily onto them
+                                                                              title="author1" /></div>
+                                            <div className="item--description">Over the years we have relied heavily
+                                              onto them
                                               for creative design and the marketing services in business.
                                             </div>
                                             <div className="item--holder">
-                                              <div className="item--meta"><h4 className="item--title"> Robert Froast</h4>
+                                              <div className="item--meta"><h4 className="item--title"> Robert
+                                                Froast</h4>
                                                 <div className="item--position">Senior Developer</div>
                                               </div>
                                               <div className="item--star"><i className="fas fa-star"></i> <i
@@ -1689,15 +1840,18 @@ const Home = () => {
                                         </div>
                                         <div className="slick-slide">
                                           <div className="item--inner " data-wow-duration="1.2s">
-                                            <div className="item--image"><img loading="lazy" decoding="async" className=""
+                                            <div className="item--image"><img loading="lazy" decoding="async"
+                                                                              className=""
                                                                               src="wp-content/uploads/2021/06/author2-72x72.jpg"
                                                                               width="72" height="72" alt="author2"
-                                                                              title="author2"/></div>
-                                            <div className="item--description">Over the years we have relied heavily onto them
+                                                                              title="author2" /></div>
+                                            <div className="item--description">Over the years we have relied heavily
+                                              onto them
                                               for creative design and the marketing services in business.
                                             </div>
                                             <div className="item--holder">
-                                              <div className="item--meta"><h4 className="item--title"> Pamela Johnson</h4>
+                                              <div className="item--meta"><h4 className="item--title"> Pamela
+                                                Johnson</h4>
                                                 <div className="item--position">Leadership Group</div>
                                               </div>
                                               <div className="item--star"><i className="fas fa-star"></i> <i
@@ -1708,11 +1862,13 @@ const Home = () => {
                                         </div>
                                         <div className="slick-slide">
                                           <div className="item--inner " data-wow-duration="1.2s">
-                                            <div className="item--image"><img loading="lazy" decoding="async" className=""
+                                            <div className="item--image"><img loading="lazy" decoding="async"
+                                                                              className=""
                                                                               src="wp-content/uploads/2021/06/author3-72x72.jpg"
                                                                               width="72" height="72" alt="author3"
-                                                                              title="author3"/></div>
-                                            <div className="item--description">Over the years we have relied heavily onto them
+                                                                              title="author3" /></div>
+                                            <div className="item--description">Over the years we have relied heavily
+                                              onto them
                                               for creative design and the marketing services in business.
                                             </div>
                                             <div className="item--holder">
@@ -1727,15 +1883,18 @@ const Home = () => {
                                         </div>
                                         <div className="slick-slide">
                                           <div className="item--inner " data-wow-duration="1.2s">
-                                            <div className="item--image"><img loading="lazy" decoding="async" className=""
+                                            <div className="item--image"><img loading="lazy" decoding="async"
+                                                                              className=""
                                                                               src="wp-content/uploads/2021/06/author4-72x72.jpg"
                                                                               width="72" height="72" alt="author4"
-                                                                              title="author4"/></div>
-                                            <div className="item--description">Over the years we have relied heavily onto them
+                                                                              title="author4" /></div>
+                                            <div className="item--description">Over the years we have relied heavily
+                                              onto them
                                               for creative design and the marketing services in business.
                                             </div>
                                             <div className="item--holder">
-                                              <div className="item--meta"><h4 className="item--title"> Kathleen Smith</h4>
+                                              <div className="item--meta"><h4 className="item--title"> Kathleen
+                                                Smith</h4>
                                                 <div className="item--position">Jodie Comer</div>
                                               </div>
                                               <div className="item--star"><i className="fas fa-star"></i> <i
@@ -1746,15 +1905,18 @@ const Home = () => {
                                         </div>
                                         <div className="slick-slide">
                                           <div className="item--inner " data-wow-duration="1.2s">
-                                            <div className="item--image"><img loading="lazy" decoding="async" className=""
+                                            <div className="item--image"><img loading="lazy" decoding="async"
+                                                                              className=""
                                                                               src="wp-content/uploads/2021/06/author5-72x72.jpg"
                                                                               width="72" height="72" alt="author5"
-                                                                              title="author5"/></div>
-                                            <div className="item--description">Over the years we have relied heavily onto them
+                                                                              title="author5" /></div>
+                                            <div className="item--description">Over the years we have relied heavily
+                                              onto them
                                               for creative design and the marketing services in business.
                                             </div>
                                             <div className="item--holder">
-                                              <div className="item--meta"><h4 className="item--title"> Carolyn Smith</h4>
+                                              <div className="item--meta"><h4 className="item--title"> Carolyn
+                                                Smith</h4>
                                                 <div className="item--position">Leadership Group</div>
                                               </div>
                                               <div className="item--star"><i className="fas fa-star"></i> <i
@@ -1765,11 +1927,13 @@ const Home = () => {
                                         </div>
                                         <div className="slick-slide">
                                           <div className="item--inner " data-wow-duration="1.2s">
-                                            <div className="item--image"><img loading="lazy" decoding="async" className=""
+                                            <div className="item--image"><img loading="lazy" decoding="async"
+                                                                              className=""
                                                                               src="wp-content/uploads/2021/06/author6-72x72.jpg"
                                                                               width="72" height="72" alt="author6"
-                                                                              title="author6"/></div>
-                                            <div className="item--description">Over the years we have relied heavily onto them
+                                                                              title="author6" /></div>
+                                            <div className="item--description">Over the years we have relied heavily
+                                              onto them
                                               for creative design and the marketing services in business.
                                             </div>
                                             <div className="item--holder">
@@ -1819,7 +1983,8 @@ const Home = () => {
                                       className="d-inline-block wow case-fade-in-up">do</span></span> <span
                                       className="slide-in-container"><span
                                       className="d-inline-block wow case-fade-in-up">Working</span></span> <span
-                                      className="slide-in-container"><span className="d-inline-block wow case-fade-in-up">togather!</span></span>
+                                      className="slide-in-container"><span
+                                      className="d-inline-block wow case-fade-in-up">togather!</span></span>
                                     </h3></div>
                                 </div>
                               </div>
@@ -1835,7 +2000,8 @@ const Home = () => {
                                       <div className="item--icon"><i aria-hidden="true"
                                                                      className="flaticon flaticon-location"></i></div>
                                       <div className="item--meta"><h4 className="item--title"> Office Address:</h4>
-                                        <div className="item--description">Level 6, 541 St Kilda Road Melbourne, VIC 3004
+                                        <div className="item--description">Level 6, 541 St Kilda Road Melbourne, VIC
+                                          3004
                                         </div>
                                       </div>
                                     </div>
@@ -1851,10 +2017,11 @@ const Home = () => {
                                     <div className="ct-inline-css" data-css="
  "></div>
                                     <div className="item--inner">
-                                      <div className="item--icon"><i aria-hidden="true" className="flaticon flaticon-call"></i>
+                                      <div className="item--icon"><i aria-hidden="true"
+                                                                     className="flaticon flaticon-call"></i>
                                       </div>
                                       <div className="item--meta"><h4 className="item--title"> Phone number:</h4>
-                                        <div className="item--description">+1300 658 700<br/> +1567 658 723</div>
+                                        <div className="item--description">+1300 658 700<br /> +1567 658 723</div>
                                       </div>
                                     </div>
                                   </div>
@@ -1869,10 +2036,11 @@ const Home = () => {
                                     <div className="ct-inline-css" data-css="
  "></div>
                                     <div className="item--inner">
-                                      <div className="item--icon"><i aria-hidden="true" className="flaticon flaticon-chat"></i>
+                                      <div className="item--icon"><i aria-hidden="true"
+                                                                     className="flaticon flaticon-chat"></i>
                                       </div>
                                       <div className="item--meta"><h4 className="item--title"> mail Address:</h4>
-                                        <div className="item--description">envato@gmail.com<br/> grupi@mail.com</div>
+                                        <div className="item--description">envato@gmail.com<br /> grupi@mail.com</div>
                                       </div>
                                     </div>
                                   </div>
@@ -1899,11 +2067,12 @@ const Home = () => {
                                 <div className="elementor-widget-container">
                                   <div className="ct-image-single    wow fadeInUp" data-width="" data-height=""
                                        data-wow-delay="ms">
-                                    <div className="ct-image-single--inner"><img loading="lazy" decoding="async" width="470"
+                                    <div className="ct-image-single--inner"><img loading="lazy" decoding="async"
+                                                                                 width="470"
                                                                                  height="682"
                                                                                  src="wp-content/uploads/2021/06/h-man1.png"
                                                                                  className="no-lazyload img-main attachment-full"
-                                                                                 alt=""/></div>
+                                                                                 alt="" /></div>
                                   </div>
                                 </div>
                               </div>
@@ -1918,7 +2087,8 @@ const Home = () => {
                                 data-id="c4cb707" data-element_type="widget"
                                 data-widget_type="ct_particle_animate.default">
                                 <div className="elementor-widget-container">
-                                  <div className="ct-particle-animate el-move-parents img-below-content " data-wow-delay="ms">
+                                  <div className="ct-particle-animate el-move-parents img-below-content "
+                                       data-wow-delay="ms">
                                     <div id="ct_particle_animate-c4cb7070" className="top-right animate-none">
                                       <div className="ct-inline-css" data-css="
  .ct-particle-animate #ct_particle_animate-c4cb7070 {
@@ -1926,8 +2096,9 @@ const Home = () => {
  top: 18%;
  }"></div>
                                       <img loading="lazy" decoding="async" width="106" height="277"
-                                           src="wp-content/uploads/2021/06/h-contact-img.png" className="attachment-full"
-                                           alt=""/></div>
+                                           src="wp-content/uploads/2021/06/h-contact-img.png"
+                                           className="attachment-full"
+                                           alt="" /></div>
                                   </div>
                                 </div>
                               </div>
@@ -1936,8 +2107,10 @@ const Home = () => {
                                 data-id="6048933" data-element_type="widget" data-widget_type="ct_contact_form.default">
                                 <div className="elementor-widget-container">
                                   <div className="ct-contact-form ct-contact-form-layout1 style2 wow fadeInRight">
-                                    <div className="ct-contact-meta"><h4 className="ct-meta--title"><span>Contact us</span></h4>
-                                      <div className="ct-meta--desc">We work with ambitious leaders who want to define the
+                                    <div className="ct-contact-meta"><h4 className="ct-meta--title">
+                                      <span>Contact us</span></h4>
+                                      <div className="ct-meta--desc">We work with ambitious leaders who want to define
+                                        the
                                         future, not hide from it.
                                       </div>
                                     </div>
@@ -1947,16 +2120,19 @@ const Home = () => {
                                                                                    aria-atomic="true"></p>
                                           <ul></ul>
                                         </div>
-                                        <form action="https://demo.casethemes.net/grupi/#wpcf7-f1637-p23-o1" method="post"
-                                              className="wpcf7-form init" aria-label="Contact form" noValidate="novalidate"
+                                        <form action="https://demo.casethemes.net/grupi/#wpcf7-f1637-p23-o1"
+                                              method="post"
+                                              className="wpcf7-form init" aria-label="Contact form"
+                                              noValidate="novalidate"
                                               data-status="init">
-                                          <div style={{ display: 'none'}}><input type="hidden" name="_wpcf7" value="1637"/>
-                                            <input type="hidden" name="_wpcf7_version" value="5.8.6"/> <input
-                                              type="hidden" name="_wpcf7_locale" value="en_US"/> <input type="hidden"
-                                                                                                        name="_wpcf7_unit_tag"
-                                                                                                        value="wpcf7-f1637-p23-o1"/>
-                                            <input type="hidden" name="_wpcf7_container_post" value="23"/> <input
-                                              type="hidden" name="_wpcf7_posted_data_hash" value=""/></div>
+                                          <div style={{ display: 'none' }}><input type="hidden" name="_wpcf7"
+                                                                                  value="1637" />
+                                            <input type="hidden" name="_wpcf7_version" value="5.8.6" /> <input
+                                              type="hidden" name="_wpcf7_locale" value="en_US" /> <input type="hidden"
+                                                                                                         name="_wpcf7_unit_tag"
+                                                                                                         value="wpcf7-f1637-p23-o1" />
+                                            <input type="hidden" name="_wpcf7_container_post" value="23" /> <input
+                                              type="hidden" name="_wpcf7_posted_data_hash" value="" /></div>
                                           <div className="row">
                                             <div className="input-filled col-12"><p><label>Name *</label><span
                                               className="wpcf7-form-control-wrap" data-name="your-name"><input size="40"
@@ -1966,33 +2142,36 @@ const Home = () => {
                                                                                                                placeholder="Write Name..."
                                                                                                                value=""
                                                                                                                type="text"
-                                                                                                               name="your-name"/></span><i
+                                                                                                               name="your-name" /></span><i
                                               className="fa fa-user input-icon"></i></p></div>
                                             <div className="input-filled col-12"><p><label>Mobile number *</label><span
-                                              className="wpcf7-form-control-wrap" data-name="your-phone"><input size="40"
-                                                                                                                className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
-                                                                                                                aria-required="true"
-                                                                                                                aria-invalid="false"
-                                                                                                                placeholder="+88 (___) __ ____"
-                                                                                                                value=""
-                                                                                                                type="text"
-                                                                                                                name="your-phone"/></span><i
+                                              className="wpcf7-form-control-wrap" data-name="your-phone"><input
+                                              size="40"
+                                              className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                                              aria-required="true"
+                                              aria-invalid="false"
+                                              placeholder="+88 (___) __ ____"
+                                              value=""
+                                              type="text"
+                                              name="your-phone" /></span><i
                                               className="fa fa-phone input-icon"></i></p></div>
                                             <div className="input-filled col-12"><p><label>Email address *</label><span
-                                              className="wpcf7-form-control-wrap" data-name="your-email"><input size="40"
-                                                                                                                className="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email"
-                                                                                                                aria-required="true"
-                                                                                                                aria-invalid="false"
-                                                                                                                placeholder="envato@gmail.com"
-                                                                                                                value=""
-                                                                                                                type="email"
-                                                                                                                name="your-email"/></span><i
+                                              className="wpcf7-form-control-wrap" data-name="your-email"><input
+                                              size="40"
+                                              className="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email"
+                                              aria-required="true"
+                                              aria-invalid="false"
+                                              placeholder="envato@gmail.com"
+                                              value=""
+                                              type="email"
+                                              name="your-email" /></span><i
                                               className="fa fa-envelope input-icon"></i></p></div>
                                             <div className="input-filled col-12">
                                               <p>
                                                 <button type="submit"
                                                         className="wpcf7-submit btn btn-secondary btn-animate btn-inline-flex">
-                                                  Let’s Get to Work<i className="flaticon-right-arrows icon-space-left"></i>
+                                                  Let’s Get to Work<i
+                                                  className="flaticon-right-arrows icon-space-left"></i>
                                                 </button>
                                               </p>
                                             </div>
@@ -2040,8 +2219,9 @@ const Home = () => {
  bottom: 0%;
  }"></div>
                                       <img loading="lazy" decoding="async" width="203" height="85"
-                                           src="wp-content/uploads/2021/06/s-img-animate1.png" className="attachment-full"
-                                           alt=""/></div>
+                                           src="wp-content/uploads/2021/06/s-img-animate1.png"
+                                           className="attachment-full"
+                                           alt="" /></div>
                                   </div>
                                 </div>
                               </div>
@@ -2059,16 +2239,18 @@ const Home = () => {
                                         data-id="391aa933" data-element_type="widget"
                                         data-widget_type="ct_counter.default">
                                         <div className="elementor-widget-container">
-                                          <div className="ct-counter ct-counter-layout1 hover-style1 " data-wow-delay="ms">
+                                          <div className="ct-counter ct-counter-layout1 hover-style1 "
+                                               data-wow-delay="ms">
                                             <div className="ct-counter-inner">
                                               <div className="ct-counter-icon"><i aria-hidden="true"
                                                                                   className="flaticon flaticon-project-plan"></i>
                                               </div>
                                               <div className="ct-counter-meta">
-                                                <div className="ct-counter-number"><span className="ct-counter-number-value"
-                                                                                         data-duration="2000"
-                                                                                         data-to-value="2205"
-                                                                                         data-delimiter=",">1</span></div>
+                                                <div className="ct-counter-number"><span
+                                                  className="ct-counter-number-value"
+                                                  data-duration="2000"
+                                                  data-to-value="2205"
+                                                  data-delimiter=",">1</span></div>
                                                 <div className="ct-counter-title">Completed Projects</div>
                                               </div>
                                               <div className="ct-counter-line"></div>
@@ -2087,16 +2269,18 @@ const Home = () => {
                                         data-id="729e47e4" data-element_type="widget"
                                         data-widget_type="ct_counter.default">
                                         <div className="elementor-widget-container">
-                                          <div className="ct-counter ct-counter-layout1 hover-style1 " data-wow-delay="ms">
+                                          <div className="ct-counter ct-counter-layout1 hover-style1 "
+                                               data-wow-delay="ms">
                                             <div className="ct-counter-inner">
                                               <div className="ct-counter-icon"><i aria-hidden="true"
                                                                                   className="flaticon flaticon-cooperation"></i>
                                               </div>
                                               <div className="ct-counter-meta">
-                                                <div className="ct-counter-number"><span className="ct-counter-number-value"
-                                                                                         data-duration="2000"
-                                                                                         data-to-value="54"
-                                                                                         data-delimiter=".">1</span> <span
+                                                <div className="ct-counter-number"><span
+                                                  className="ct-counter-number-value"
+                                                  data-duration="2000"
+                                                  data-to-value="54"
+                                                  data-delimiter=".">1</span> <span
                                                   className="ct-counter-number-suffix">+</span></div>
                                                 <div className="ct-counter-title">Active Members</div>
                                               </div>
@@ -2116,15 +2300,18 @@ const Home = () => {
                                         data-id="31088948" data-element_type="widget"
                                         data-widget_type="ct_counter.default">
                                         <div className="elementor-widget-container">
-                                          <div className="ct-counter ct-counter-layout1 hover-style1 " data-wow-delay="ms">
+                                          <div className="ct-counter ct-counter-layout1 hover-style1 "
+                                               data-wow-delay="ms">
                                             <div className="ct-counter-inner">
                                               <div className="ct-counter-icon"><i aria-hidden="true"
-                                                                                  className="flaticon flaticon-award"></i></div>
+                                                                                  className="flaticon flaticon-award"></i>
+                                              </div>
                                               <div className="ct-counter-meta">
-                                                <div className="ct-counter-number"><span className="ct-counter-number-value"
-                                                                                         data-duration="2000"
-                                                                                         data-to-value="14"
-                                                                                         data-delimiter=".">1</span> <span
+                                                <div className="ct-counter-number"><span
+                                                  className="ct-counter-number-value"
+                                                  data-duration="2000"
+                                                  data-to-value="14"
+                                                  data-delimiter=".">1</span> <span
                                                   className="ct-counter-number-suffix">+</span></div>
                                                 <div className="ct-counter-title">Award Winning</div>
                                               </div>
@@ -2144,15 +2331,18 @@ const Home = () => {
                                         data-id="3abfa732" data-element_type="widget"
                                         data-widget_type="ct_counter.default">
                                         <div className="elementor-widget-container">
-                                          <div className="ct-counter ct-counter-layout1 hover-style1 " data-wow-delay="ms">
+                                          <div className="ct-counter ct-counter-layout1 hover-style1 "
+                                               data-wow-delay="ms">
                                             <div className="ct-counter-inner">
                                               <div className="ct-counter-icon"><i aria-hidden="true"
-                                                                                  className="flaticon flaticon-award-1"></i></div>
+                                                                                  className="flaticon flaticon-award-1"></i>
+                                              </div>
                                               <div className="ct-counter-meta">
-                                                <div className="ct-counter-number"><span className="ct-counter-number-value"
-                                                                                         data-duration="2000"
-                                                                                         data-to-value="100"
-                                                                                         data-delimiter=".">1</span> <span
+                                                <div className="ct-counter-number"><span
+                                                  className="ct-counter-number-value"
+                                                  data-duration="2000"
+                                                  data-to-value="100"
+                                                  data-delimiter=".">1</span> <span
                                                   className="ct-counter-number-suffix">%</span></div>
                                                 <div className="ct-counter-title">Satisfaction Rate</div>
                                               </div>
@@ -2170,7 +2360,10 @@ const Home = () => {
                         </div>
                       </section>
                     </div>
-                  </div></article></main></div>
+                  </div>
+                </article>
+              </main>
+            </div>
           </div>
         </div>
       </div>

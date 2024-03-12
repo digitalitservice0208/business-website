@@ -189,16 +189,6 @@ const AboutUs = () => {
                                               <div className="ct-progress-item">
                                                 <div className="ct-progress-meta"><span
                                                   className="ct-progress-title">UI/UX Design</span>
-                                                  <div className="ct-progress-percentage">65%</div>
-                                                </div>
-                                                <div className="ct-progress-bar-wrap">
-                                                  <div className="ct-progress-bar" role="progressbar"
-                                                       data-valuetransitiongoal="65"></div>
-                                                </div>
-                                              </div>
-                                              <div className="ct-progress-item">
-                                                <div className="ct-progress-meta"><span
-                                                  className="ct-progress-title">Marketing</span>
                                                   <div className="ct-progress-percentage">90%</div>
                                                 </div>
                                                 <div className="ct-progress-bar-wrap">
@@ -207,12 +197,22 @@ const AboutUs = () => {
                                                 </div>
                                               </div>
                                               <div className="ct-progress-item">
-                                                <div className="ct-progress-meta"><span className="ct-progress-title">Web Devdlopment</span>
-                                                  <div className="ct-progress-percentage">70%</div>
+                                                <div className="ct-progress-meta"><span
+                                                  className="ct-progress-title">Mobile Development</span>
+                                                  <div className="ct-progress-percentage">85%</div>
                                                 </div>
                                                 <div className="ct-progress-bar-wrap">
                                                   <div className="ct-progress-bar" role="progressbar"
-                                                       data-valuetransitiongoal="70"></div>
+                                                       data-valuetransitiongoal="85"></div>
+                                                </div>
+                                              </div>
+                                              <div className="ct-progress-item">
+                                                <div className="ct-progress-meta"><span className="ct-progress-title">Web Development</span>
+                                                  <div className="ct-progress-percentage">95%</div>
+                                                </div>
+                                                <div className="ct-progress-bar-wrap">
+                                                  <div className="ct-progress-bar" role="progressbar"
+                                                       data-valuetransitiongoal="95"></div>
                                                 </div>
                                               </div>
                                             </div>
