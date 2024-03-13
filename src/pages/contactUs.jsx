@@ -268,11 +268,12 @@ const ContactUs = () => {
                                   data-id="8ab0fb5" data-element_type="widget" data-widget_type="google_maps.default">
                                   <div className="elementor-widget-container">
                                     <div className="elementor-custom-embed">
-                                      <iframe loading="lazy"
-                                              src="https://maps.google.com/maps?q=Jl.%20Tarutung%20No.25&amp;t=m&amp;z=14&amp;output=embed&amp;iwloc=near"
-                                              title="London Eye, London, United Kingdom"
-                                              aria-label="London Eye, London, United Kingdom"
-                                      ></iframe>
+                                      <iframe
+                                        loading="lazy"
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.540265487079!2d99.05934338577912!3d2.9474463467142358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30318451191b20ad%3A0xfca99bc0fc27d6a4!2sJl.%20Tarutung%20No.25%2C%20Kristen%2C%20Kec.%20Siantar%20Sel.%2C%20Kota%20Pematang%20Siantar%2C%20Sumatera%20Utara%2021118%2C%20Indonesia!5e0!3m2!1sen!2sus!4v1710305946243!5m2!1sen!2sus"
+                                        referrerPolicy="no-referrer-when-downgrade"
+                                      >
+                                      </iframe>
                                     </div>
                                   </div>
                                 </div>
