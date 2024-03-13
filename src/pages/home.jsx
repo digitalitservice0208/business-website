@@ -694,7 +694,7 @@ const Home = () => {
                                                 data-wow-delay="ms">
                                             <span className="slide-in-container">
                                               <span
-                                              className="d-inline-block wow case-fade-in-up">We combine strategy with marketing, design</span>
+                                              className="d-inline-block wow case-fade-in-up">We combine strategy with development and design</span>
                                             </span>
                                             </h3></div>
                                         </div>
@@ -1255,7 +1255,7 @@ const Home = () => {
                                       className="slide-in-container"><span
                                       className="d-inline-block wow case-fade-in-up">Working</span></span> <span
                                       className="slide-in-container"><span
-                                      className="d-inline-block wow case-fade-in-up">togather!</span></span>
+                                      className="d-inline-block wow case-fade-in-up">together!</span></span>
                                     </h3></div>
                                 </div>
                               </div>
