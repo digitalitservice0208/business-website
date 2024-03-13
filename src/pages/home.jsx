@@ -190,7 +190,7 @@ const Home = () => {
                                                   data-no-retina /></rs-layer>
                                           </rs-slide>
                                           <rs-slide style={{ position: 'absolute' }} data-key="rs-2" data-title="Slide"
-                                                    data-thumb="//demo.casethemes.net/grupi/wp-content/uploads/2021/06/bg-slider1-50x100.jpg"
+                                                    data-thumb="/wp-content/uploads/2021/06/bg-slider1-50x100.jpg"
                                                     data-anim="ms:10;" data-in="o:1;" data-out="a:false;"><img
                                             loading="lazy" decoding="async"
                                             src="/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt=""
@@ -332,7 +332,7 @@ const Home = () => {
                                                   data-no-retina /></rs-layer>
                                           </rs-slide>
                                           <rs-slide style={{ postion: 'absolute' }} data-key="rs-3" data-title="Slide"
-                                                    data-thumb="//demo.casethemes.net/grupi/wp-content/uploads/2021/06/bg-slider1-50x100.jpg"
+                                                    data-thumb="/wp-content/uploads/2021/06/bg-slider1-50x100.jpg"
                                                     data-anim="ms:10;" data-in="o:1;" data-out="a:false;"><img
                                             loading="lazy" decoding="async"
                                             src="/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt=""
