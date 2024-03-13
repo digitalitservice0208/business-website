@@ -1040,16 +1040,20 @@ const Home = () => {
                                         data-id="246bef7b" data-element_type="widget"
                                         data-widget_type="ct_image.default">
                                         <div className="elementor-widget-container">
-                                          <div className="ct-image-single    wow zoomIn" data-width="" data-height=""
+                                          <div className="ct-image-single wow zoomIn" data-width="" data-height=""
                                                data-wow-delay="ms">
-                                            <div className="ct-image-single--inner"><Link href="/"> <img loading="lazy"
-                                                                                                         decoding="async"
-                                                                                                         width="304"
-                                                                                                         height="336"
-                                                                                                         src="/wp-content/uploads/2021/06/logo-big.png"
-                                                                                                         className="no-lazyload img-main attachment-full"
-                                                                                                         alt="" />
-                                            </Link>
+                                            <div className="ct-image-single--inner">
+                                              <Link to="/">
+                                                <img
+                                                  loading="lazy"
+                                                  decoding="async"
+                                                  width="304"
+                                                  height="336"
+                                                  src="/wp-content/uploads/2021/06/logo-big.png"
+                                                  className="no-lazyload img-main attachment-full"
+                                                  alt=""
+                                                />
+                                              </Link>
                                             </div>
                                           </div>
                                         </div>
