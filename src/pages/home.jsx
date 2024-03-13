@@ -118,8 +118,7 @@ const Home = () => {
                                                 data-frame_999="o:0;st:w;sR:6800;"
                                                 style={{ zIndex: 12, fontFamily: 'Bebas Neue' }}
                                               >We’re a full-service creative digital marketing agency, collaborating
-                                                with
-                                                brands all over the world.
+                                                with brands all over the world.
                                               </rs-layer>
                                               <rs-layer
                                                 id="slider-1-slide-1-layer-3"
@@ -182,21 +181,30 @@ const Home = () => {
                                               data-frame_1="e:back.inOut;st:700;sp:1000;sR:700;"
                                               data-frame_999="o:0;st:w;sR:7300;"
                                               style={{ zIndex: 10 }}
-                                            ><img loading="lazy" decoding="async"
-                                                  src="/wp-content/plugins/revslider/public/assets/assets/dummy.png"
-                                                  alt="img-slider1" className="tp-rs-img rs-lazyload" width="510"
-                                                  height="549"
-                                                  data-lazyload="/wp-content/uploads/2021/06/img-slider1.jpg"
-                                                  data-no-retina /></rs-layer>
+                                            >
+                                              <img
+                                                loading="lazy" decoding="async"
+                                                src="/wp-content/plugins/revslider/public/assets/assets/dummy.png"
+                                                alt="img-slider1" className="tp-rs-img rs-lazyload" width="510"
+                                                height="549"
+                                                data-lazyload="/wp-content/uploads/2021/06/img-slider1.jpg"
+                                                data-no-retina
+                                              />
+                                            </rs-layer>
                                           </rs-slide>
-                                          <rs-slide style={{ position: 'absolute' }} data-key="rs-2" data-title="Slide"
-                                                    data-thumb="/wp-content/uploads/2021/06/bg-slider1-50x100.jpg"
-                                                    data-anim="ms:10;" data-in="o:1;" data-out="a:false;"><img
-                                            loading="lazy" decoding="async"
-                                            src="/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt=""
-                                            title="bg-slider1" width="1920" height="936"
-                                            className="rev-slidebg tp-rs-img rs-lazyload"
-                                            data-lazyload="/wp-content/uploads/2021/06/bg-slider1.jpg" data-no-retina />
+                                          <rs-slide
+                                            style={{ position: 'absolute' }}
+                                            data-key="rs-2" data-title="Slide"
+                                            data-thumb="/wp-content/uploads/2021/06/bg-slider1-50x100.jpg"
+                                            data-anim="ms:10;" data-in="o:1;" data-out="a:false;"
+                                          >
+                                            <img
+                                              loading="lazy" decoding="async"
+                                              src="/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt=""
+                                              title="bg-slider1" width="1920" height="936"
+                                              className="rev-slidebg tp-rs-img rs-lazyload"
+                                              data-lazyload="/wp-content/uploads/2021/06/bg-slider1.jpg" data-no-retina
+                                            />
                                             <rs-group
                                               id="slider-1-slide-2-layer-2"
                                               data-type="group"
@@ -208,41 +216,45 @@ const Home = () => {
                                               data-frame_0="o:1;"
                                               data-frame_999="o:0;st:w;sR:8700;sA:9000;"
                                               style={{ zIndex: 15 }}
-                                            ><Link
-                                              id="slider-1-slide-2-layer-6"
-                                              className="rs-layer"
-                                              to="/our-team" target="_self" rel="nofollow"
-                                              data-type="text"
-                                              data-xy="xo:183px,183px,183px,143px;y:b;"
-                                              data-pos="a"
-                                              data-text="w:normal;s:16;l:51;"
-                                              data-rsp_o="off"
-                                              data-rsp_bd="off"
-                                              data-frame_0="y:100%;"
-                                              data-frame_0_mask="u:t;"
-                                              data-frame_1="e:back.inOut;st:1500;sp:1200;sR:1500;"
-                                              data-frame_1_mask="u:t;"
-                                              data-frame_999="o:0;st:w;sR:6300;"
-                                              style={{ zIndex: 14, fontFamily: 'Bebas Neue' }}
-                                            ><span className="btn btn-slider1">Our team<i
-                                              className="flaticon-right-arrows space-left"></i></span> </Link><Link
-                                              id="slider-1-slide-2-layer-5"
-                                              className="rs-layer"
-                                              to="/about-us" target="_self" rel="nofollow"
-                                              data-type="text"
-                                              data-xy="y:b;"
-                                              data-pos="a"
-                                              data-text="w:normal;s:16;l:51;"
-                                              data-rsp_o="off"
-                                              data-rsp_bd="off"
-                                              data-frame_0="y:100%;"
-                                              data-frame_0_mask="u:t;"
-                                              data-frame_1="e:back.inOut;st:1300;sp:1200;sR:1300;"
-                                              data-frame_1_mask="u:t;"
-                                              data-frame_999="o:0;st:w;sR:6500;"
-                                              style={{ zIndex: 13, fontFamily: 'Bebas Neue' }}
-                                            ><span className="btn btn-outline-gradient">About us<i
-                                              className="flaticon-next space-left"></i></span> </Link>
+                                            >
+                                              <Link
+                                                id="slider-1-slide-2-layer-6"
+                                                className="rs-layer"
+                                                to="/our-team" target="_self" rel="nofollow"
+                                                data-type="text"
+                                                data-xy="xo:183px,183px,183px,143px;y:b;"
+                                                data-pos="a"
+                                                data-text="w:normal;s:16;l:51;"
+                                                data-rsp_o="off"
+                                                data-rsp_bd="off"
+                                                data-frame_0="y:100%;"
+                                                data-frame_0_mask="u:t;"
+                                                data-frame_1="e:back.inOut;st:1500;sp:1200;sR:1500;"
+                                                data-frame_1_mask="u:t;"
+                                                data-frame_999="o:0;st:w;sR:6300;"
+                                                style={{ zIndex: 14, fontFamily: 'Bebas Neue' }}
+                                              >
+                                                <span className="btn btn-slider1">Our team<i className="flaticon-right-arrows space-left"></i></span>
+                                              </Link>
+                                              <Link
+                                                id="slider-1-slide-2-layer-5"
+                                                className="rs-layer"
+                                                to="/about-us" target="_self" rel="nofollow"
+                                                data-type="text"
+                                                data-xy="y:b;"
+                                                data-pos="a"
+                                                data-text="w:normal;s:16;l:51;"
+                                                data-rsp_o="off"
+                                                data-rsp_bd="off"
+                                                data-frame_0="y:100%;"
+                                                data-frame_0_mask="u:t;"
+                                                data-frame_1="e:back.inOut;st:1300;sp:1200;sR:1300;"
+                                                data-frame_1_mask="u:t;"
+                                                data-frame_999="o:0;st:w;sR:6500;"
+                                                style={{ zIndex: 13, fontFamily: 'Bebas Neue' }}
+                                              >
+                                                <span className="btn btn-outline-gradient">About us<i className="flaticon-next space-left"></i></span>
+                                              </Link>
                                               <rs-layer
                                                 id="slider-1-slide-2-layer-4"
                                                 data-type="text"
@@ -260,8 +272,7 @@ const Home = () => {
                                                 data-frame_999="o:0;st:w;sR:6800;"
                                                 style={{ zIndex: 12, fontFamily: 'Bebas Neue' }}
                                               >We’re a full-service creative digital marketing agency, collaborating
-                                                with
-                                                brands all over the world.
+                                                with brands all over the world.
                                               </rs-layer>
                                               <rs-layer
                                                 id="slider-1-slide-2-layer-3"
@@ -324,21 +335,32 @@ const Home = () => {
                                               data-frame_1="e:back.inOut;st:700;sp:1000;sR:700;"
                                               data-frame_999="o:0;st:w;sR:7300;"
                                               style={{ zIndex: 10 }}
-                                            ><img loading="lazy" decoding="async"
-                                                  src="/wp-content/plugins/revslider/public/assets/assets/dummy.png"
-                                                  alt="img-slider2" className="tp-rs-img rs-lazyload" width="510"
-                                                  height="549"
-                                                  data-lazyload="/wp-content/uploads/2021/06/img-slider2.jpg"
-                                                  data-no-retina /></rs-layer>
+                                            >
+                                              <img
+                                                loading="lazy" decoding="async"
+                                                src="/wp-content/plugins/revslider/public/assets/assets/dummy.png"
+                                                alt="img-slider2" className="tp-rs-img rs-lazyload" width="510"
+                                                height="549"
+                                                data-lazyload="/wp-content/uploads/2021/06/img-slider2.jpg"
+                                                data-no-retina
+                                              />
+                                            </rs-layer>
                                           </rs-slide>
-                                          <rs-slide style={{ postion: 'absolute' }} data-key="rs-3" data-title="Slide"
-                                                    data-thumb="/wp-content/uploads/2021/06/bg-slider1-50x100.jpg"
-                                                    data-anim="ms:10;" data-in="o:1;" data-out="a:false;"><img
-                                            loading="lazy" decoding="async"
-                                            src="/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt=""
-                                            title="bg-slider1" width="1920" height="936"
-                                            className="rev-slidebg tp-rs-img rs-lazyload"
-                                            data-lazyload="/wp-content/uploads/2021/06/bg-slider1.jpg" data-no-retina />
+                                          <rs-slide
+                                            style={{ position: 'absolute' }}
+                                            data-key="rs-3"
+                                            data-title="Slide"
+                                            data-thumb="/wp-content/uploads/2021/06/bg-slider1-50x100.jpg"
+                                            data-anim="ms:10;" data-in="o:1;" data-out="a:false;"
+                                          >
+                                            <img
+                                              loading="lazy" decoding="async"
+                                              src="/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt=""
+                                              title="bg-slider1" width="1920" height="936"
+                                              className="rev-slidebg tp-rs-img rs-lazyload"
+                                              data-lazyload="/wp-content/uploads/2021/06/bg-slider1.jpg"
+                                              data-no-retina
+                                            />
                                             <rs-group
                                               id="slider-1-slide-3-layer-2"
                                               data-type="group"
@@ -350,41 +372,45 @@ const Home = () => {
                                               data-frame_0="o:1;"
                                               data-frame_999="o:0;st:w;sR:8700;sA:9000;"
                                               style={{ zIndex: 15 }}
-                                            ><Link
-                                              id="slider-1-slide-3-layer-6"
-                                              className="rs-layer"
-                                              to="/our-team" target="_self" rel="nofollow"
-                                              data-type="text"
-                                              data-xy="xo:183px,183px,183px,143px;y:b;"
-                                              data-pos="a"
-                                              data-text="w:normal;s:16;l:51;"
-                                              data-rsp_o="off"
-                                              data-rsp_bd="off"
-                                              data-frame_0="y:100%;"
-                                              data-frame_0_mask="u:t;"
-                                              data-frame_1="e:back.inOut;st:1500;sp:1200;sR:1500;"
-                                              data-frame_1_mask="u:t;"
-                                              data-frame_999="o:0;st:w;sR:6300;"
-                                              sstyle={{ zIndex: 14, fontFamily: 'Bebas Neue' }}
-                                            ><span className="btn btn-slider1">Our team<i
-                                              className="flaticon-right-arrows space-left"></i></span> </Link><Link
-                                              id="slider-1-slide-3-layer-5"
-                                              className="rs-layer"
-                                              to="/about-us" target="_self" rel="nofollow"
-                                              data-type="text"
-                                              data-xy="y:b;"
-                                              data-pos="a"
-                                              data-text="w:normal;s:16;l:51;"
-                                              data-rsp_o="off"
-                                              data-rsp_bd="off"
-                                              data-frame_0="y:100%;"
-                                              data-frame_0_mask="u:t;"
-                                              data-frame_1="e:back.inOut;st:1300;sp:1200;sR:1300;"
-                                              data-frame_1_mask="u:t;"
-                                              data-frame_999="o:0;st:w;sR:6500;"
-                                              style={{ zIndex: 13, fontFamily: 'Bebas Neue' }}
-                                            ><span className="btn btn-outline-gradient">About us<i
-                                              className="flaticon-next space-left"></i></span> </Link>
+                                            >
+                                              <Link
+                                                id="slider-1-slide-3-layer-6"
+                                                className="rs-layer"
+                                                to="/our-team" target="_self" rel="nofollow"
+                                                data-type="text"
+                                                data-xy="xo:183px,183px,183px,143px;y:b;"
+                                                data-pos="a"
+                                                data-text="w:normal;s:16;l:51;"
+                                                data-rsp_o="off"
+                                                data-rsp_bd="off"
+                                                data-frame_0="y:100%;"
+                                                data-frame_0_mask="u:t;"
+                                                data-frame_1="e:back.inOut;st:1500;sp:1200;sR:1500;"
+                                                data-frame_1_mask="u:t;"
+                                                data-frame_999="o:0;st:w;sR:6300;"
+                                                sstyle={{ zIndex: 14, fontFamily: 'Bebas Neue' }}
+                                              >
+                                                <span className="btn btn-slider1">Our team<i className="flaticon-right-arrows space-left"></i></span>
+                                              </Link>
+                                              <Link
+                                                id="slider-1-slide-3-layer-5"
+                                                className="rs-layer"
+                                                to="/about-us" target="_self" rel="nofollow"
+                                                data-type="text"
+                                                data-xy="y:b;"
+                                                data-pos="a"
+                                                data-text="w:normal;s:16;l:51;"
+                                                data-rsp_o="off"
+                                                data-rsp_bd="off"
+                                                data-frame_0="y:100%;"
+                                                data-frame_0_mask="u:t;"
+                                                data-frame_1="e:back.inOut;st:1300;sp:1200;sR:1300;"
+                                                data-frame_1_mask="u:t;"
+                                                data-frame_999="o:0;st:w;sR:6500;"
+                                                style={{ zIndex: 13, fontFamily: 'Bebas Neue' }}
+                                              >
+                                                <span className="btn btn-outline-gradient">About us<i className="flaticon-next space-left"></i></span>
+                                              </Link>
                                               <rs-layer
                                                 id="slider-1-slide-3-layer-4"
                                                 data-type="text"
@@ -401,9 +427,7 @@ const Home = () => {
                                                 data-frame_1_mask="u:t;"
                                                 data-frame_999="o:0;st:w;sR:6800;"
                                                 style={{ zIndex: 12, fontFamily: 'Bebas Neue' }}
-                                              >We’re a full-service creative digital marketing agency, collaborating
-                                                with
-                                                brands all over the world.
+                                              >We’re a full-service creative digital marketing agency, collaborating with brands all over the world.
                                               </rs-layer>
                                               <rs-layer
                                                 id="slider-1-slide-3-layer-3"
