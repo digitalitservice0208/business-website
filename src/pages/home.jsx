@@ -490,12 +490,15 @@ const Home = () => {
                                               data-frame_1="e:back.inOut;st:700;sp:1000;sR:700;"
                                               data-frame_999="o:0;st:w;sR:7300;"
                                               style={{ zIndex: 10 }}
-                                            ><img loading="lazy" decoding="async"
-                                                  src="/wp-content/plugins/revslider/public/assets/assets/dummy.png"
-                                                  alt="img-slider3" className="tp-rs-img rs-lazyload" width="510"
-                                                  height="549"
-                                                  data-lazyload="/wp-content/uploads/2021/06/img-slider3.jpg"
-                                                  data-no-retina /></rs-layer>
+                                            >
+                                              <img
+                                                loading="lazy" decoding="async"
+                                                src="/wp-content/plugins/revslider/public/assets/assets/dummy.png"
+                                                alt="img-slider3" className="tp-rs-img rs-lazyload" width="510"
+                                                height="549"
+                                                data-lazyload="/wp-content/uploads/2021/06/img-slider3.jpg"
+                                                data-no-retina />
+                                            </rs-layer>
                                           </rs-slide>
                                         </rs-slides>
                                       </rs-module>
