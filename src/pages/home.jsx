@@ -864,7 +864,7 @@ const Home = () => {
                                                       className="flaticon-flow-diagram"></i>
                                                     </div>
                                                     <div className="item--featured bg-image"
-                                                         style={{ backgroundImage: 'url(wp-content/uploads/2021/06/g25-370x350.jpg)' }}></div>
+                                                         style={{ backgroundImage: 'url(/wp-content/uploads/2021/06/g25-370x350.jpg)' }}></div>
                                                     <div className="item--holder">
                                                       <div className="item--icon"><i
                                                         className="flaticon-flow-diagram"></i></div>
@@ -887,7 +887,7 @@ const Home = () => {
                                                     <div className="item--icon-abs"><i
                                                       className="flaticon-branding"></i></div>
                                                     <div className="item--featured bg-image"
-                                                         style={{ backgroundImage: 'url(wp-content/uploads/2021/06/g30-370x350.jpg)' }}></div>
+                                                         style={{ backgroundImage: 'url(/wp-content/uploads/2021/06/g30-370x350.jpg)' }}></div>
                                                     <div className="item--holder">
                                                       <div className="item--icon"><i className="flaticon-branding"></i>
                                                       </div>
@@ -909,7 +909,7 @@ const Home = () => {
                                                       className="flaticon-project-plan"></i>
                                                     </div>
                                                     <div className="item--featured bg-image"
-                                                         style={{ backgroundImage: 'url(wp-content/uploads/2021/06/g29-370x350.jpg)' }}></div>
+                                                         style={{ backgroundImage: 'url(/wp-content/uploads/2021/06/g29-370x350.jpg)' }}></div>
                                                     <div className="item--holder">
                                                       <div className="item--icon"><i
                                                         className="flaticon-project-plan"></i></div>
@@ -931,7 +931,7 @@ const Home = () => {
                                                     <div className="item--icon-abs"><i
                                                       className="flaticon-web-browser"></i></div>
                                                     <div className="item--featured bg-image"
-                                                         style={{ backgroundImage: 'url(wp-content/uploads/2021/06/g27-370x350.jpg)' }}></div>
+                                                         style={{ backgroundImage: 'url(/wp-content/uploads/2021/06/g27-370x350.jpg)' }}></div>
                                                     <div className="item--holder">
                                                       <div className="item--icon"><i
                                                         className="flaticon-web-browser"></i></div>
@@ -955,7 +955,7 @@ const Home = () => {
                                                       className="flaticon-content-design"></i>
                                                     </div>
                                                     <div className="item--featured bg-image"
-                                                         style={{ backgroundImage: 'url(wp-content/uploads/2021/06/g26-370x350.jpg)' }}></div>
+                                                         style={{ backgroundImage: 'url(/wp-content/uploads/2021/06/g26-370x350.jpg)' }}></div>
                                                     <div className="item--holder">
                                                       <div className="item--icon"><i
                                                         className="flaticon-content-design"></i>
@@ -979,7 +979,7 @@ const Home = () => {
                                                     <div className="item--icon-abs"><i
                                                       className="flaticon-web-design"></i></div>
                                                     <div className="item--featured bg-image"
-                                                         style={{ backgroundImage: 'url(wp-content/uploads/2021/06/g30-370x350.jpg)' }}></div>
+                                                         style={{ backgroundImage: 'url(/wp-content/uploads/2021/06/g30-370x350.jpg)' }}></div>
                                                     <div className="item--holder">
                                                       <div className="item--icon"><i
                                                         className="flaticon-web-design"></i></div>
@@ -1430,7 +1430,7 @@ const Home = () => {
                                 <div className="elementor-widget-container">
                                   <div
                                     className="ct-tabs ct-tabs1 wow fadeInRight content-type-text_editor bg-image ct-tab-boxed"
-                                    style={{ backgroundImage: 'url(wp-content/uploads/2021/06/bg-client.png)' }}
+                                    style={{ backgroundImage: 'url(/wp-content/uploads/2021/06/bg-client.png)' }}
                                     data-wow-delay="ms">
                                     <div className="ct-tabs--title">
                                       <div className="ct-heading item-st-hexagon">

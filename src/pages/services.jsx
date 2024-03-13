@@ -100,7 +100,7 @@ const Services = () => {
                                           <div className="grid-item-inner " data-wow-duration="1.2s">
                                             <div className="item--icon-abs"><i className="flaticon-flow-diagram"></i></div>
                                             <div className="item--featured bg-image"
-                                                 style={{backgroundImage: 'url(wp-content/uploads/2021/06/g25-370x340.jpg)'}}></div>
+                                                 style={{backgroundImage: 'url(/wp-content/uploads/2021/06/g25-370x340.jpg)'}}></div>
                                             <div className="item--holder">
                                               <div className="item--icon"><i className="flaticon-flow-diagram"></i></div>
                                               <h3 className="item--title"><a href="#"> User Experience Design </a></h3>
@@ -119,7 +119,7 @@ const Services = () => {
                                           <div className="grid-item-inner " data-wow-duration="1.2s">
                                             <div className="item--icon-abs"><i className="flaticon-branding"></i></div>
                                             <div className="item--featured bg-image"
-                                                 style={{backgroundImage: 'url(wp-content/uploads/2021/06/g30-370x340.jpg)'}}></div>
+                                                 style={{backgroundImage: 'url(/wp-content/uploads/2021/06/g30-370x340.jpg)'}}></div>
                                             <div className="item--holder">
                                               <div className="item--icon"><i className="flaticon-branding"></i></div>
                                               <h3 className="item--title"><a href="#"> Web Development </a></h3>
@@ -138,7 +138,7 @@ const Services = () => {
                                           <div className="grid-item-inner " data-wow-duration="1.2s">
                                             <div className="item--icon-abs"><i className="flaticon-project-plan"></i></div>
                                             <div className="item--featured bg-image"
-                                                 style={{backgroundImage: 'url(wp-content/uploads/2021/06/g29-370x340.jpg)'}}></div>
+                                                 style={{backgroundImage: 'url(/wp-content/uploads/2021/06/g29-370x340.jpg)'}}></div>
                                             <div className="item--holder">
                                               <div className="item--icon"><i className="flaticon-project-plan"></i></div>
                                               <h3 className="item--title"><a href="#"> Video Production </a></h3>
@@ -157,7 +157,7 @@ const Services = () => {
                                           <div className="grid-item-inner " data-wow-duration="1.2s">
                                             <div className="item--icon-abs"><i className="flaticon-web-browser"></i></div>
                                             <div className="item--featured bg-image"
-                                                 style={{backgroundImage: 'url(wp-content/uploads/2021/06/g27-370x340.jpg)'}}></div>
+                                                 style={{backgroundImage: 'url(/wp-content/uploads/2021/06/g27-370x340.jpg)'}}></div>
                                             <div className="item--holder">
                                               <div className="item--icon"><i className="flaticon-web-browser"></i></div>
                                               <h3 className="item--title"><a href="#"> Cloud Computing Services </a></h3>
@@ -176,7 +176,7 @@ const Services = () => {
                                           <div className="grid-item-inner " data-wow-duration="1.2s">
                                             <div className="item--icon-abs"><i className="flaticon-content-design"></i></div>
                                             <div className="item--featured bg-image"
-                                                 style={{backgroundImage: 'url(wp-content/uploads/2021/06/g26-370x340.jpg)'}}></div>
+                                                 style={{backgroundImage: 'url(/wp-content/uploads/2021/06/g26-370x340.jpg)'}}></div>
                                             <div className="item--holder">
                                               <div className="item--icon"><i className="flaticon-content-design"></i></div>
                                               <h3 className="item--title"><a href="#"> Mobile App Development </a></h3>
@@ -195,7 +195,7 @@ const Services = () => {
                                           <div className="grid-item-inner " data-wow-duration="1.2s">
                                             <div className="item--icon-abs"><i className="flaticon-web-design"></i></div>
                                             <div className="item--featured bg-image"
-                                                 style={{backgroundImage: 'url(wp-content/uploads/2021/06/g30-370x340.jpg)'}}></div>
+                                                 style={{backgroundImage: 'url(/wp-content/uploads/2021/06/g30-370x340.jpg)'}}></div>
                                             <div className="item--holder">
                                               <div className="item--icon"><i className="flaticon-web-design"></i></div>
                                               <h3 className="item--title"><a href="#"> Cyber Security Services </a></h3>
